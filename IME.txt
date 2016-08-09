@@ -1,0 +1,31 @@
+Aultartkʰiupš — Ithkuil Input Method
+===
+
+The input method is a table in .cin format that can be used to type Ithkuil using Oltartkica font.
+
+## How to install
+
+### OS X
+Copy aultartkhiups.cin file to ~/Library/Input Methods folder. Open ‘Input Sources’ in Keyboard Preferences and add it to your input methods. Alternatively, install OpenVanilla and add the .cin file there.
+
+### Other systems
+Use SCIM or other input method that supports .cin tables.
+
+## How to type
+
+Primary and Secondary characters are input with their abbreviation (used in the Grammar), e.g. Primary Case Character 32 CLA may be input with either ‘cla’ or ‘csm’. Secondary Placeholder Case character is input with ‘nc’ (for ‘no case’).
+
+Tertiary characters are input with ‘ter’.
+
+Modifiers and diacritics to Primary and Secondary characters are input with the abbreviations of their categories. For example, the diacritics for Nomic perspective are input with ‘n’, and the diacritics for Formal Designation with ‘fml’. It is possible to input diacritics (or modifers) specifically by putting a ‘/’ between the categories, i.e. the diacritic for Nomic perspective _and_ Formal Designation may be input with ‘n/fml’ or ‘fml/n’. 
+
+Other diacritics are also input with their abbreviations, with a few exceptions. Personal reference adjunct diacritic can be input with ‘pr’, and suffix degree diacritics with ‘deg’.
+
+Consonantal characters are input by their transliteration with the following adjustments:
+
+* Ejective consonants are shown with ‘'’, e.g. ‘b'’, ‘p'’, etc.; Glottal stop is ‘'’;
+* Aspirative consonants are shown with ‘h’;
+* Ţ, dh, xh, ļ, ç, and ż are shown with ‘,’ after the letter, e.g. ‘l,’, ‘z,’, etc; tļ is input with ‘tl’;
+* Letters with a hacek (ň, č, ř, ž) are shown with ‘,’ before the letter, e.g. ‘,n’, ‘,c’, etc; E.g. ‘čʰ’ is input with ‘,ch’.
+
+Punctuation (quote and transliteration symbols) are input with ‘/’.

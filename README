@@ -1,0 +1,74 @@
+Oltartkʰica — a cheap Ithkuil font
+===
+
+Oltartkhica is a project to create a cheap font for Ithkuil writing system. Ithkuil and its writing system are ©2004-2011 by John Quijada. This font is a derivative work with a mere goal to facilitate using Ithkuil script on a computer.
+
+## Installation
+
+Just install Oltarkhica-Regular.otf by clicking the file and choosing ‘Install font’ or as otherwise appropriate for your system.
+
+## Encoding
+
+Characters of the Ithkuil writing system are encoded using Unicode Private Use Area. This font is currently a work in progress which means details of encoding and order of the characters might be subject to change.
+
+Because Ithkuil writing system is very complex, encoding each character variant separately will require the allocation of tens if not hundreds of thousands of codepoints. While Private Use Areas in current Unicode standard allow for this, managing such great amount of codepoints is not an easy task. Therefore, it is suggested that every character, modification or diacritic is encoded with a codepoint, and in order for modifications to look nicely ligatures shall be used. It should be noted that the amount of ligatures necessary for Ithkuil exceeds one hundred thousand, therefore this font being a cheap version of the writing system will only provide modifications and diacritics without ligatures, although that will make them look differently than intended. If a workaround is found to create a great amount of nicely looking ligatures easily is found in the future however, a goal of making the font as close to the original look of Ithkuil writing system as described in Ithkuil grammar might be achieved.
+
+So far Itkuil characters are encoded starting at the beginning of the Unicode Private Use Area on the Basic Multilingual Place (U+E000 and forth). In the future it might be considered to move the Ithkuil block to another place withing Private Use Areas so that it does not clash with other popular symbols. Glyphs for ligatures shall be either encoded in Private Use Areas on Planes 15 and 16 (U+F0000–U+FFFFD and U+100000–U+10FFFD) or left as unassigned glyphs.
+
+Suggested order in which characters are encoded is provided in the file Encoding.txt.
+
+## Input
+
+There is an input table in the .cin in the font package that can be used to type Ithkuil. See IME.txt for more information on the input method table.
+
+## Known Shortcomings
+
+* Glyphs U+E08D to U+E0BF shall be reworked using references to parts in the first Secondary character glyphs.
+* Primary characters need cosmetic rework because the line width varies from character to character, and spacing is wrong sometimes.
+* Modifiers are not implemented and are unusable; Consonantal character modifiers are not even encoded yet.
+* A quick way of producing ligatures shall be found, as we have to create 41472 Primary + 171396 Consonantal glyphs for ligatures.
+* Some blocks are placed illogically: Laterally reversed Secondary Case characters do not follow Secondary Case characters but are rather put after Secondary Aspect Characters; Ligatures not found on Primary Characters are put after Secondary Modality characters in a separate block.
+* Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs.
+
+## Fixing and improving
+
+There’s a lot of work to do with the font, and any help will be appreciated. Feel free to hack on whatever you feel can be improved, and send the pull request. Any suggestions on how the font can be improved are also heartily welcome. The author is /u/mnyonpa on Reddit.
+
+## Total number of characters required
+
+96 Primary characters ✔
+×18 Confuguration&Essence mods
+×24 Extension&Affiliation mods
+(unless mods are made as diacritics this requires 41472 characters)
++7 Perspective&Designation diacritics ✔
++7 Mood diacritics ✔
++11 Version diacritics ✔
+96 Secondary characters ✔
++96 Laterally reversed characters ✔
+7 Tertiary characters ✔
++32 Aspect mods ✔
++30 Modality mods ✔
+8 Phase diacritics = 7 Perspective&Designation diacritics + 1
+8 Sanction diacritics are included in 11 Version diacritics ✔
+46 Consonantal characters ✔
+×23 Prefix mods
+×9 Suffix mods
+(unless mods are made as diacritics this requires 9522 more characters)
++ Vertically inverted Consonant characters for Incorporated Roots and Suffixes ✔
+13 Affix Diacritics = 11 Version diacritics + 2
+×18 Pattern/Stem/Relation mods ✔
+3 Function diacritics are included in Perspective&Designation diacritics ✔
+×18 inverted Pattern/Stem/Relation mods
++? Inverted diacritics for Format&Context
+5 Illocution diacritics are probably included in Mood diacritics ✔
+6 Negative polarity diacritics included ✔
+9 Suffix Degree Diacritics included ✔
+×16 Bias mods (included?) ✔
++2 Bias mod diacritics
+Consonantal Placeholder ✔
+Quote mark ✔
+Transliteration mark ✔
+×18 vowel transliteration mods
+7 Tone diacritics included ✔
+10+4 Number characters
+9 Number diacritics

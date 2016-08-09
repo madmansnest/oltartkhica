@@ -1,0 +1,40 @@
+mid
+- u+inf dir
+/ n+inf adm
+\ a+inf neg-asr
+. m+fml irg
+| u+fml neg-irg
+< n+fml hor
+> a+fml dec
+\¯ neg-dir
+¯/ neg-adm
+/_ neg-hor
+_\ neg-dec
+
+top
+. sub pct dyn deg1
+/ asm itr deg3
+\ spc deg7
+\¯ cou rep deg4
+¯/ hyp itm deg6
+/_ rct
+_\ fre
+< ipl frg deg2
+> asc flc deg8
+- pr mnf deg9
+| dsc
+
+bottom
+. cpt epi C+w low-tone
+\ ine alg C+ř falling-tone
+/ inc C+r rising-tone
+< pst exv C+m fall-rise-tone
+> efc axm C+n rise-fall-tone
+- alt-prc C+y high-tone
+| alt-cpt C+l mid-tone
+/_ alt-ine ipu ţ/dh+C
+_\ alt-inc rfu z+C
+\¯ alt-pct reb f/v+C
+¯/ alt-efc thr ž+C
+~\ s+C
+/~ š+C

@@ -19,7 +19,7 @@ top
 ¯/ hyp itm deg6
 /_ rct
 _\ fre
-< ipl frg deg2
+< ipl frg deg2 dyn+fnc
 > asc flc deg8
 - pr mnf deg9
 | dsc

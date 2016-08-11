@@ -55,20 +55,20 @@ There’s a lot of work to do with the font, and any help will be appreciated. F
 ×9 Suffix mods
 (unless mods are made as diacritics this requires 9522 more characters)
 + Vertically inverted Consonant characters for Incorporated Roots and Suffixes ✔
-13 Affix Diacritics = 11 Version diacritics + 2
-×18 Pattern/Stem/Relation mods ✔
+13 Affix Diacritics = 11 Version diacritics + 2 ✔
+×18 Pattern/Stem/Relation mods
 3 Function diacritics are included in Perspective&Designation diacritics ✔
 ×18 inverted Pattern/Stem/Relation mods
-+? Inverted diacritics for Format&Context
++? Inverted diacritics for Format&Context ✔
 5 Illocution diacritics are probably included in Mood diacritics ✔
 6 Negative polarity diacritics included ✔
 9 Suffix Degree Diacritics included ✔
-×16 Bias mods (included?) ✔
-+2 Bias mod diacritics
+16 Bias mods (included)
++2 Bias mod diacritics ✔
 Consonantal Placeholder ✔
 Quote mark ✔
 Transliteration mark ✔
-×18 vowel transliteration mods
+18 vowel transliteration mods included
 7 Tone diacritics included ✔
 10+4 Number characters
 9 Number diacritics

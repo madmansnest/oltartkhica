@@ -17,7 +17,9 @@ Primary and Secondary characters are input with their abbreviation (used in the 
 
 Tertiary characters are input with ‘ter’.
 
-Modifiers and diacritics to Primary and Secondary characters are input with the abbreviations of their categories. For example, the diacritics for Nomic perspective are input with ‘n’, and the diacritics for Formal Designation with ‘fml’. It is possible to input diacritics (or modifers) specifically by putting a ‘/’ between the categories, i.e. the diacritic for Nomic perspective _and_ Formal Designation may be input with ‘n/fml’ or ‘fml/n’. 
+Modifiers and diacritics to Primary and Secondary characters are input with the abbreviations of their categories. For example, the diacritics for Nomic perspective are input with ‘n’, and the diacritics for Formal Designation with ‘fml’. It is possible to input diacritics (or modifers) specifically by putting a ‘/’ between the categories, i.e. the diacritic for Nomic perspective _and_ Formal Designation may be input with ‘n/fml’ or ‘fml/n’.
+
+Pattern, Stem and Relation modifiers (which should immediately follow the Consonantal character in order for ligatures to display properly) are input with the Relation abbreviation, either ‘unf’ or ‘fra’.
 
 Other diacritics are also input with their abbreviations, with a few exceptions. Personal reference adjunct diacritic can be input with ‘pr’, and suffix degree diacritics with ‘deg’.
 

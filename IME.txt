@@ -21,6 +21,8 @@ Modifiers and diacritics to Primary and Secondary characters are input with the 
 
 Pattern, Stem and Relation modifiers (which should immediately follow the Consonantal character in order for ligatures to display properly) are input with the Relation abbreviation, either ‘unf’ or ‘fra’.
 
+Intensive Bias modifiers&diacritics are shown by adding ‘,’ to the abbreviation, e.g. ‘ctp,’, ‘asu,’, etc.
+
 Other diacritics are also input with their abbreviations, with a few exceptions. Personal reference adjunct diacritic can be input with ‘pr’, and suffix degree diacritics with ‘deg’.
 
 Consonantal characters are input by their transliteration with the following adjustments:

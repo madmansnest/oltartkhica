@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470845832
-ModificationTime: 1470902446
+ModificationTime: 1470996146
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -60,12 +60,13 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "Copyright (c) 2014-2011, John Quijada, compiled by Demian Terentev" "" "" "42.002;PfEd;Oltartkhica-Regular" "Oltartkhica-Regular" "Version 42.002;PS 042.002;hotconv 1.0.88;makeotf.lib2.5.64775" "" "" "" "" "" "" "" "" "" "" "Oltartkhica"
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 67035 15 5
+WinInfo: 840 15 5
 BeginPrivate: 6
 BlueScale 5 0.037
 BlueFuzz 1 0
@@ -5546,10 +5547,7 @@ Encoding: 57635 57635 291
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE124
@@ -5769,10 +5767,7 @@ Encoding: 57648 57648 304
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE131
@@ -5780,10 +5775,7 @@ Encoding: 57649 57649 305
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE132
@@ -5791,10 +5783,7 @@ Encoding: 57650 57650 306
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE133
@@ -5802,10 +5791,7 @@ Encoding: 57651 57651 307
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE134
@@ -5813,10 +5799,7 @@ Encoding: 57652 57652 308
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE135
@@ -5824,10 +5807,7 @@ Encoding: 57653 57653 309
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE136
@@ -5835,10 +5815,7 @@ Encoding: 57654 57654 310
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE137
@@ -5846,10 +5823,7 @@ Encoding: 57655 57655 311
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE138
@@ -5857,10 +5831,7 @@ Encoding: 57656 57656 312
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE139
@@ -5868,10 +5839,7 @@ Encoding: 57657 57657 313
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE13A
@@ -5879,10 +5847,7 @@ Encoding: 57658 57658 314
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE13B
@@ -5890,10 +5855,7 @@ Encoding: 57659 57659 315
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE13C
@@ -5901,10 +5863,7 @@ Encoding: 57660 57660 316
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE13D
@@ -5912,10 +5871,7 @@ Encoding: 57661 57661 317
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE13E
@@ -5923,10 +5879,7 @@ Encoding: 57662 57662 318
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE13F
@@ -5934,10 +5887,7 @@ Encoding: 57663 57663 319
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE140
@@ -5945,10 +5895,7 @@ Encoding: 57664 57664 320
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE141
@@ -5956,10 +5903,7 @@ Encoding: 57665 57665 321
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE142
@@ -5967,10 +5911,7 @@ Encoding: 57666 57666 322
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE143
@@ -5978,10 +5919,7 @@ Encoding: 57667 57667 323
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE144
@@ -5989,10 +5927,7 @@ Encoding: 57668 57668 324
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE145
@@ -6000,10 +5935,7 @@ Encoding: 57669 57669 325
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE146
@@ -6011,10 +5943,7 @@ Encoding: 57670 57670 326
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE147
@@ -6022,10 +5951,7 @@ Encoding: 57671 57671 327
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE148
@@ -6033,10 +5959,7 @@ Encoding: 57672 57672 328
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE149
@@ -6044,10 +5967,7 @@ Encoding: 57673 57673 329
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE14A
@@ -6055,10 +5975,7 @@ Encoding: 57674 57674 330
 Width: 0
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
-Fore
 EndChar
 
 StartChar: uniE14B
@@ -11427,8 +11344,6 @@ Encoding: 57969 57969 567
 Width: 1000
 GlyphClass: 2
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -11450,21 +11365,14 @@ VStem: 160 840<695 804>
 LayerCount: 2
 Fore
 SplineSet
-748 801 m 1
- 160 804 l 1
- 499 491 l 1
- 499 0 l 1
- 623 129 l 1
- 622 508 l 1
- 438 697 l 1
- 844 695 l 1
- 748 801 l 1
-770 603 m 5
- 929 605 l 5
- 1000 695 l 5
- 844 695 l 5
- 770 603 l 5
+772 602 m 5
+ 931 604 l 5
+ 1002 694 l 5
+ 846 694 l 5
+ 772 602 l 5
 EndSplineSet
+Refer: 199 57543 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0C7 uniE260
 EndChar
 
@@ -11472,27 +11380,20 @@ StartChar: uniE0C7E261.liga
 Encoding: 65538 -1 569
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<160 499>
 VStem: 753 91
 LayerCount: 2
 Fore
 SplineSet
-748 801 m 1
- 160 804 l 1
- 499 491 l 1
- 499 0 l 1
- 623 129 l 1
- 622 508 l 1
- 438 697 l 1
- 844 695 l 1
- 748 801 l 1
-752 464 m 1
- 754 623 l 1
- 844 694 l 1
- 844 538 l 1
- 752 464 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 199 57543 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0C7 uniE261
 EndChar
 
@@ -11500,27 +11401,12 @@ StartChar: uniE0C8E261.liga
 Encoding: 65539 -1 570
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 804<505 844>
-VStem: 160 91
+Flags: HMW
+HStem: 0 804<160 499>
+VStem: 753 91
 LayerCount: 2
 Fore
-SplineSet
-256 801 m 1
- 160 695 l 1
- 566 697 l 1
- 382 508 l 1
- 381 129 l 1
- 505 0 l 1
- 505 491 l 1
- 844 804 l 1
- 256 801 l 1
-252 464 m 1
- 160 538 l 1
- 160 694 l 1
- 250 623 l 1
- 252 464 l 1
-EndSplineSet
+Refer: 569 -1 N -1 0 0 1 1004 0 2
 Ligature2: "PatternStemRelation" uniE0C8 uniE261
 EndChar
 
@@ -11530,25 +11416,11 @@ Width: 1000
 GlyphClass: 3
 Flags: HMW
 HStem: 696 106.5
-VStem: 471.5 123.5
+VStem: 567 123.5
 LayerCount: 2
 Fore
-SplineSet
-346 801 m 1
- 934 804 l 1
- 595 491 l 1
- 595 0 l 1
- 471 129 l 1
- 472 508 l 1
- 656 697 l 1
- 250 695 l 1
- 346 801 l 1
-20 603 m 5
- 179 605 l 5
- 250 695 l 1
- 94 695 l 5
- 20 603 l 5
-EndSplineSet
+Refer: 568 -1 N -1 0 0 1 1162 0 2
+LCarets2: 1 1162
 Ligature2: "PatternStemRelation" uniE0C8 uniE260
 EndChar
 
@@ -11556,30 +11428,19 @@ StartChar: uniE0C9E261.liga
 Encoding: 65541 -1 572
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 545 150.5
 VStem: 495 89<400 400> 750 91
 LayerCount: 2
 Fore
 SplineSet
-744 800 m 1
- 158 803 l 1
- 495 400 l 1
- 584 472 l 1
- 406 696 l 1
- 840 695 l 1
- 744 800 l 1
-749 463 m 1
- 751 622 l 1
- 841 693 l 1
- 841 537 l 1
- 749 463 l 1
-691 63 m 1
- 693 545 l 1
- 584 472 l 1
- 584 3 l 1
- 691 63 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 201 57545 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0C9 uniE261
 EndChar
 
@@ -11587,30 +11448,19 @@ StartChar: uniE0C9E260.liga
 Encoding: 65542 -1 573
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 545 150.5
 VStem: 495 89<400 400>
 LayerCount: 2
 Fore
 SplineSet
-744 800 m 1
- 158 803 l 1
- 495 400 l 1
- 584 472 l 1
- 406 696 l 1
- 840 695 l 1
- 744 800 l 1
-770 603 m 1
- 929 605 l 1
- 1000 695 l 1
- 844 695 l 1
- 770 603 l 1
-691 63 m 1
- 693 545 l 1
- 584 472 l 1
- 584 3 l 1
- 691 63 l 1
+772 602 m 5
+ 931 604 l 5
+ 1002 694 l 5
+ 846 694 l 5
+ 772 602 l 5
 EndSplineSet
+Refer: 201 57545 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0C9 uniE260
 EndChar
 
@@ -11618,30 +11468,12 @@ StartChar: uniE0CAE261.liga
 Encoding: 65543 -1 574
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 545 150.5
-VStem: 158 91 415 89<400 400 400 472 400 472 400 472>
+VStem: 753 91 498 89<400 400 400 472 400 472 400 472>
 LayerCount: 2
 Fore
-SplineSet
-255 800 m 1
- 159 695 l 1
- 593 696 l 1
- 415 472 l 1
- 504 400 l 1
- 841 803 l 1
- 255 800 l 1
-250 463 m 1
- 158 537 l 1
- 158 693 l 1
- 248 622 l 1
- 250 463 l 1
-308 63 m 1
- 415 3 l 1
- 415 472 l 1
- 306 545 l 1
- 308 63 l 1
-EndSplineSet
+Refer: 572 -1 N -1 0 0 1 1002 0 2
 Ligature2: "PatternStemRelation" uniE0CA uniE261
 EndChar
 
@@ -11649,30 +11481,12 @@ StartChar: uniE0CAE260.liga
 Encoding: 65544 -1 575
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 545 150.5
-VStem: 510 89<400 400 400 472 400 472 400 472>
+VStem: 561 89<400 400 400 472 400 472 400 472>
 LayerCount: 2
 Fore
-SplineSet
-254 695 m 1
- 688 696 l 1
- 510 472 l 1
- 599 400 l 1
- 936 803 l 1
- 350 800 l 1
- 254 695 l 1
-181 605 m 1
- 252 695 l 1
- 96 695 l 1
- 22 603 l 1
- 181 605 l 1
-510 3 m 1
- 510 472 l 1
- 401 545 l 1
- 403 63 l 1
- 510 3 l 1
-EndSplineSet
+Refer: 573 -1 N -1 0 0 1 1160 0 2
 Ligature2: "PatternStemRelation" uniE0CA uniE260
 EndChar
 
@@ -11680,30 +11494,19 @@ StartChar: uniE0CBE260.liga
 Encoding: 65545 -1 576
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 566.5 128.5
 VStem: 150 850<695 804>
 LayerCount: 2
 Fore
 SplineSet
-843 694 m 1
- 748 801 l 1
- 150 804 l 1
- 370 565 l 1
- 496 568 l 1
- 378 697 l 1
- 842 693 l 1
- 770 603 l 1
- 929 605 l 1
- 1000 695 l 1
- 844 695 l 1
- 843 694 l 1
-374 130 m 1
- 370 565 l 1
- 256 568 l 1
- 263 0 l 1
- 374 130 l 1
+772 602 m 5
+ 931 604 l 5
+ 1002 694 l 5
+ 846 694 l 5
+ 772 602 l 5
 EndSplineSet
+Refer: 203 57547 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0CB uniE260
 EndChar
 
@@ -11711,29 +11514,12 @@ StartChar: uniE0CCE260.liga
 Encoding: 65546 -1 577
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 604 91 695 107.5
-VStem: 722 112.5
+VStem: 317.5 112.5
 LayerCount: 2
 Fore
-SplineSet
-346 801 m 1x60
- 944 804 l 1
- 724 565 l 1
- 598 568 l 1
- 716 697 l 1
- 250 693 l 1x60
- 181 605 l 1
- 22 603 l 1
- 96 695 l 1
- 252 695 l 1xa0
- 346 801 l 1x60
-720 130 m 1
- 724 565 l 1
- 838 568 l 1
- 831 0 l 1
- 720 130 l 1
-EndSplineSet
+Refer: 576 -1 N -1 0 0 1 1152 0 2
 Ligature2: "PatternStemRelation" uniE0CC uniE260
 EndChar
 
@@ -11741,30 +11527,19 @@ StartChar: uniE0CCE261.liga
 Encoding: 65547 -1 578
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 566.5 128.5
 VStem: 150 694<693 804>
 LayerCount: 2
 Fore
 SplineSet
-150 693 m 1
- 616 697 l 1
- 498 568 l 1
- 624 565 l 1
- 844 804 l 1
- 246 801 l 1
- 150 693 l 1
-243 461 m 1
- 241 620 l 1
- 151 691 l 1
- 151 535 l 1
- 243 461 l 1
-620 130 m 1
- 731 0 l 1
- 738 568 l 1
- 624 565 l 1
- 620 130 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 203 57547 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0CC uniE261
 EndChar
 
@@ -11772,26 +11547,12 @@ StartChar: uniE0CDE261.liga
 Encoding: 65548 -1 579
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 804<151 794>
-VStem: 585 91
+Flags: HMW
+HStem: 0 804<200 843>
+VStem: 318 91
 LayerCount: 2
 Fore
-SplineSet
-794 804 m 1
- 400 804 l 1
- 151 504 l 1
- 151 0 l 1
- 284 90 l 1
- 283 660 l 1
- 677 659 l 1
- 794 804 l 1
-584 427 m 1
- 586 586 l 1
- 676 657 l 1
- 676 501 l 1
- 584 427 l 1
-EndSplineSet
+Refer: 578 -1 N -1 0 0 1 994 0 2
 Ligature2: "PatternStemRelation" uniE0CD uniE261
 EndChar
 
@@ -11799,26 +11560,20 @@ StartChar: uniE0CDE260.liga
 Encoding: 65549 -1 580
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<151 794>
 VStem: 151 682<0 658 0 658>
 LayerCount: 2
 Fore
 SplineSet
-794 804 m 1
- 400 804 l 1
- 151 504 l 1
- 151 0 l 1
- 284 90 l 1
- 283 660 l 1
- 677 659 l 1
- 794 804 l 1
-603 566 m 1
- 762 568 l 1
- 833 658 l 1
- 677 658 l 1
- 603 566 l 1
+604 566 m 5
+ 763 568 l 5
+ 834 658 l 5
+ 678 658 l 5
+ 604 566 l 5
 EndSplineSet
+Refer: 205 57549 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CD uniE260
 EndChar
 
@@ -11826,30 +11581,20 @@ StartChar: uniE0CBE261.liga
 Encoding: 65550 -1 581
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 566.5 128.5
 VStem: 752 91
 LayerCount: 2
 Fore
 SplineSet
-844 693 m 1
- 748 801 l 1
- 150 804 l 1
- 370 565 l 1
- 496 568 l 1
- 378 697 l 1
- 844 693 l 1
-751 461 m 1
- 753 620 l 1
- 843 691 l 1
- 843 535 l 1
- 751 461 l 1
-374 130 m 1
- 370 565 l 1
- 256 568 l 1
- 263 0 l 1
- 374 130 l 1
+584 429 m 5
+ 586 588 l 5
+ 676 659 l 5
+ 676 503 l 5
+ 584 429 l 5
 EndSplineSet
+Refer: 205 57549 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CB uniE261
 EndChar
 
@@ -11857,27 +11602,20 @@ StartChar: uniE0CEE261.liga
 Encoding: 65551 -1 582
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 1 800<250 842 392 842>
 VStem: 660 91
 LayerCount: 2
 Fore
 SplineSet
-842 801 m 1
- 158 800 l 1
- 505 399 l 1
- 250 1 l 1
- 392 1 l 1
- 666 399 l 1
- 408 687 l 1
- 752 688 l 1
- 842 801 l 1
-659 456 m 1
- 661 615 l 1
- 751 686 l 1
- 751 530 l 1
- 659 456 l 1
+661 456 m 5
+ 663 615 l 5
+ 753 686 l 5
+ 753 530 l 5
+ 661 456 l 5
 EndSplineSet
+Refer: 206 57550 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CE uniE261
 EndChar
 
@@ -11885,27 +11623,20 @@ StartChar: uniE0CEE260.liga
 Encoding: 65552 -1 583
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 1 800<250 842 392 842>
 VStem: 158 752<688 800>
 LayerCount: 2
 Fore
 SplineSet
-842 801 m 1
- 158 800 l 1
- 505 399 l 1
- 250 1 l 1
- 392 1 l 1
- 666 399 l 1
- 408 687 l 1
- 752 688 l 1
- 842 801 l 1
-680 596 m 1
- 839 598 l 1
- 910 688 l 1
- 754 688 l 1
- 680 596 l 1
+680 596 m 5
+ 839 598 l 5
+ 910 688 l 5
+ 754 688 l 5
+ 680 596 l 5
 EndSplineSet
+Refer: 206 57550 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CE uniE260
 EndChar
 
@@ -11913,25 +11644,20 @@ StartChar: uniE0CFE261.liga
 Encoding: 65553 -1 584
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<151 151>
 VStem: 540 91
 LayerCount: 2
 Fore
 SplineSet
-734 798 m 1
- 151 799 l 1
- 151 0 l 1
- 267 153 l 1
- 264 690 l 1
- 632 687 l 1
- 734 798 l 1
-539 454 m 1
- 541 613 l 1
- 631 684 l 1
- 631 528 l 1
- 539 454 l 1
+539 456 m 5
+ 541 615 l 5
+ 631 686 l 5
+ 631 530 l 5
+ 539 456 l 5
 EndSplineSet
+Refer: 207 57551 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CF uniE261
 EndChar
 
@@ -11939,25 +11665,20 @@ StartChar: uniE0CFE260.liga
 Encoding: 65554 -1 585
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<151 151>
 VStem: 151 636<685 685 685 799>
 LayerCount: 2
 Fore
 SplineSet
-734 798 m 1
- 151 799 l 1
- 151 0 l 1
- 267 153 l 1
- 264 690 l 1
- 632 687 l 1
- 734 798 l 1
-557 593 m 1
- 716 595 l 1
- 787 685 l 1
- 631 685 l 1
- 557 593 l 1
+560 594 m 5
+ 719 596 l 5
+ 790 686 l 5
+ 634 686 l 5
+ 560 594 l 5
 EndSplineSet
+Refer: 207 57551 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CF uniE260
 EndChar
 
@@ -11965,25 +11686,12 @@ StartChar: uniE0D0E261.liga
 Encoding: 65555 -1 586
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 799<734 734>
-VStem: 254 91
+Flags: HMW
+HStem: 0 799<151 151>
+VStem: 540 91
 LayerCount: 2
 Fore
-SplineSet
-151 798 m 1
- 253 687 l 1
- 621 690 l 1
- 618 153 l 1
- 734 0 l 1
- 734 799 l 1
- 151 798 l 1
-346 454 m 1
- 254 528 l 1
- 254 684 l 1
- 344 613 l 1
- 346 454 l 1
-EndSplineSet
+Refer: 584 -1 N -1 0 0 1 885 0 2
 Ligature2: "PatternStemRelation" uniE0D0 uniE261
 EndChar
 
@@ -11991,25 +11699,12 @@ StartChar: uniE0D0E260.liga
 Encoding: 65556 -1 587
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 688.5 110
-VStem: 728.5 115.5
+VStem: 97 115.5
 LayerCount: 2
 Fore
-SplineSet
-261 798 m 1
- 844 799 l 1
- 844 0 l 1
- 727 153 l 1
- 730 690 l 1
- 362 687 l 5
- 261 798 l 1
-130 594 m 5
- 289 596 l 5
- 360 686 l 5
- 204 686 l 5
- 130 594 l 5
-EndSplineSet
+Refer: 585 -1 N -1 0 0 1 941 0 2
 Ligature2: "PatternStemRelation" uniE0D0 uniE260
 EndChar
 
@@ -12017,28 +11712,20 @@ StartChar: uniE0D1E261.liga
 Encoding: 65557 -1 588
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 112
 VStem: 652 91
 LayerCount: 2
 Fore
 SplineSet
-151 801 m 1
- 264 684 l 1
- 744 688 l 1
- 651 802 l 1
- 151 801 l 1
-651 456 m 1
- 653 615 l 1
- 743 686 l 1
- 743 530 l 1
- 651 456 l 1
-268 115 m 1
- 382 0 l 1
- 378 574 l 1
- 264 684 l 1
- 268 115 l 1
+652 456 m 5
+ 654 615 l 5
+ 744 686 l 5
+ 744 530 l 5
+ 652 456 l 5
 EndSplineSet
+Refer: 209 57553 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D1 uniE261
 EndChar
 
@@ -12046,28 +11733,20 @@ StartChar: uniE0D1E260.liga
 Encoding: 65558 -1 589
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 112
 VStem: 151 752<688 801>
 LayerCount: 2
 Fore
 SplineSet
-151 801 m 1
- 264 684 l 1
- 744 688 l 1
- 651 802 l 1
- 151 801 l 1
-673 596 m 1
- 832 598 l 1
- 903 688 l 1
- 747 688 l 1
- 673 596 l 1
-268 115 m 1
- 382 0 l 1
- 378 574 l 1
- 264 684 l 1
- 268 115 l 1
+670 596 m 5
+ 829 598 l 5
+ 900 688 l 5
+ 744 688 l 5
+ 670 596 l 5
 EndSplineSet
+Refer: 209 57553 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D1 uniE260
 EndChar
 
@@ -12075,28 +11754,12 @@ StartChar: uniE0D2E261.liga
 Encoding: 65559 -1 590
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 112
-VStem: 152 91
+VStem: 652 91
 LayerCount: 2
 Fore
-SplineSet
-744 801 m 1
- 244 802 l 1
- 151 688 l 1
- 631 684 l 1
- 744 801 l 1
-244 456 m 1
- 152 530 l 1
- 152 686 l 1
- 242 615 l 1
- 244 456 l 1
-627 115 m 1
- 631 684 l 1
- 517 574 l 1
- 513 0 l 1
- 627 115 l 1
-EndSplineSet
+Refer: 588 -1 N -1 0 0 1 895 0 2
 Ligature2: "PatternStemRelation" uniE0D2 uniE261
 EndChar
 
@@ -12104,28 +11767,12 @@ StartChar: uniE0D2E260.liga
 Encoding: 65560 -1 591
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 112
-VStem: 17 827<596 801>
+VStem: 207 827<596 801>
 LayerCount: 2
 Fore
-SplineSet
-251 688 m 1
- 730 684 l 1
- 844 801 l 1
- 343 802 l 1
- 251 688 l 1
-176 598 m 1
- 247 688 l 1
- 91 688 l 1
- 17 596 l 1
- 176 598 l 1
-726 115 m 1
- 730 684 l 1
- 616 574 l 1
- 612 0 l 1
- 726 115 l 1
-EndSplineSet
+Refer: 589 -1 N -1 0 0 1 1051 0 2
 Ligature2: "PatternStemRelation" uniE0D2 uniE260
 EndChar
 
@@ -12133,30 +11780,20 @@ StartChar: uniE0D3E261.liga
 Encoding: 65561 -1 592
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 4 795<235 235>
 VStem: 241 99 555 91
 LayerCount: 2
 Fore
 SplineSet
-748 799 m 1
- 151 799 l 1
- 151 298 l 1
- 238 403 l 1
- 244 690 l 1
- 647 688 l 1
- 748 799 l 1
-554 456 m 1
- 556 615 l 1
- 646 686 l 1
- 646 530 l 1
- 554 456 l 1
-340 496 m 1
- 238 403 l 1
- 235 4 l 1
- 331 79 l 1
- 340 496 l 1
+554 456 m 5
+ 556 615 l 5
+ 646 686 l 5
+ 646 530 l 5
+ 554 456 l 5
 EndSplineSet
+Refer: 211 57555 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D3 uniE261
 EndChar
 
@@ -12164,30 +11801,12 @@ StartChar: uniE0D4E261.liga
 Encoding: 65562 -1 593
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 4 795<664 664>
-VStem: 253 91
+Flags: HMW
+HStem: 4 795<235 235>
+VStem: 555 91
 LayerCount: 2
 Fore
-SplineSet
-151 799 m 1
- 252 688 l 1
- 655 690 l 1
- 661 403 l 1
- 748 298 l 1
- 748 799 l 1
- 151 799 l 1
-345 456 m 1
- 253 530 l 1
- 253 686 l 1
- 343 615 l 1
- 345 456 l 1
-559 496 m 1
- 568 79 l 1
- 664 4 l 1
- 661 403 l 1
- 559 496 l 1
-EndSplineSet
+Refer: 592 -1 N -1 0 0 1 899 0 2
 Ligature2: "PatternStemRelation" uniE0D4 uniE261
 EndChar
 
@@ -12195,30 +11814,20 @@ StartChar: uniE0D3E260.liga
 Encoding: 65563 -1 594
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 4 795<235 235>
 VStem: 241 99
 LayerCount: 2
 Fore
 SplineSet
-748 799 m 1
- 151 799 l 1
- 151 298 l 1
- 238 403 l 1
- 244 690 l 1
- 647 688 l 1
- 748 799 l 1
-575 596 m 1
- 734 598 l 1
- 805 688 l 1
- 649 688 l 1
- 575 596 l 1
-331 79 m 1
- 340 496 l 1
- 238 403 l 1
- 235 4 l 1
- 331 79 l 1
+574 594 m 5
+ 733 596 l 5
+ 804 686 l 5
+ 648 686 l 5
+ 574 594 l 5
 EndSplineSet
+Refer: 211 57555 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D3 uniE260
 EndChar
 
@@ -12226,30 +11835,12 @@ StartChar: uniE0D4E260.liga
 Encoding: 65564 -1 595
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 4 795<664 664>
-VStem: 16 732<597 597>
+Flags: HMW
+HStem: 4 795<291 291>
+VStem: 207 732<597 597>
 LayerCount: 2
 Fore
-SplineSet
-151 799 m 1
- 252 688 l 1
- 655 690 l 1
- 661 403 l 1
- 748 298 l 1
- 748 799 l 1
- 151 799 l 1
-175 599 m 1
- 246 689 l 1
- 90 689 l 1
- 16 597 l 1
- 175 599 l 1
-664 4 m 1
- 661 403 l 1
- 559 496 l 1
- 568 79 l 1
- 664 4 l 1
-EndSplineSet
+Refer: 594 -1 N -1 0 0 1 955 0 2
 Ligature2: "PatternStemRelation" uniE0D4 uniE260
 EndChar
 
@@ -12257,27 +11848,20 @@ StartChar: uniE0D5E261.liga
 Encoding: 65565 -1 596
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<499 652 652 652>
 VStem: 551 91
 LayerCount: 2
 Fore
 SplineSet
-745 799 m 1
- 151 799 l 1
- 151 319 l 1
- 499 0 l 1
- 652 0 l 1
- 246 400 l 1
- 244 690 l 1
- 644 688 l 1
- 745 799 l 1
-550 456 m 1
- 552 615 l 1
- 642 686 l 1
- 642 530 l 1
- 550 456 l 1
+550 456 m 5
+ 552 615 l 5
+ 642 686 l 5
+ 642 530 l 5
+ 550 456 l 5
 EndSplineSet
+Refer: 213 57557 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D5 uniE261
 EndChar
 
@@ -12285,27 +11869,20 @@ StartChar: uniE0D5E260.liga
 Encoding: 65566 -1 597
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<499 652 652 652>
 VStem: 151 651<688 688 688 799 319 688>
 LayerCount: 2
 Fore
 SplineSet
-745 799 m 1
- 151 799 l 1
- 151 319 l 1
- 499 0 l 1
- 652 0 l 1
- 246 400 l 1
- 244 690 l 1
- 644 688 l 1
- 745 799 l 1
-572 596 m 1
- 731 598 l 1
- 802 688 l 1
- 646 688 l 1
- 572 596 l 1
+568 594 m 5
+ 727 596 l 5
+ 798 686 l 5
+ 642 686 l 5
+ 568 594 l 5
 EndSplineSet
+Refer: 213 57557 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D5 uniE260
 EndChar
 
@@ -12313,27 +11890,12 @@ StartChar: uniE0D6E261.liga
 Encoding: 65567 -1 598
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 1 800<158 750 158 750>
-VStem: 249 91
+Flags: HMW
+HStem: 1 800<250 842 250 842>
+VStem: 660 91
 LayerCount: 2
 Fore
-SplineSet
-158 801 m 1
- 248 688 l 1
- 592 687 l 1
- 334 399 l 1
- 608 1 l 1
- 750 1 l 1
- 495 399 l 1
- 842 800 l 1
- 158 801 l 1
-341 456 m 1
- 249 530 l 1
- 249 686 l 1
- 339 615 l 1
- 341 456 l 1
-EndSplineSet
+Refer: 582 -1 N -1 0 0 1 1000 0 2
 Ligature2: "PatternStemRelation" uniE0D6 uniE261
 EndChar
 
@@ -12341,27 +11903,12 @@ StartChar: uniE0D6E260.liga
 Encoding: 65568 -1 599
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 687.5 113
-VStem: 193 828<596 800>
+VStem: 47 828<596 800>
 LayerCount: 2
 Fore
-SplineSet
-337 801 m 1
- 1021 800 l 1
- 674 399 l 1
- 929 1 l 1
- 787 1 l 1
- 513 399 l 1
- 771 687 l 1
- 428 688 l 1
- 337 801 l 1
-193 596 m 1
- 352 598 l 1
- 423 688 l 1
- 267 688 l 1
- 193 596 l 1
-EndSplineSet
+Refer: 583 -1 N -1 0 0 1 1068 0 2
 Ligature2: "PatternStemRelation" uniE0D6 uniE260
 EndChar
 
@@ -12369,25 +11916,20 @@ StartChar: uniE0D7E261.liga
 Encoding: 65569 -1 600
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<499 749 631 749>
 VStem: 554 91
 LayerCount: 2
 Fore
 SplineSet
-749 802 m 1
- 151 799 l 1
- 499 0 l 1
- 631 0 l 1
- 325 684 l 1
- 648 683 l 1
- 749 802 l 1
-553 450 m 1
- 555 609 l 1
- 645 680 l 1
- 645 524 l 1
- 553 450 l 1
+556 452 m 5
+ 558 611 l 5
+ 648 682 l 5
+ 648 526 l 5
+ 556 452 l 5
 EndSplineSet
+Refer: 215 57559 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D7 uniE261
 EndChar
 
@@ -12395,25 +11937,20 @@ StartChar: uniE0D7E260.liga
 Encoding: 65570 -1 601
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<499 749 631 749>
 VStem: 151 654<682 799>
 LayerCount: 2
 Fore
 SplineSet
-749 802 m 1
- 151 799 l 1
- 499 0 l 1
- 631 0 l 1
- 325 684 l 1
- 648 683 l 1
- 749 802 l 1
-575 590 m 1
- 734 592 l 1
- 805 682 l 1
- 649 682 l 1
- 575 590 l 1
+574 590 m 5
+ 733 592 l 5
+ 804 682 l 5
+ 648 682 l 5
+ 574 590 l 5
 EndSplineSet
+Refer: 215 57559 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D7 uniE260
 EndChar
 
@@ -12421,25 +11958,12 @@ StartChar: uniE0D8E261.liga
 Encoding: 65571 -1 602
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 802<151 401 151 401>
-VStem: 255 91
+Flags: HMW
+HStem: 0 802<499 749 499 749>
+VStem: 554 91
 LayerCount: 2
 Fore
-SplineSet
-151 802 m 1
- 252 683 l 1
- 575 684 l 1
- 269 0 l 1
- 401 0 l 1
- 749 799 l 1
- 151 802 l 1
-347 450 m 1
- 255 524 l 1
- 255 680 l 1
- 345 609 l 1
- 347 450 l 1
-EndSplineSet
+Refer: 600 -1 N -1 0 0 1 900 0 2
 Ligature2: "PatternStemRelation" uniE0D8 uniE261
 EndChar
 
@@ -12447,25 +11971,12 @@ StartChar: uniE0D8E260.liga
 Encoding: 65572 -1 603
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 683.5 117
-VStem: 68 731<591 799>
+VStem: 156 731<591 799>
 LayerCount: 2
 Fore
-SplineSet
-201 802 m 1
- 799 799 l 1
- 451 0 l 1
- 319 0 l 1
- 625 684 l 1
- 302 683 l 1
- 201 802 l 1
-68 591 m 1
- 227 593 l 1
- 298 683 l 1
- 142 683 l 1
- 68 591 l 1
-EndSplineSet
+Refer: 601 -1 N -1 0 0 1 955 0 2
 Ligature2: "PatternStemRelation" uniE0D8 uniE260
 EndChar
 
@@ -12473,30 +11984,19 @@ StartChar: uniE0D9E261.liga
 Encoding: 65573 -1 604
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<151 153>
 VStem: 752 91
 LayerCount: 2
 Fore
 SplineSet
-153 802 m 1
- 331 671 l 1
- 844 669 l 1
- 718 801 l 1
- 153 802 l 1
-151 0 m 1
- 280 90 l 1
- 280 497 l 1
- 262 552 377 557 454 550 c 1
- 331 671 l 1
- 181 664 173 621 151 544 c 1
- 151 0 l 1
-751 438 m 1
- 753 597 l 1
- 843 668 l 1
- 843 512 l 1
- 751 438 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 217 57561 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0D9 uniE261
 EndChar
 
@@ -12504,30 +12004,20 @@ StartChar: uniE0D9E260.liga
 Encoding: 65574 -1 605
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<151 153>
 VStem: 151 849<0 668 0 668>
 LayerCount: 2
 Fore
 SplineSet
-153 802 m 1
- 331 671 l 1
- 844 669 l 1
- 718 801 l 1
- 153 802 l 1
-151 0 m 1
- 280 90 l 1
- 280 497 l 1
- 262 552 377 557 454 550 c 1
- 331 671 l 1
- 181 664 173 621 151 544 c 1
- 151 0 l 1
-770 576 m 1
- 929 578 l 1
- 1000 668 l 1
- 844 668 l 1
- 770 576 l 1
+772 577 m 5
+ 931 579 l 5
+ 1002 669 l 5
+ 846 669 l 5
+ 772 577 l 5
 EndSplineSet
+Refer: 217 57561 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D9 uniE260
 EndChar
 
@@ -12535,30 +12025,12 @@ StartChar: uniE0DAE261.liga
 Encoding: 65575 -1 606
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 802<842 844>
-VStem: 152 91
+Flags: HMW
+HStem: 0 802<151 153>
+VStem: 752 91
 LayerCount: 2
 Fore
-SplineSet
-842 802 m 1
- 277 801 l 1
- 151 669 l 1
- 664 671 l 1
- 842 802 l 1
-844 0 m 1
- 844 544 l 1
- 822 621 814 664 664 671 c 1
- 541 550 l 1
- 618 557 733 552 715 497 c 1
- 715 90 l 1
- 844 0 l 1
-244 438 m 1
- 152 512 l 1
- 152 668 l 1
- 242 597 l 1
- 244 438 l 1
-EndSplineSet
+Refer: 604 -1 N -1 0 0 1 995 0 2
 Ligature2: "PatternStemRelation" uniE0DA uniE261
 EndChar
 
@@ -12566,30 +12038,12 @@ StartChar: uniE0DAE260.liga
 Encoding: 65576 -1 607
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 802<841 844>
-VStem: -80 924<0 576>
+Flags: HMW
+HStem: 0 802<309 312>
+VStem: 309 924<0 576>
 LayerCount: 2
 Fore
-SplineSet
-151 669 m 1
- 663 671 l 1
- 841 802 l 1
- 276 801 l 1
- 151 669 l 1
-540 550 m 1
- 617 557 732 552 714 497 c 1
- 714 90 l 1
- 844 0 l 1
- 844 544 l 1
- 821 621 813 664 663 671 c 1
- 540 550 l 1
-80 578 m 1
- 151 668 l 1
- -6 668 l 1
- -80 576 l 1
- 80 578 l 1
-EndSplineSet
+Refer: 605 -1 N -1 0 0 1 1153 0 2
 Ligature2: "PatternStemRelation" uniE0DA uniE260
 EndChar
 
@@ -12597,30 +12051,20 @@ StartChar: uniE0DBE261.liga
 Encoding: 65577 -1 608
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 293.5
 VStem: 645 91
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 387 399 l 1
- 505 399 l 1
- 344 694 l 1
- 737 691 l 1
- 838 800 l 1
- 151 799 l 1
-644 460 m 1
- 646 619 l 1
- 736 690 l 1
- 736 534 l 1
- 644 460 l 1
-642 399 m 1
- 505 399 l 1
- 165 4 l 1
- 307 3 l 1
- 642 399 l 1
+644 458 m 5
+ 646 617 l 5
+ 736 688 l 5
+ 736 532 l 5
+ 644 458 l 5
 EndSplineSet
+Refer: 219 57563 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DB uniE261
 EndChar
 
@@ -12628,30 +12072,20 @@ StartChar: uniE0DBE260.liga
 Encoding: 65578 -1 609
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 200
 VStem: 151 743<690 799>
 LayerCount: 2
 Fore
 SplineSet
-838 800 m 1
- 151 799 l 1
- 387 399 l 1
- 505 399 l 1
- 344 694 l 1
- 737 691 l 1
- 838 800 l 1
-664 598 m 1
- 823 600 l 1
- 894 690 l 1
- 737 690 l 1
- 664 598 l 1
-307 3 m 1
- 642 399 l 1
- 505 399 l 1
- 165 4 l 1
- 307 3 l 1
+662 598 m 5
+ 821 600 l 5
+ 892 690 l 5
+ 736 690 l 5
+ 662 598 l 5
 EndSplineSet
+Refer: 219 57563 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DB uniE260
 EndChar
 
@@ -12659,28 +12093,20 @@ StartChar: uniE0DCE261.liga
 Encoding: 65579 -1 610
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -15 819<499 499>
 VStem: 665 91
 LayerCount: 2
 Fore
 SplineSet
-844 804 m 1
- 400 804 l 1
- 189 605 l 1
- 499 345 l 1
- 499 -15 l 1
- 618 91 l 1
- 615 399 l 1
- 284 682 l 1
- 759 684 l 1
- 844 804 l 1
-664 451 m 1
- 666 610 l 1
- 756 681 l 1
- 756 525 l 1
- 664 451 l 1
+666 451 m 5
+ 668 610 l 5
+ 758 681 l 5
+ 758 525 l 5
+ 666 451 l 5
 EndSplineSet
+Refer: 220 57564 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DC uniE261
 EndChar
 
@@ -12688,28 +12114,20 @@ StartChar: uniE0DCE260.liga
 Encoding: 65580 -1 611
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -15 819<499 499>
 VStem: 189 728<605 683>
 LayerCount: 2
 Fore
 SplineSet
-844 804 m 1
- 400 804 l 1
- 189 605 l 1
- 499 345 l 1
- 499 -15 l 1
- 618 91 l 1
- 615 399 l 1
- 284 682 l 1
- 759 684 l 1
- 844 804 l 1
-687 591 m 1
- 846 593 l 1
- 917 683 l 1
- 760 683 l 1
- 687 591 l 1
+686 592 m 5
+ 845 594 l 5
+ 916 684 l 5
+ 760 684 l 5
+ 686 592 l 5
 EndSplineSet
+Refer: 220 57564 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DC uniE260
 EndChar
 
@@ -12717,26 +12135,12 @@ StartChar: uniE0DDE261.liga
 Encoding: 65581 -1 612
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<151 794>
-VStem: 269 91
+VStem: 585 91
 LayerCount: 2
 Fore
-SplineSet
-151 804 m 1
- 268 659 l 1
- 662 660 l 1
- 661 90 l 1
- 794 0 l 1
- 794 504 l 1
- 545 804 l 1
- 151 804 l 1
-361 427 m 1
- 269 501 l 1
- 269 657 l 1
- 359 586 l 1
- 361 427 l 1
-EndSplineSet
+Refer: 581 -1 N -1 0 0 1 945 0 2
 Ligature2: "PatternStemRelation" uniE0DD uniE261
 EndChar
 
@@ -12744,26 +12148,12 @@ StartChar: uniE0DDE260.liga
 Encoding: 65582 -1 613
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 659.5 144.5
-VStem: 710.5 133.5
+VStem: 141 133.5
 LayerCount: 2
 Fore
-SplineSet
-201 804 m 1
- 594 804 l 1
- 844 504 l 1
- 844 0 l 1
- 710 90 l 1
- 711 660 l 1
- 317 659 l 1
- 201 804 l 1
-89 568 m 1
- 248 570 l 1
- 319 660 l 1
- 162 660 l 1
- 89 568 l 1
-EndSplineSet
+Refer: 580 -1 N -1 0 0 1 985 0 2
 Ligature2: "PatternStemRelation" uniE0DD uniE260
 EndChar
 
@@ -12771,30 +12161,20 @@ StartChar: uniE0DEE261.liga
 Encoding: 65583 -1 614
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 116.5
 VStem: 742 91
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 244 690 l 1
- 834 691 l 1
- 741 801 l 1
- 151 799 l 1
-244 690 m 1
- 249 229 l 1
- 514 0 l 1
- 685 0 l 1
- 358 295 l 1
- 363 574 l 1
- 244 690 l 1
-741 459 m 1
- 743 618 l 1
- 833 689 l 1
- 833 533 l 1
- 741 459 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 222 57566 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DE uniE261
 EndChar
 
@@ -12802,30 +12182,20 @@ StartChar: uniE0DEE260.liga
 Encoding: 65584 -1 615
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 116.5
 VStem: 151 843<692 799>
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 244 690 l 1
- 834 691 l 1
- 741 801 l 1
- 151 799 l 1
-764 600 m 1
- 923 602 l 1
- 994 692 l 1
- 838 692 l 1
- 764 600 l 1
-244 690 m 1
- 249 229 l 1
- 514 0 l 1
- 685 0 l 1
- 358 295 l 1
- 363 574 l 1
- 244 690 l 1
+772 602 m 5
+ 931 604 l 5
+ 1002 694 l 5
+ 846 694 l 5
+ 772 602 l 5
 EndSplineSet
+Refer: 222 57566 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DE uniE260
 EndChar
 
@@ -12833,30 +12203,20 @@ StartChar: uniE0DFE261.liga
 Encoding: 65585 -1 616
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 292
 VStem: 642 91
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 508 399 l 1
- 640 399 l 1
- 385 694 l 1
- 737 688 l 1
- 839 799 l 1
- 151 799 l 1
-641 456 m 1
- 643 615 l 1
- 733 686 l 1
- 733 530 l 1
- 641 456 l 1
-266 0 m 1
- 508 399 l 1
- 378 399 l 1
- 151 0 l 1
- 266 0 l 1
+644 458 m 5
+ 646 617 l 5
+ 736 688 l 5
+ 736 532 l 5
+ 644 458 l 5
 EndSplineSet
+Refer: 223 57567 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DF uniE261
 EndChar
 
@@ -12864,30 +12224,20 @@ StartChar: uniE0DFE260.liga
 Encoding: 65586 -1 617
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 292
 VStem: 151 746<0 688 688 799>
 LayerCount: 2
 Fore
 SplineSet
-839 799 m 1
- 151 799 l 1
- 508 399 l 1
- 640 399 l 1
- 385 694 l 1
- 737 688 l 1
- 839 799 l 1
-667 596 m 1
- 826 598 l 1
- 897 688 l 1
- 741 688 l 1
- 667 596 l 1
-266 0 m 1
- 508 399 l 1
- 378 399 l 1
- 151 0 l 1
- 266 0 l 1
+665 596 m 5
+ 824 598 l 5
+ 895 688 l 5
+ 739 688 l 5
+ 665 596 l 5
 EndSplineSet
+Refer: 223 57567 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DF uniE260
 EndChar
 
@@ -12895,28 +12245,12 @@ StartChar: uniE0E0E261.liga
 Encoding: 65587 -1 618
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 610 73
-VStem: 368 48.5
+VStem: 616.5 48.5
 LayerCount: 2
 Fore
-SplineSet
-189 804 m 1
- 274 684 l 1
- 749 682 l 1
- 418 399 l 1
- 415 91 l 1
- 534 -15 l 1
- 534 345 l 1
- 844 605 l 1
- 633 804 l 1
- 189 804 l 1
-369 451 m 1
- 367 610 l 1
- 277 681 l 1
- 277 525 l 1
- 369 451 l 1
-EndSplineSet
+Refer: 610 -1 N -1 0 0 1 1033 0 2
 Ligature2: "PatternStemRelation" uniE0E0 uniE261
 EndChar
 
@@ -12924,28 +12258,13 @@ StartChar: uniE0E0E260.liga
 Encoding: 65588 -1 619
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 683 121
-VStem: 456.5 117.5
+VStem: 531 117.5
 LayerCount: 2
 Fore
-SplineSet
-229 804 m 1
- 673 804 l 1
- 884 605 l 1
- 574 345 l 1
- 574 -15 l 1
- 455 91 l 1
- 458 399 l 1
- 789 682 l 1
- 314 684 l 1
- 229 804 l 1
-81 592 m 1
- 240 594 l 1
- 311 684 l 1
- 155 684 l 1
- 81 592 l 1
-EndSplineSet
+Refer: 611 -1 N -1 0 0 1 1105 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E0 uniE260
 EndChar
 
@@ -12953,30 +12272,20 @@ StartChar: uniE0E1E261.liga
 Encoding: 65589 -1 620
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 401 290
 VStem: 634 91
 LayerCount: 2
 Fore
 SplineSet
-727 688 m 1
- 829 799 l 1
- 151 799 l 1
- 498 401 l 1
- 622 401 l 1
- 395 694 l 1
- 727 688 l 1
-633 456 m 1
- 635 615 l 1
- 725 686 l 1
- 725 530 l 1
- 633 456 l 1
-609 2 m 1
- 733 2 l 1
- 498 401 l 1
- 378 401 l 1
- 609 2 l 1
+634 456 m 5
+ 636 615 l 5
+ 726 686 l 5
+ 726 530 l 5
+ 634 456 l 5
 EndSplineSet
+Refer: 225 57569 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E1 uniE261
 EndChar
 
@@ -12984,30 +12293,20 @@ StartChar: uniE0E1E260.liga
 Encoding: 65590 -1 621
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 401 290
 VStem: 151 735<688 799>
 LayerCount: 2
 Fore
 SplineSet
-727 688 m 1
- 829 799 l 1
- 151 799 l 1
- 498 401 l 1
- 622 401 l 1
- 395 694 l 1
- 727 688 l 1
-656 596 m 1
- 815 598 l 1
- 886 688 l 1
- 730 688 l 1
- 656 596 l 1
-609 2 m 1
- 733 2 l 1
- 498 401 l 1
- 378 401 l 1
- 609 2 l 1
+655 597 m 5
+ 814 599 l 5
+ 885 689 l 5
+ 729 689 l 5
+ 655 597 l 5
 EndSplineSet
+Refer: 225 57569 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E1 uniE260
 EndChar
 
@@ -13015,30 +12314,12 @@ StartChar: uniE0E2E261.liga
 Encoding: 65591 -1 622
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 401 290
-VStem: 255 91
+VStem: 634 91
 LayerCount: 2
 Fore
-SplineSet
-253 688 m 1
- 585 694 l 1
- 358 401 l 1
- 482 401 l 1
- 829 799 l 1
- 151 799 l 1
- 253 688 l 1
-347 456 m 1
- 255 530 l 1
- 255 686 l 1
- 345 615 l 1
- 347 456 l 1
-371 2 m 1
- 602 401 l 1
- 482 401 l 1
- 247 2 l 1
- 371 2 l 1
-EndSplineSet
+Refer: 620 -1 N -1 0 0 1 980 0 2
 Ligature2: "PatternStemRelation" uniE0E2 uniE261
 EndChar
 
@@ -13046,30 +12327,12 @@ StartChar: uniE0E2E260.liga
 Encoding: 65592 -1 623
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 401 290
-VStem: -42 811<596 799>
+VStem: 267 811<596 799>
 LayerCount: 2
 Fore
-SplineSet
-192 688 m 1
- 525 694 l 1
- 297 401 l 1
- 422 401 l 1
- 769 799 l 1
- 91 799 l 1
- 192 688 l 1
--42 596 m 1
- 117 598 l 1
- 188 688 l 1
- 32 688 l 1
- -42 596 l 1
-311 2 m 1
- 541 401 l 1
- 422 401 l 1
- 186 2 l 1
- 311 2 l 1
-EndSplineSet
+Refer: 621 -1 N -1 0 0 1 1036 0 2
 Ligature2: "PatternStemRelation" uniE0E2 uniE260
 EndChar
 
@@ -13077,30 +12340,12 @@ StartChar: uniE0E3E261.liga
 Encoding: 65593 -1 624
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 293.5
-VStem: 253 91
+VStem: 645 91
 LayerCount: 2
 Fore
-SplineSet
-838 799 m 1
- 151 800 l 1
- 252 691 l 1
- 645 694 l 1
- 484 399 l 1
- 602 399 l 1
- 838 799 l 1
-345 460 m 1
- 253 534 l 1
- 253 690 l 1
- 343 619 l 1
- 345 460 l 1
-347 399 m 1
- 682 3 l 1
- 824 4 l 1
- 484 399 l 1
- 347 399 l 1
-EndSplineSet
+Refer: 608 -1 N -1 0 0 1 989 0 2
 Ligature2: "PatternStemRelation" uniE0E3 uniE261
 EndChar
 
@@ -13108,30 +12353,12 @@ StartChar: uniE0E3E260.liga
 Encoding: 65594 -1 625
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 293.5
-VStem: -70 818<599 799>
+VStem: 295 818<599 799>
 LayerCount: 2
 Fore
-SplineSet
-61 800 m 1
- 162 691 l 1
- 555 694 l 1
- 394 399 l 1
- 512 399 l 1
- 748 799 l 1
- 61 800 l 1
-89 601 m 1
- 160 691 l 1
- 4 691 l 1
- -70 599 l 1
- 89 601 l 1
-592 3 m 1
- 734 4 l 1
- 394 399 l 1
- 257 399 l 1
- 592 3 l 1
-EndSplineSet
+Refer: 609 -1 N -1 0 0 1 1043 0 2
 Ligature2: "PatternStemRelation" uniE0E3 uniE260
 EndChar
 
@@ -13139,30 +12366,12 @@ StartChar: uniE0E4E261.liga
 Encoding: 65595 -1 626
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 615 76
 VStem: 151 688<799 799>
 LayerCount: 2
 Fore
-SplineSet
-839 799 m 1
- 151 799 l 1
- 253 688 l 1
- 605 694 l 1
- 350 399 l 1
- 482 399 l 1
- 839 799 l 1
-349 456 m 1
- 347 615 l 1
- 257 686 l 1
- 257 530 l 1
- 349 456 l 1
-724 0 m 1
- 839 0 l 1
- 612 399 l 1
- 482 399 l 1
- 724 0 l 1
-EndSplineSet
+Refer: 616 -1 N -1 0 0 1 990 0 2
 Ligature2: "PatternStemRelation" uniE0E4 uniE261
 EndChar
 
@@ -13170,30 +12379,12 @@ StartChar: uniE0E4E260.liga
 Encoding: 65596 -1 627
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 292
-VStem: -50 819<0 596>
+VStem: 277 819<0 596>
 LayerCount: 2
 Fore
-SplineSet
-182 688 m 1
- 535 694 l 1
- 280 399 l 1
- 412 399 l 1
- 769 799 l 1
- 81 799 l 1
- 182 688 l 1
-109 598 m 1
- 180 688 l 1
- 24 688 l 1
- -50 596 l 1
- 109 598 l 1
-653 0 m 1
- 769 0 l 1
- 541 399 l 1
- 412 399 l 1
- 653 0 l 1
-EndSplineSet
+Refer: 617 -1 N -1 0 0 1 1046 0 2
 Ligature2: "PatternStemRelation" uniE0E4 uniE260
 EndChar
 
@@ -13201,27 +12392,12 @@ StartChar: uniE0E5E261.liga
 Encoding: 65597 -1 628
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 799<244 397 397 397>
-VStem: 254 91
+Flags: HMW
+HStem: 0 799<499 652 499 499>
+VStem: 551 91
 LayerCount: 2
 Fore
-SplineSet
-151 799 m 1
- 252 688 l 1
- 652 690 l 1
- 650 400 l 1
- 244 0 l 1
- 397 0 l 1
- 745 319 l 1
- 745 799 l 1
- 151 799 l 1
-346 456 m 1
- 254 530 l 1
- 254 686 l 1
- 344 615 l 1
- 346 456 l 1
-EndSplineSet
+Refer: 596 -1 N -1 0 0 1 896 0 2
 Ligature2: "PatternStemRelation" uniE0E5 uniE261
 EndChar
 
@@ -13229,27 +12405,12 @@ StartChar: uniE0E5E260.liga
 Encoding: 65598 -1 629
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 689 110
-VStem: 651 94
+VStem: 204 94
 LayerCount: 2
 Fore
-SplineSet
-151 799 m 1
- 745 799 l 1
- 745 319 l 1
- 397 0 l 1
- 244 0 l 1
- 650 400 l 1
- 652 690 l 1
- 252 688 l 1
- 151 799 l 1
-20 596 m 1
- 179 598 l 1
- 250 688 l 1
- 94 688 l 1
- 20 596 l 1
-EndSplineSet
+Refer: 597 -1 N -1 0 0 1 949 0 2
 Ligature2: "PatternStemRelation" uniE0E5 uniE260
 EndChar
 
@@ -13257,30 +12418,12 @@ StartChar: uniE0E6E261.liga
 Encoding: 65599 -1 630
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 116.5
-VStem: 152 91
+VStem: 752 91
 LayerCount: 2
 Fore
-SplineSet
-834 799 m 1
- 244 801 l 1
- 151 691 l 1
- 741 690 l 1
- 834 799 l 1
-741 690 m 1
- 622 574 l 1
- 627 295 l 1
- 300 0 l 1
- 471 0 l 1
- 736 229 l 1
- 741 690 l 1
-244 459 m 1
- 152 533 l 1
- 152 689 l 1
- 242 618 l 1
- 244 459 l 1
-EndSplineSet
+Refer: 614 -1 N -1 0 0 1 995 0 2
 Ligature2: "PatternStemRelation" uniE0E6 uniE261
 EndChar
 
@@ -13288,30 +12431,12 @@ StartChar: uniE0E6E260.liga
 Encoding: 65600 -1 631
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 574 116.5
-VStem: -100 914<602 799>
+VStem: 339 914<602 799>
 LayerCount: 2
 Fore
-SplineSet
-131 691 m 1
- 720 690 l 1
- 814 799 l 1
- 223 801 l 1
- 131 691 l 1
-59 604 m 1
- 130 694 l 1
- -27 694 l 1
- -100 602 l 1
- 59 604 l 1
-279 0 m 1
- 450 0 l 1
- 715 229 l 1
- 720 690 l 1
- 601 574 l 1
- 606 295 l 1
- 279 0 l 1
-EndSplineSet
+Refer: 615 -1 N -1 0 0 1 1153 0 2
 Ligature2: "PatternStemRelation" uniE0E6 uniE260
 EndChar
 
@@ -13319,29 +12444,20 @@ StartChar: uniE0E7E261.liga
 Encoding: 65601 -1 632
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 346.5 118 688.5 111
 VStem: 151 110 499 110.5 652 91
 LayerCount: 2
 Fore
 SplineSet
-841 798 m 1
- 745 686 l 1
- 264 691 l 1
- 258 465 l 1
- 613 464 l 1
- 606 105 l 1
- 499 3 l 1
- 499 347 l 1
- 151 346 l 1
- 151 801 l 1
- 841 798 l 1
-651 454 m 1
- 653 613 l 1
- 743 684 l 1
- 743 528 l 1
- 651 454 l 1
+652 455 m 5
+ 654 614 l 5
+ 744 685 l 5
+ 744 529 l 5
+ 652 455 l 5
 EndSplineSet
+Refer: 231 57575 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E7 uniE261
 EndChar
 
@@ -13349,29 +12465,20 @@ StartChar: uniE0E7E260.liga
 Encoding: 65602 -1 633
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 346.5 118 688.5 111
 VStem: 151 110 499 110.5
 LayerCount: 2
 Fore
 SplineSet
-841 798 m 1
- 745 686 l 1
- 264 691 l 1
- 258 465 l 1
- 613 464 l 1
- 606 105 l 1
- 499 3 l 1
- 499 347 l 1
- 151 346 l 1
- 151 801 l 1
- 841 798 l 1
-671 594 m 1
- 830 596 l 1
- 901 686 l 1
- 745 686 l 1
- 671 594 l 1
+673 595 m 5
+ 832 597 l 5
+ 903 687 l 5
+ 747 687 l 5
+ 673 595 l 5
 EndSplineSet
+Refer: 231 57575 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E7 uniE260
 EndChar
 
@@ -13379,29 +12486,12 @@ StartChar: uniE0E8E261.liga
 Encoding: 65603 -1 634
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 346.5 118 688.5 111
-VStem: 249 91 382.5 110.5 731 110
+VStem: 652 91 499 110.5 151 110
 LayerCount: 2
 Fore
-SplineSet
-151 798 m 1
- 841 801 l 1
- 841 346 l 1
- 493 347 l 1
- 493 3 l 1
- 386 105 l 1
- 379 464 l 1
- 734 465 l 1
- 728 691 l 1
- 247 686 l 1
- 151 798 l 1
-341 454 m 1
- 249 528 l 1
- 249 684 l 1
- 339 613 l 1
- 341 454 l 1
-EndSplineSet
+Refer: 632 -1 N -1 0 0 1 992 0 2
 Ligature2: "PatternStemRelation" uniE0E8 uniE261
 EndChar
 
@@ -13409,30 +12499,20 @@ StartChar: uniE0E9E261.liga
 Encoding: 65604 -1 635
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 563 126
 VStem: 246 93 641 91
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 151 398 l 1
- 248 483 l 1
- 244 690 l 1
- 733 688 l 1
- 834 799 l 1
- 151 799 l 1
-640 456 m 1
- 642 615 l 1
- 732 686 l 1
- 732 530 l 1
- 640 456 l 1
-339 563 m 1
- 248 483 l 1
- 564 2 l 1
- 704 2 l 1
- 339 563 l 1
+640 456 m 5
+ 642 615 l 5
+ 732 686 l 5
+ 732 530 l 5
+ 640 456 l 5
 EndSplineSet
+Refer: 233 57577 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E9 uniE261
 EndChar
 
@@ -13440,29 +12520,12 @@ StartChar: uniE0E8E260.liga
 Encoding: 65605 -1 636
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 464.5 224
-VStem: 16 828<594 594> 496 237
+VStem: 210 828<594 594> 321 237
 LayerCount: 2
 Fore
-SplineSet
-154 798 m 1xc0
- 249 686 l 1
- 730 691 l 1
- 736 465 l 1
- 381 464 l 1
- 388 105 l 1
- 496 3 l 1
- 496 347 l 1xa0
- 844 346 l 1
- 844 801 l 1
- 154 798 l 1xc0
-16 594 m 1
- 175 596 l 1
- 246 686 l 1
- 90 686 l 1
- 16 594 l 1
-EndSplineSet
+Refer: 633 -1 N -1 0 0 1 1054 0 2
 Ligature2: "PatternStemRelation" uniE0E8 uniE260
 EndChar
 
@@ -13470,30 +12533,20 @@ StartChar: uniE0E9E260.liga
 Encoding: 65606 -1 637
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 563 126
 VStem: 246 93
 LayerCount: 2
 Fore
 SplineSet
-834 799 m 1
- 151 799 l 1
- 151 398 l 1
- 248 483 l 1
- 244 690 l 1
- 733 688 l 1
- 834 799 l 1
-661 596 m 1
- 820 598 l 1
- 891 688 l 1
- 735 688 l 1
- 661 596 l 1
-564 2 m 1
- 704 2 l 1
- 339 563 l 1
- 248 483 l 1
- 564 2 l 1
+660 596 m 5
+ 819 598 l 5
+ 890 688 l 5
+ 734 688 l 5
+ 660 596 l 5
 EndSplineSet
+Refer: 233 57577 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E9 uniE260
 EndChar
 
@@ -13501,30 +12554,12 @@ StartChar: uniE0EAE261.liga
 Encoding: 65607 -1 638
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 563 126
-VStem: 253 91 646 93
+VStem: 641 91 246 93
 LayerCount: 2
 Fore
-SplineSet
-834 799 m 1
- 151 799 l 1
- 252 688 l 1
- 741 690 l 1
- 737 483 l 1
- 834 398 l 1
- 834 799 l 1
-345 456 m 1
- 253 530 l 1
- 253 686 l 1
- 343 615 l 1
- 345 456 l 1
-646 563 m 1
- 281 2 l 1
- 421 2 l 1
- 737 483 l 1
- 646 563 l 1
-EndSplineSet
+Refer: 635 -1 N -1 0 0 1 985 0 2
 Ligature2: "PatternStemRelation" uniE0EA uniE261
 EndChar
 
@@ -13532,33 +12567,20 @@ StartChar: uniE0EBE261.liga
 Encoding: 65608 -1 639
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 506 182.5
 VStem: 245.5 255 651 91
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 151 306 l 1
- 247 399 l 1
- 244 690 l 1
- 742 687 l 1
- 844 798 l 1
- 151 799 l 1
-650 456 m 1
- 652 615 l 1
- 742 686 l 1
- 742 530 l 1
- 650 456 l 1
-613 103 m 1
- 613 399 l 2
- 612 471 586 500 502 505 c 2
- 364 507 l 1
- 247 399 l 1
- 499 399 l 1
- 502 0 l 1
- 613 103 l 1
+651 456 m 5
+ 653 615 l 5
+ 743 686 l 5
+ 743 530 l 5
+ 651 456 l 5
 EndSplineSet
+Refer: 235 57579 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EB uniE261
 EndChar
 
@@ -13566,30 +12588,12 @@ StartChar: uniE0EAE260.liga
 Encoding: 65609 -1 640
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 563 126
-VStem: 560 93
+VStem: 388 93
 LayerCount: 2
 Fore
-SplineSet
-166 688 m 1
- 655 690 l 1
- 651 483 l 1
- 748 398 l 1
- 748 799 l 1
- 65 799 l 1
- 166 688 l 1
-91 598 m 1
- 162 688 l 1
- 5 688 l 1
- -69 596 l 1
- 91 598 l 1
-335 2 m 1
- 651 483 l 1
- 560 563 l 1
- 195 2 l 1
- 335 2 l 1
-EndSplineSet
+Refer: 637 -1 N -1 0 0 1 1041 0 2
 Ligature2: "PatternStemRelation" uniE0EA uniE260
 EndChar
 
@@ -13597,33 +12601,20 @@ StartChar: uniE0EBE260.liga
 Encoding: 65610 -1 641
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 506 182.5
 VStem: 245.5 255
 LayerCount: 2
 Fore
 SplineSet
-844 798 m 1
- 151 799 l 1
- 151 306 l 1
- 247 399 l 1
- 244 690 l 1
- 742 687 l 1
- 844 798 l 1
-672 595 m 1
- 831 597 l 1
- 902 687 l 1
- 746 687 l 1
- 672 595 l 1
-364 507 m 1
- 247 399 l 1
- 499 399 l 1
- 502 0 l 1
- 613 103 l 1
- 613 399 l 2
- 612 471 586 500 502 505 c 2
- 364 507 l 1
+668 594 m 5
+ 827 596 l 5
+ 898 686 l 5
+ 742 686 l 5
+ 668 594 l 5
 EndSplineSet
+Refer: 235 57579 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EB uniE260
 EndChar
 
@@ -13631,33 +12622,12 @@ StartChar: uniE0ECE261.liga
 Encoding: 65611 -1 642
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 506 182.5
-VStem: 253 91 494.5 255
+VStem: 651 91 245.5 255
 LayerCount: 2
 Fore
-SplineSet
-844 799 m 1
- 151 798 l 1
- 253 687 l 1
- 751 690 l 1
- 748 399 l 1
- 844 306 l 1
- 844 799 l 1
-345 456 m 1
- 253 530 l 1
- 253 686 l 1
- 343 615 l 1
- 345 456 l 1
-382 103 m 1
- 493 0 l 1
- 496 399 l 1
- 748 399 l 1
- 631 507 l 1
- 493 505 l 2
- 409 500 383 471 382 399 c 2
- 382 103 l 1
-EndSplineSet
+Refer: 639 -1 N -1 0 0 1 995 0 2
 Ligature2: "PatternStemRelation" uniE0EC uniE261
 EndChar
 
@@ -13665,29 +12635,20 @@ StartChar: uniE0EDE261.liga
 Encoding: 65612 -1 643
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 110.5 680 119.5
 VStem: 151 124.5 655 91
 LayerCount: 2
 Fore
 SplineSet
-844 798 m 1
- 748 678 l 1
- 437 682 l 1
- 675 399 l 1
- 277 399 l 1
- 274 118 l 1
- 151 0 l 1
- 151 511 l 1
- 421 508 l 1
- 151 801 l 1
- 844 798 l 1
-654 445 m 1
- 656 604 l 1
- 746 675 l 1
- 746 519 l 1
- 654 445 l 1
+656 460 m 5
+ 658 619 l 5
+ 748 690 l 5
+ 748 534 l 5
+ 656 460 l 5
 EndSplineSet
+Refer: 237 57581 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0ED uniE261
 EndChar
 
@@ -13695,29 +12656,12 @@ StartChar: uniE0EDE260.liga
 Encoding: 65613 -1 644
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 110.5 680 119.5
-VStem: 151 124.5
+VStem: 773.5 124.5
 LayerCount: 2
 Fore
-SplineSet
-844 798 m 1
- 748 678 l 1
- 437 682 l 1
- 675 399 l 1
- 277 399 l 1
- 274 118 l 1
- 151 0 l 1
- 151 511 l 1
- 421 508 l 1
- 151 801 l 1
- 844 798 l 1
-676 585 m 1
- 835 587 l 1
- 906 677 l 1
- 750 677 l 1
- 676 585 l 1
-EndSplineSet
+Refer: 641 -1 N -1 0 0 1 1049 0 2
 Ligature2: "PatternStemRelation" uniE0ED uniE260
 EndChar
 
@@ -13725,29 +12669,20 @@ StartChar: uniE0EEE261.liga
 Encoding: 65614 -1 645
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 398 107 681.5 118
 VStem: 151 103<506 684 506 801> 655 91
 LayerCount: 2
 Fore
 SplineSet
-844 798 m 1
- 748 679 l 1
- 254 684 l 1
- 254 506 l 1
- 651 504 l 1
- 172 2 l 1
- 2 2 l 1
- 389 398 l 1
- 151 398 l 1
- 151 801 l 1
- 844 798 l 1
-654 445 m 1
- 656 604 l 1
- 746 675 l 1
- 746 519 l 1
- 654 445 l 1
+655 450 m 5
+ 657 609 l 5
+ 747 680 l 5
+ 747 524 l 5
+ 655 450 l 5
 EndSplineSet
+Refer: 238 57582 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EE uniE261
 EndChar
 
@@ -13755,29 +12690,20 @@ StartChar: uniE0EEE260.liga
 Encoding: 65615 -1 646
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 398 107 681.5 118
 VStem: 151 103<506 684 506 801>
 LayerCount: 2
 Fore
 SplineSet
-844 798 m 1
- 748 679 l 1
- 254 684 l 1
- 254 506 l 1
- 651 504 l 1
- 172 2 l 1
- 2 2 l 1
- 389 398 l 1
- 151 398 l 1
- 151 801 l 1
- 844 798 l 1
-676 586 m 1
- 835 588 l 1
- 906 678 l 1
- 750 678 l 1
- 676 586 l 1
+674 597 m 5
+ 833 599 l 5
+ 904 689 l 5
+ 748 689 l 5
+ 674 597 l 5
 EndSplineSet
+Refer: 237 57581 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EE uniE260
 EndChar
 
@@ -13785,29 +12711,12 @@ StartChar: uniE0EFE261.liga
 Encoding: 65616 -1 647
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 398 107 681.5 118
-VStem: 249 91 741 103<506 684 684 684>
+VStem: 506 91 2 103<506 684 684 684>
 LayerCount: 2
 Fore
-SplineSet
-151 798 m 1
- 844 801 l 1
- 844 398 l 1
- 606 398 l 1
- 993 2 l 1
- 823 2 l 1
- 344 504 l 1
- 741 506 l 1
- 741 684 l 1
- 247 679 l 1
- 151 798 l 1
-341 445 m 1
- 249 519 l 1
- 249 675 l 1
- 339 604 l 1
- 341 445 l 1
-EndSplineSet
+Refer: 645 -1 N -1 0 0 1 846 0 2
 Ligature2: "PatternStemRelation" uniE0EF uniE261
 EndChar
 
@@ -13815,29 +12724,20 @@ StartChar: uniE0EFE260.liga
 Encoding: 65617 -1 648
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 398 107 681.5 118
 VStem: 654 103<506 684 684 684>
 LayerCount: 2
 Fore
 SplineSet
-64 798 m 1
- 757 801 l 1
- 757 398 l 1
- 519 398 l 1
- 906 2 l 1
- 736 2 l 1
- 257 504 l 1
- 654 506 l 1
- 654 684 l 1
- 160 679 l 1
- 64 798 l 1
-232 586 m 1
- 158 678 l 1
- 2 678 l 1
- 73 588 l 1
- 232 586 l 1
+674 590 m 5
+ 833 592 l 5
+ 904 682 l 5
+ 748 682 l 5
+ 674 590 l 5
 EndSplineSet
+Refer: 238 57582 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EF uniE260
 EndChar
 
@@ -13845,33 +12745,12 @@ StartChar: uniE0ECE260.liga
 Encoding: 65618 -1 649
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 506 182.5
-VStem: 494 254.5
+VStem: 157.5 254.5
 LayerCount: 2
 Fore
-SplineSet
-252 687 m 1
- 750 690 l 1
- 747 399 l 1
- 844 306 l 1
- 844 799 l 1
- 151 798 l 1
- 252 687 l 1
-177 598 m 1
- 248 688 l 1
- 92 688 l 1
- 18 596 l 1
- 177 598 l 1
-381 399 m 2
- 381 103 l 1
- 493 0 l 1
- 495 399 l 1
- 747 399 l 1
- 630 507 l 1
- 493 505 l 2
- 408 500 382 471 381 399 c 2
-EndSplineSet
+Refer: 648 -1 N -1 0 0 1 906 0 2
 Ligature2: "PatternStemRelation" uniE0EC uniE260
 EndChar
 
@@ -13879,32 +12758,19 @@ StartChar: uniE0F0E261.liga
 Encoding: 65619 -1 650
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 281.5
 VStem: 750 91
 LayerCount: 2
 Fore
 SplineSet
-160 799 m 1
- 274 680 l 1
- 843 681 l 1
- 751 804 l 1
- 160 799 l 1
-274 680 m 1
- 279 285 l 1
- 492 285 l 1
- 151 0 l 1
- 345 0 l 1
- 766 399 l 1
- 400 399 l 1
- 398 574 l 1
- 274 680 l 1
-749 450 m 1
- 751 609 l 1
- 841 680 l 1
- 841 524 l 1
- 749 450 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 240 57584 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0F0 uniE261
 EndChar
 
@@ -13912,32 +12778,20 @@ StartChar: uniE0F0E260.liga
 Encoding: 65620 -1 651
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 192 574 106.5
 VStem: 151 849<0 682>
 LayerCount: 2
 Fore
 SplineSet
-160 799 m 1xa0
- 274 680 l 1
- 843 681 l 1
- 751 804 l 1
- 160 799 l 1xa0
-770 590 m 1
- 929 592 l 1
- 1000 682 l 1
- 844 682 l 1
- 770 590 l 1
-274 680 m 1
- 279 285 l 1
- 492 285 l 1
- 151 0 l 1
- 345 0 l 1
- 766 399 l 1
- 400 399 l 1xa0
- 398 574 l 1x60
- 274 680 l 1
+771 590 m 5
+ 930 592 l 5
+ 1001 682 l 5
+ 845 682 l 5
+ 771 590 l 5
 EndSplineSet
+Refer: 240 57584 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0F0 uniE260
 EndChar
 
@@ -13945,32 +12799,12 @@ StartChar: uniE0F1E261.liga
 Encoding: 65621 -1 652
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 281.5
-VStem: 153 91
+VStem: 751 91
 LayerCount: 2
 Fore
-SplineSet
-834 799 m 1
- 243 804 l 1
- 151 681 l 1
- 720 680 l 1
- 834 799 l 1
-245 450 m 1
- 153 524 l 1
- 153 680 l 1
- 243 609 l 1
- 245 450 l 1
-720 680 m 1
- 596 574 l 1
- 594 399 l 1
- 228 399 l 1
- 649 0 l 1
- 843 0 l 1
- 502 285 l 1
- 715 285 l 1
- 720 680 l 1
-EndSplineSet
+Refer: 650 -1 N -1 0 0 1 995 0 2
 Ligature2: "PatternStemRelation" uniE0F1 uniE261
 EndChar
 
@@ -13978,32 +12812,12 @@ StartChar: uniE0F1E260.liga
 Encoding: 65622 -1 653
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 281.5
-VStem: -80 923<0 590>
+VStem: 309 923<0 590>
 LayerCount: 2
 Fore
-SplineSet
-151 681 m 1
- 720 680 l 1
- 834 799 l 1
- 243 804 l 1
- 151 681 l 1
-79 592 m 1
- 150 682 l 1
- -7 682 l 1
- -80 590 l 1
- 79 592 l 1
-715 285 m 1
- 720 680 l 1
- 596 574 l 1
- 594 399 l 1
- 228 399 l 1
- 649 0 l 1
- 843 0 l 1
- 502 285 l 1
- 715 285 l 1
-EndSplineSet
+Refer: 651 -1 N -1 0 0 1 1152 0 2
 Ligature2: "PatternStemRelation" uniE0F1 uniE260
 EndChar
 
@@ -14011,32 +12825,19 @@ StartChar: uniE0F2E261.liga
 Encoding: 65623 -1 654
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 449 241.5
 VStem: 389 110 751 91
 LayerCount: 2
 Fore
 SplineSet
-160 799 m 1
- 274 690 l 1
- 843 691 l 1
- 748 803 l 1
- 160 799 l 1
-388 584 m 1
- 274 690 l 1
- 279 345 l 1
- 499 345 l 1
- 499 0 l 1
- 610 112 l 1
- 609 449 l 1
- 390 449 l 1
- 388 584 l 1
-750 458 m 1
- 752 617 l 1
- 842 688 l 1
- 842 532 l 1
- 750 458 l 1
+752 464 m 5
+ 754 623 l 5
+ 844 694 l 5
+ 844 538 l 5
+ 752 464 l 5
 EndSplineSet
+Refer: 242 57586 N 1 0 0 1 0 0 2
 Ligature2: "PatternStemRelation" uniE0F2 uniE261
 EndChar
 
@@ -14044,32 +12845,12 @@ StartChar: uniE0F3E261.liga
 Encoding: 65624 -1 655
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 449 241.5
-VStem: 161 91 504 110
+VStem: 752 91 390 110
 LayerCount: 2
 Fore
-SplineSet
-843 799 m 1
- 255 803 l 1
- 160 691 l 1
- 729 690 l 1
- 843 799 l 1
-615 584 m 1
- 613 449 l 1
- 394 449 l 1
- 393 112 l 1
- 504 0 l 1
- 504 345 l 1
- 724 345 l 1
- 729 690 l 1
- 615 584 l 1
-253 458 m 1
- 161 532 l 1
- 161 688 l 1
- 251 617 l 1
- 253 458 l 1
-EndSplineSet
+Refer: 654 -1 N -1 0 0 1 1004 0 2
 Ligature2: "PatternStemRelation" uniE0F3 uniE261
 EndChar
 
@@ -14077,32 +12858,20 @@ StartChar: uniE0F2E260.liga
 Encoding: 65625 -1 656
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 449 241.5
 VStem: 389 110
 LayerCount: 2
 Fore
 SplineSet
-842 692 m 1
- 748 803 l 1
- 160 799 l 1
- 274 690 l 1
- 841 691 l 1
- 770 603 l 1
- 929 605 l 1
- 1000 695 l 1
- 844 695 l 1
- 842 692 l 1
-499 0 m 1
- 610 112 l 1
- 609 449 l 1
- 390 449 l 1
- 388 584 l 1
- 274 690 l 1
- 279 345 l 1
- 499 345 l 1
- 499 0 l 1
+771 599 m 5
+ 930 601 l 5
+ 1001 691 l 5
+ 845 691 l 5
+ 771 599 l 5
 EndSplineSet
+Refer: 242 57586 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0F2 uniE260
 EndChar
 
@@ -14110,32 +12879,12 @@ StartChar: uniE0F3E260.liga
 Encoding: 65626 -1 657
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 449 241.5
-VStem: 495 110
+VStem: 556 110
 LayerCount: 2
 Fore
-SplineSet
-150 691 m 1
- 720 690 l 1
- 833 799 l 1
- 246 803 l 1
- 150 691 l 1
-77 602 m 1
- 148 692 l 1
- -9 692 l 1
- -82 600 l 1
- 77 602 l 1
-384 449 m 1
- 383 112 l 1
- 495 0 l 1
- 495 345 l 1
- 715 345 l 1
- 720 690 l 1
- 606 584 l 1
- 604 449 l 1
- 384 449 l 1
-EndSplineSet
+Refer: 656 -1 N -1 0 0 1 1161 0 2
 Ligature2: "PatternStemRelation" uniE0F3 uniE260
 EndChar
 
@@ -14143,29 +12892,12 @@ StartChar: uniE0F4E260.liga
 Encoding: 65627 -1 658
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 509.5 170.5
-VStem: 16 828<0 586>
+VStem: 211 828<0 586>
 LayerCount: 2
 Fore
-SplineSet
-151 798 m 1
- 246 678 l 1
- 557 682 l 1
- 319 399 l 1
- 717 399 l 1
- 720 118 l 1
- 844 0 l 1
- 844 511 l 1
- 573 508 l 1
- 844 801 l 1
- 151 798 l 1
-16 586 m 1
- 175 588 l 1
- 246 678 l 1
- 90 678 l 1
- 16 586 l 1
-EndSplineSet
+Refer: 646 -1 N -1 0 0 1 1055 0 2
 Ligature2: "PatternStemRelation" uniE0F4 uniE260
 EndChar
 
@@ -14173,29 +12905,12 @@ StartChar: uniE0F4E261.liga
 Encoding: 65628 -1 659
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 399 110.5 680 119.5
-VStem: 249 91 719.5 124.5
+VStem: 655 91 151 124.5
 LayerCount: 2
 Fore
-SplineSet
-151 798 m 1
- 844 801 l 1
- 574 508 l 1
- 844 511 l 1
- 844 0 l 1
- 721 118 l 1
- 718 399 l 1
- 320 399 l 1
- 558 682 l 1
- 247 678 l 1
- 151 798 l 1
-341 445 m 1
- 249 519 l 1
- 249 675 l 1
- 339 604 l 1
- 341 445 l 1
-EndSplineSet
+Refer: 643 -1 N -1 0 0 1 995 0 2
 Ligature2: "PatternStemRelation" uniE0F4 uniE261
 EndChar
 
@@ -14203,27 +12918,12 @@ StartChar: uniE0F5E260.liga
 Encoding: 65629 -1 660
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 1.5 106.5
+Flags: HMW
+HStem: 696 106.5
 VStem: 499 123.5
 LayerCount: 2
 Fore
-SplineSet
-748 3 m 1
- 160 0 l 1
- 499 313 l 1
- 499 804 l 1
- 623 675 l 1
- 622 296 l 1
- 438 107 l 1
- 844 109 l 1
- 748 3 l 1
-844 110 m 1
- 1003 112 l 1
- 1074 202 l 1
- 918 202 l 1
- 844 110 l 1
-EndSplineSet
+Refer: 568 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F5 uniE260
 EndChar
 
@@ -14231,27 +12931,12 @@ StartChar: uniE0F5E261.liga
 Encoding: 65630 -1 661
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<160 499>
 VStem: 753 91
 LayerCount: 2
 Fore
-SplineSet
-748 3 m 1
- 844 109 l 1
- 438 107 l 1
- 622 296 l 1
- 623 675 l 1
- 499 804 l 1
- 499 313 l 1
- 160 0 l 1
- 748 3 l 1
-752 340 m 1
- 844 266 l 1
- 844 110 l 1
- 754 181 l 1
- 752 340 l 1
-EndSplineSet
+Refer: 569 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F5 uniE261
 EndChar
 
@@ -14259,27 +12944,12 @@ StartChar: uniE0F6E261.liga
 Encoding: 65631 -1 662
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<505 844>
 VStem: 160 91
 LayerCount: 2
 Fore
-SplineSet
-256 3 m 1
- 844 0 l 1
- 505 313 l 1
- 505 804 l 1
- 381 675 l 1
- 382 296 l 1
- 566 107 l 1
- 160 109 l 1
- 256 3 l 1
-252 340 m 1
- 250 181 l 1
- 160 110 l 1
- 160 266 l 1
- 252 340 l 1
-EndSplineSet
+Refer: 570 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F6 uniE261
 EndChar
 
@@ -14287,30 +12957,12 @@ StartChar: uniE0F7E260.liga
 Encoding: 65632 -1 663
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 166.5 150.5
-VStem: 495 89<462 462>
+Flags: HMW
+HStem: 487 150.5
+VStem: 495 89<342 342>
 LayerCount: 2
 Fore
-SplineSet
-584 859 m 1
- 584 390 l 1
- 693 317 l 1
- 691 799 l 1
- 584 859 l 1
-495 462 m 1
- 158 59 l 1
- 744 62 l 1
- 840 167 l 1
- 406 166 l 1
- 584 390 l 1
- 495 462 l 1
-841 168 m 1
- 1000 170 l 1
- 1071 260 l 1
- 915 260 l 1
- 841 168 l 1
-EndSplineSet
+Refer: 571 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F7 uniE260
 EndChar
 
@@ -14318,30 +12970,12 @@ StartChar: uniE0F7E261.liga
 Encoding: 65633 -1 664
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 150.5
-VStem: 495 89<406 406> 750 91
+Flags: HMW
+HStem: 545 150.5
+VStem: 495 89<400 400> 750 91
 LayerCount: 2
 Fore
-SplineSet
-691 743 m 1
- 584 803 l 1
- 584 334 l 1
- 693 261 l 1
- 691 743 l 1
-744 6 m 1
- 840 111 l 1
- 406 110 l 1
- 584 334 l 1
- 495 406 l 1
- 158 3 l 1
- 744 6 l 1
-749 343 m 1
- 841 269 l 1
- 841 113 l 1
- 751 184 l 1
- 749 343 l 1
-EndSplineSet
+Refer: 572 -1 N 1 0 0 -1 0 806 2
 Ligature2: "PatternStemRelation" uniE0F7 uniE261
 EndChar
 
@@ -14349,30 +12983,12 @@ StartChar: uniE0F8E261.liga
 Encoding: 65634 -1 665
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 150.5
-VStem: 158 91 415 89<406 406 406 803 334 406>
+Flags: HMW
+HStem: 545 150.5
+VStem: 158 91 415 89<400 400 3 400 400 472>
 LayerCount: 2
 Fore
-SplineSet
-308 743 m 1
- 306 261 l 1
- 415 334 l 1
- 415 803 l 1
- 308 743 l 1
-255 6 m 1
- 841 3 l 1
- 504 406 l 1
- 415 334 l 1
- 593 110 l 1
- 159 111 l 1
- 255 6 l 1
-250 343 m 1
- 248 184 l 1
- 158 113 l 1
- 158 269 l 1
- 250 343 l 1
-EndSplineSet
+Refer: 573 -1 N 1 0 0 -1 0 806 2
 Ligature2: "PatternStemRelation" uniE0F8 uniE261
 EndChar
 
@@ -14380,30 +12996,12 @@ StartChar: uniE0F8E260.liga
 Encoding: 65635 -1 666
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 166.5 150.5
-VStem: 510 89<462 462 462 859 390 462>
+Flags: HMW
+HStem: 489 150.5
+VStem: 510 89<344 344 -53 344 344 416>
 LayerCount: 2
 Fore
-SplineSet
-401 317 m 1
- 510 390 l 1
- 510 859 l 1
- 403 799 l 1
- 401 317 l 1
-510 390 m 1
- 688 166 l 1
- 254 167 l 1
- 350 62 l 1
- 936 59 l 1
- 599 462 l 1
- 510 390 l 1
-90 166 m 1
- 249 168 l 1
- 320 258 l 1
- 164 258 l 1
- 90 166 l 1
-EndSplineSet
+Refer: 574 -1 N 1 0 0 -1 0 806 2
 Ligature2: "PatternStemRelation" uniE0F8 uniE260
 EndChar
 
@@ -14411,27 +13009,12 @@ StartChar: uniE0F6E260.liga
 Encoding: 65636 -1 667
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 804<595 934>
-VStem: 90 844<0 108>
+Flags: HMW
+HStem: 2 804<595 934>
+VStem: 90 844<698 806>
 LayerCount: 2
 Fore
-SplineSet
-346 3 m 1
- 934 0 l 1
- 595 313 l 1
- 595 804 l 1
- 471 675 l 1
- 472 296 l 1
- 656 107 l 1
- 250 109 l 1
- 346 3 l 1
-90 108 m 1
- 249 110 l 1
- 320 200 l 1
- 164 200 l 1
- 90 108 l 1
-EndSplineSet
+Refer: 575 -1 N 1 0 0 -1 0 806 2
 Ligature2: "PatternStemRelation" uniE0F6 uniE260
 EndChar
 
@@ -14439,30 +13022,12 @@ StartChar: uniE0F9E260.liga
 Encoding: 65637 -1 668
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 109 128.5
-VStem: 150 927<0 203>
+Flags: HMW
+HStem: 566.5 128.5
+VStem: 150 927<601 804>
 LayerCount: 2
 Fore
-SplineSet
-256 236 m 1
- 370 239 l 1
- 374 674 l 1
- 263 804 l 1
- 256 236 l 1
-370 239 m 1
- 150 0 l 1
- 748 3 l 1
- 844 111 l 1
- 378 107 l 1
- 496 236 l 1
- 370 239 l 1
-847 111 m 1
- 1006 113 l 1
- 1077 203 l 1
- 921 203 l 1
- 847 111 l 1
-EndSplineSet
+Refer: 576 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F9 uniE260
 EndChar
 
@@ -14470,30 +13035,12 @@ StartChar: uniE0F9E261.liga
 Encoding: 65638 -1 669
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 109 128.5
+Flags: HMW
+HStem: 566.5 128.5
 VStem: 752 91
 LayerCount: 2
 Fore
-SplineSet
-374 674 m 1
- 263 804 l 1
- 256 236 l 1
- 370 239 l 1
- 374 674 l 1
-751 343 m 1
- 843 269 l 1
- 843 113 l 1
- 753 184 l 1
- 751 343 l 1
-844 111 m 1
- 378 107 l 1
- 496 236 l 1
- 370 239 l 1
- 150 0 l 1
- 748 3 l 1
- 844 111 l 1
-EndSplineSet
+Refer: 577 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F9 uniE261
 EndChar
 
@@ -14501,30 +13048,12 @@ StartChar: uniE0FAE261.liga
 Encoding: 65639 -1 670
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 109 128.5
-VStem: 150 694<0 111>
+Flags: HMW
+HStem: 566.5 128.5
+VStem: 150 694<693 804>
 LayerCount: 2
 Fore
-SplineSet
-620 674 m 1
- 624 239 l 1
- 738 236 l 1
- 731 804 l 1
- 620 674 l 1
-243 343 m 1
- 151 269 l 1
- 151 113 l 1
- 241 184 l 1
- 243 343 l 1
-150 111 m 1
- 246 3 l 1
- 844 0 l 1
- 624 239 l 1
- 498 236 l 1
- 616 107 l 1
- 150 111 l 1
-EndSplineSet
+Refer: 578 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0FA uniE261
 EndChar
 
@@ -14532,30 +13061,12 @@ StartChar: uniE0FAE260.liga
 Encoding: 65640 -1 671
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 109 128.5
-VStem: 89 855<0 110>
+Flags: HMW
+HStem: 566.5 128.5
+VStem: 89 855<694 804>
 LayerCount: 2
 Fore
-SplineSet
-720 674 m 1
- 724 239 l 1
- 838 236 l 1
- 831 804 l 1
- 720 674 l 1
-598 236 m 1
- 716 107 l 1
- 250 111 l 1
- 346 3 l 1
- 944 0 l 1
- 724 239 l 1
- 598 236 l 1
-89 110 m 1
- 248 112 l 1
- 319 202 l 1
- 163 202 l 1
- 89 110 l 1
-EndSplineSet
+Refer: 579 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0FA uniE260
 EndChar
 
@@ -14563,26 +13074,12 @@ StartChar: uniE0FBE261.liga
 Encoding: 65641 -1 672
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<151 794 151 794>
 VStem: 585 91
 LayerCount: 2
 Fore
-SplineSet
-794 0 m 1
- 677 145 l 1
- 283 144 l 1
- 284 714 l 1
- 151 804 l 1
- 151 300 l 1
- 400 0 l 1
- 794 0 l 1
-584 377 m 1
- 676 303 l 1
- 676 147 l 1
- 586 218 l 1
- 584 377 l 1
-EndSplineSet
+Refer: 580 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0FB uniE261
 EndChar
 
@@ -14590,27 +13087,12 @@ StartChar: uniE0FCE261.liga
 Encoding: 65642 -1 673
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 1 800<250 842>
+Flags: HMW
+HStem: 3 800<250 842>
 VStem: 660 91
 LayerCount: 2
 Fore
-SplineSet
-842 1 m 1
- 752 114 l 1
- 408 115 l 1
- 666 403 l 1
- 392 801 l 1
- 250 801 l 1
- 505 403 l 1
- 158 2 l 1
- 842 1 l 1
-659 346 m 1
- 751 272 l 1
- 751 116 l 1
- 661 187 l 1
- 659 346 l 1
-EndSplineSet
+Refer: 581 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0FC uniE261
 EndChar
 
@@ -14618,27 +13100,12 @@ StartChar: uniE0FCE260.liga
 Encoding: 65643 -1 674
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3.5 113
-VStem: 158 828<4 208>
+Flags: HMW
+HStem: 685.5 113
+VStem: 158 828<594 798>
 LayerCount: 2
 Fore
-SplineSet
-842 3 m 1
- 158 4 l 1
- 505 405 l 1
- 250 803 l 1
- 392 803 l 1
- 666 405 l 1
- 408 117 l 1
- 752 116 l 1
- 842 3 l 1
-756 116 m 1
- 915 118 l 1
- 986 208 l 1
- 830 208 l 1
- 756 116 l 1
-EndSplineSet
+Refer: 582 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE0FC uniE260
 EndChar
 
@@ -14646,26 +13113,12 @@ StartChar: uniE0FBE260.liga
 Encoding: 65644 -1 675
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 144.5
+Flags: HMW
+HStem: 657.5 144.5
 VStem: 151 132.5
 LayerCount: 2
 Fore
-SplineSet
-794 0 m 1
- 400 0 l 1
- 151 300 l 1
- 151 804 l 1
- 284 714 l 1
- 283 144 l 1
- 677 145 l 1
- 794 0 l 1
-681 145 m 1
- 840 147 l 1
- 911 237 l 1
- 754 237 l 1
- 681 145 l 1
-EndSplineSet
+Refer: 583 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE0FB uniE260
 EndChar
 
@@ -14673,25 +13126,12 @@ StartChar: uniE0FDE261.liga
 Encoding: 65645 -1 676
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<151 151>
 VStem: 540 91
 LayerCount: 2
 Fore
-SplineSet
-734 1 m 1
- 632 112 l 1
- 264 109 l 1
- 267 646 l 1
- 151 799 l 1
- 151 0 l 1
- 734 1 l 1
-539 345 m 1
- 631 271 l 1
- 631 115 l 1
- 541 186 l 1
- 539 345 l 1
-EndSplineSet
+Refer: 584 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE0FD uniE261
 EndChar
 
@@ -14699,25 +13139,12 @@ StartChar: uniE0FDE260.liga
 Encoding: 65646 -1 677
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0.5 110
+Flags: HMW
+HStem: 688.5 110
 VStem: 151 114.5
 LayerCount: 2
 Fore
-SplineSet
-734 1 m 1
- 151 0 l 1
- 151 799 l 1
- 267 646 l 1
- 264 109 l 1
- 632 112 l 1
- 734 1 l 1
-636 112 m 1
- 795 114 l 1
- 866 204 l 1
- 710 204 l 1
- 636 112 l 1
-EndSplineSet
+Refer: 585 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE0FD uniE260
 EndChar
 
@@ -14725,25 +13152,12 @@ StartChar: uniE0FEE261.liga
 Encoding: 65647 -1 678
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<734 734>
 VStem: 254 91
 LayerCount: 2
 Fore
-SplineSet
-151 1 m 1
- 734 0 l 1
- 734 799 l 1
- 618 646 l 1
- 621 109 l 1
- 253 112 l 1
- 151 1 l 1
-346 345 m 1
- 344 186 l 1
- 254 115 l 1
- 254 271 l 1
- 346 345 l 1
-EndSplineSet
+Refer: 586 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE0FE uniE261
 EndChar
 
@@ -14751,25 +13165,12 @@ StartChar: uniE0FEE260.liga
 Encoding: 65648 -1 679
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<844 844>
-VStem: 200 644<110 110>
+VStem: 200 644<689 689>
 LayerCount: 2
 Fore
-SplineSet
-261 1 m 1
- 844 0 l 1
- 844 799 l 1
- 727 646 l 1
- 730 109 l 1
- 362 112 l 1
- 261 1 l 1
-200 110 m 1
- 359 112 l 1
- 430 202 l 1
- 274 202 l 1
- 200 110 l 1
-EndSplineSet
+Refer: 587 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE0FE uniE260
 EndChar
 
@@ -14777,28 +13178,12 @@ StartChar: uniE0FFE261.liga
 Encoding: 65649 -1 680
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 116 112
+Flags: HMW
+HStem: 574 112
 VStem: 652 91
 LayerCount: 2
 Fore
-SplineSet
-268 687 m 1
- 264 118 l 1
- 378 228 l 1
- 382 802 l 1
- 268 687 l 1
-651 346 m 1
- 743 272 l 1
- 743 116 l 1
- 653 187 l 1
- 651 346 l 1
-151 1 m 1
- 651 0 l 1
- 744 114 l 1
- 264 118 l 1
- 151 1 l 1
-EndSplineSet
+Refer: 588 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE0FF uniE261
 EndChar
 
@@ -14806,28 +13191,12 @@ StartChar: uniE0FFE260.liga
 Encoding: 65650 -1 681
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 113 112
-VStem: 151 827<-2 203>
+Flags: HMW
+HStem: 577 112
+VStem: 151 827<599 804>
 LayerCount: 2
 Fore
-SplineSet
-268 684 m 1
- 264 115 l 1
- 378 225 l 1
- 382 799 l 1
- 268 684 l 1
-748 111 m 1
- 907 113 l 1
- 978 203 l 1
- 822 203 l 1
- 748 111 l 1
-651 -3 m 1
- 744 111 l 1
- 264 115 l 1
- 151 -2 l 1
- 651 -3 l 1
-EndSplineSet
+Refer: 589 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE0FF uniE260
 EndChar
 
@@ -14835,28 +13204,12 @@ StartChar: uniE100E260.liga
 Encoding: 65651 -1 682
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 113 112
-VStem: 89 755<-2 111>
+Flags: HMW
+HStem: 577 112
+VStem: 89 755<691 804>
 LayerCount: 2
 Fore
-SplineSet
-616 225 m 1
- 730 115 l 1
- 726 684 l 1
- 612 799 l 1
- 616 225 l 1
-89 111 m 1
- 248 113 l 1
- 319 203 l 1
- 163 203 l 1
- 89 111 l 1
-251 111 m 1
- 343 -3 l 1
- 844 -2 l 1
- 730 115 l 1
- 251 111 l 1
-EndSplineSet
+Refer: 590 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE100 uniE260
 EndChar
 
@@ -14864,28 +13217,12 @@ StartChar: uniE100E261.liga
 Encoding: 65652 -1 683
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 116 112
+Flags: HMW
+HStem: 574 112
 VStem: 152 91
 LayerCount: 2
 Fore
-SplineSet
-627 687 m 1
- 513 802 l 1
- 517 228 l 1
- 631 118 l 1
- 627 687 l 1
-244 346 m 1
- 242 187 l 1
- 152 116 l 1
- 152 272 l 1
- 244 346 l 1
-744 1 m 1
- 631 118 l 1
- 151 114 l 1
- 244 0 l 1
- 744 1 l 1
-EndSplineSet
+Refer: 591 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE100 uniE261
 EndChar
 
@@ -14893,30 +13230,12 @@ StartChar: uniE101E261.liga
 Encoding: 65653 -1 684
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 4 795<235 235 235 748 235 748>
 VStem: 555 91
 LayerCount: 2
 Fore
-SplineSet
-340 307 m 1
- 331 724 l 1
- 235 799 l 1
- 238 400 l 1
- 340 307 l 1
-748 4 m 1
- 647 115 l 1
- 244 113 l 1
- 238 400 l 1
- 151 505 l 1
- 151 4 l 1
- 748 4 l 1
-554 347 m 1
- 646 273 l 1
- 646 117 l 1
- 556 188 l 1
- 554 347 l 1
-EndSplineSet
+Refer: 592 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE101 uniE261
 EndChar
 
@@ -14924,30 +13243,12 @@ StartChar: uniE101E260.liga
 Encoding: 65654 -1 685
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 4 795<235 235 235 748 235 748>
-VStem: 151 729<208 208 208 505 4 208>
+VStem: 151 729<595 595 298 595 595 799>
 LayerCount: 2
 Fore
-SplineSet
-235 799 m 1
- 238 400 l 1
- 340 307 l 1
- 331 724 l 1
- 235 799 l 1
-238 400 m 1
- 151 505 l 1
- 151 4 l 1
- 748 4 l 1
- 647 115 l 1
- 244 113 l 1
- 238 400 l 1
-650 116 m 1
- 809 118 l 1
- 880 208 l 1
- 724 208 l 1
- 650 116 l 1
-EndSplineSet
+Refer: 593 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE101 uniE260
 EndChar
 
@@ -14955,30 +13256,12 @@ StartChar: uniE102E261.liga
 Encoding: 65655 -1 686
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 4 795<664 664 664 748 664 748>
 VStem: 253 91 559 99
 LayerCount: 2
 Fore
-SplineSet
-559 307 m 1
- 661 400 l 1
- 664 799 l 1
- 568 724 l 1
- 559 307 l 1
-151 4 m 1
- 748 4 l 1
- 748 505 l 1
- 661 400 l 1
- 655 113 l 1
- 252 115 l 1
- 151 4 l 1
-345 347 m 1
- 343 188 l 1
- 253 117 l 1
- 253 273 l 1
- 345 347 l 1
-EndSplineSet
+Refer: 594 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE102 uniE261
 EndChar
 
@@ -14986,30 +13269,12 @@ StartChar: uniE102E260.liga
 Encoding: 65656 -1 687
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 4 795<664 664 664 748 664 748>
 VStem: 559 99
 LayerCount: 2
 Fore
-SplineSet
-559 307 m 1
- 661 400 l 1
- 664 799 l 1
- 568 724 l 1
- 559 307 l 1
-655 113 m 1
- 252 115 l 1
- 151 4 l 1
- 748 4 l 1
- 748 505 l 1
- 661 400 l 1
- 655 113 l 1
-163 206 m 1
- 89 114 l 1
- 248 116 l 1
- 319 206 l 1
- 163 206 l 1
-EndSplineSet
+Refer: 595 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE102 uniE260
 EndChar
 
@@ -15017,27 +13282,12 @@ StartChar: uniE103E261.liga
 Encoding: 65657 -1 688
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<499 652 499 745 499 745>
 VStem: 551 91
 LayerCount: 2
 Fore
-SplineSet
-745 0 m 1
- 644 111 l 1
- 244 109 l 1
- 246 399 l 1
- 652 799 l 1
- 499 799 l 1
- 151 480 l 1
- 151 0 l 1
- 745 0 l 1
-550 343 m 1
- 642 269 l 1
- 642 113 l 1
- 552 184 l 1
- 550 343 l 1
-EndSplineSet
+Refer: 596 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE103 uniE261
 EndChar
 
@@ -15045,27 +13295,12 @@ StartChar: uniE103E260.liga
 Encoding: 65658 -1 689
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 110<646 646 646 745>
+Flags: HMW
+HStem: 689 110<646 646 646 745>
 VStem: 151 94
 LayerCount: 2
 Fore
-SplineSet
-745 0 m 1
- 151 0 l 1
- 151 480 l 1
- 499 799 l 1
- 652 799 l 1
- 246 399 l 1
- 244 109 l 1
- 644 111 l 1
- 745 0 l 1
-646 110 m 1
- 805 112 l 1
- 876 202 l 1
- 720 202 l 1
- 646 110 l 1
-EndSplineSet
+Refer: 597 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE103 uniE260
 EndChar
 
@@ -15073,27 +13308,12 @@ StartChar: uniE104E261.liga
 Encoding: 65659 -1 690
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 1 800<158 750>
 VStem: 249 91
 LayerCount: 2
 Fore
-SplineSet
-158 1 m 1
- 842 2 l 1
- 495 403 l 1
- 750 801 l 1
- 608 801 l 1
- 334 403 l 1
- 592 115 l 1
- 248 114 l 1
- 158 1 l 1
-341 346 m 1
- 339 187 l 1
- 249 116 l 1
- 249 272 l 1
- 341 346 l 1
-EndSplineSet
+Refer: 598 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE104 uniE261
 EndChar
 
@@ -15101,27 +13321,12 @@ StartChar: uniE104E260.liga
 Encoding: 65660 -1 691
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3 800<337 929>
-VStem: 268 753<4 114>
+Flags: HMW
+HStem: -1 800<337 929>
+VStem: 268 753<688 798>
 LayerCount: 2
 Fore
-SplineSet
-337 3 m 1
- 1021 4 l 1
- 674 405 l 1
- 929 803 l 1
- 787 803 l 1
- 513 405 l 1
- 771 117 l 1
- 428 116 l 1
- 337 3 l 1
-268 114 m 1
- 427 116 l 1
- 498 206 l 1
- 342 206 l 1
- 268 114 l 1
-EndSplineSet
+Refer: 599 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE104 uniE260
 EndChar
 
@@ -15129,25 +13334,12 @@ StartChar: uniE105E261.liga
 Encoding: 65661 -1 692
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<499 749>
 VStem: 554 91
 LayerCount: 2
 Fore
-SplineSet
-749 0 m 1
- 648 119 l 1
- 325 118 l 1
- 631 802 l 1
- 499 802 l 1
- 151 3 l 1
- 749 0 l 1
-553 352 m 1
- 645 278 l 1
- 645 122 l 1
- 555 193 l 1
- 553 352 l 1
-EndSplineSet
+Refer: 600 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE105 uniE261
 EndChar
 
@@ -15155,25 +13347,12 @@ StartChar: uniE106E261.liga
 Encoding: 65662 -1 693
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<151 401>
 VStem: 255 91
 LayerCount: 2
 Fore
-SplineSet
-151 0 m 1
- 749 3 l 1
- 401 802 l 1
- 269 802 l 1
- 575 118 l 1
- 252 119 l 1
- 151 0 l 1
-347 352 m 1
- 345 193 l 1
- 255 122 l 1
- 255 278 l 1
- 347 352 l 1
-EndSplineSet
+Refer: 601 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE106 uniE261
 EndChar
 
@@ -15181,25 +13360,12 @@ StartChar: uniE106E260.liga
 Encoding: 65663 -1 694
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<201 451>
-VStem: 143 656<3 118>
+VStem: 143 656<684 799>
 LayerCount: 2
 Fore
-SplineSet
-201 0 m 1
- 799 3 l 1
- 451 802 l 1
- 319 802 l 1
- 625 118 l 1
- 302 119 l 1
- 201 0 l 1
-143 118 m 1
- 302 120 l 1
- 373 210 l 1
- 217 210 l 1
- 143 118 l 1
-EndSplineSet
+Refer: 602 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE106 uniE260
 EndChar
 
@@ -15207,25 +13373,12 @@ StartChar: uniE105E260.liga
 Encoding: 65664 -1 695
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 1.5 117
-VStem: 151 731<3 212>
+Flags: HMW
+HStem: 683.5 117
+VStem: 151 731<590 799>
 LayerCount: 2
 Fore
-SplineSet
-749 0 m 1
- 151 3 l 1
- 499 802 l 1
- 631 802 l 1
- 325 118 l 1
- 648 119 l 1
- 749 0 l 1
-652 120 m 1
- 811 122 l 1
- 882 212 l 1
- 726 212 l 1
- 652 120 l 1
-EndSplineSet
+Refer: 603 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE105 uniE260
 EndChar
 
@@ -15233,30 +13386,12 @@ StartChar: uniE107E261.liga
 Encoding: 65665 -1 696
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<151 153>
 VStem: 752 91
 LayerCount: 2
 Fore
-SplineSet
-151 802 m 1
- 151 258 l 1
- 173 181 181 138 331 131 c 1
- 454 252 l 1
- 377 245 262 250 280 305 c 1
- 280 712 l 1
- 151 802 l 1
-751 364 m 1
- 843 290 l 1
- 843 134 l 1
- 753 205 l 1
- 751 364 l 1
-153 0 m 1
- 718 1 l 1
- 844 133 l 1
- 331 131 l 1
- 153 0 l 1
-EndSplineSet
+Refer: 604 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE107 uniE261
 EndChar
 
@@ -15264,30 +13399,12 @@ StartChar: uniE107E260.liga
 Encoding: 65666 -1 697
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<151 153>
-VStem: 151 920<226 802 226 258>
+VStem: 151 920<0 576 544 576>
 LayerCount: 2
 Fore
-SplineSet
-280 712 m 1
- 151 802 l 1
- 151 258 l 1
- 173 181 181 138 331 131 c 1
- 454 252 l 1
- 377 245 262 250 280 305 c 1
- 280 712 l 1
-841 134 m 1
- 1000 136 l 1
- 1071 226 l 1
- 915 226 l 1
- 841 134 l 1
-718 1 m 1
- 844 133 l 1
- 331 131 l 1
- 153 0 l 1
- 718 1 l 1
-EndSplineSet
+Refer: 605 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE107 uniE260
 EndChar
 
@@ -15295,30 +13412,12 @@ StartChar: uniE108E261.liga
 Encoding: 65667 -1 698
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<842 844>
 VStem: 152 91
 LayerCount: 2
 Fore
-SplineSet
-844 802 m 1
- 715 712 l 1
- 715 305 l 1
- 733 250 618 245 541 252 c 1
- 664 131 l 1
- 814 138 822 181 844 258 c 1
- 844 802 l 1
-244 364 m 1
- 242 205 l 1
- 152 134 l 1
- 152 290 l 1
- 244 364 l 1
-842 0 m 1
- 664 131 l 1
- 151 133 l 1
- 277 1 l 1
- 842 0 l 1
-EndSplineSet
+Refer: 606 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE108 uniE261
 EndChar
 
@@ -15326,30 +13425,12 @@ StartChar: uniE108E260.liga
 Encoding: 65668 -1 699
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 802<841 844>
-VStem: -9 853<132 802>
+VStem: -9 853<0 670>
 LayerCount: 2
 Fore
-SplineSet
-844 802 m 1
- 714 712 l 1
- 714 305 l 1
- 732 250 617 245 540 252 c 1
- 663 131 l 1
- 813 138 821 181 844 258 c 1
- 844 802 l 1
-65 224 m 1
- -9 132 l 1
- 151 134 l 1
- 222 224 l 1
- 65 224 l 1
-841 0 m 1
- 663 131 l 1
- 151 133 l 1
- 276 1 l 1
- 841 0 l 1
-EndSplineSet
+Refer: 607 -1 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE108 uniE260
 EndChar
 
@@ -15357,30 +13438,12 @@ StartChar: uniE109E261.liga
 Encoding: 65669 -1 700
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 293.5
+Flags: HMW
+HStem: 399 293.5
 VStem: 645 91
 LayerCount: 2
 Fore
-SplineSet
-642 404 m 1
- 307 800 l 1
- 165 799 l 1
- 505 404 l 1
- 642 404 l 1
-151 4 m 1
- 838 3 l 1
- 737 112 l 1
- 344 109 l 1
- 505 404 l 1
- 387 404 l 1
- 151 4 l 1
-644 343 m 1
- 736 269 l 1
- 736 113 l 1
- 646 184 l 1
- 644 343 l 1
-EndSplineSet
+Refer: 608 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE109 uniE261
 EndChar
 
@@ -15388,30 +13451,12 @@ StartChar: uniE109E260.liga
 Encoding: 65670 -1 701
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 106.5 293.5
-VStem: 151 822<0 199>
+Flags: HMW
+HStem: 403 293.5
+VStem: 151 822<604 803>
 LayerCount: 2
 Fore
-SplineSet
-165 795 m 1
- 505 400 l 1
- 642 400 l 1
- 307 796 l 1
- 165 795 l 1
-505 400 m 1
- 387 400 l 1
- 151 0 l 1
- 838 -1 l 1
- 737 108 l 1
- 344 105 l 1
- 505 400 l 1
-743 107 m 1
- 902 109 l 1
- 973 199 l 1
- 817 199 l 1
- 743 107 l 1
-EndSplineSet
+Refer: 609 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE109 uniE260
 EndChar
 
@@ -15419,28 +13464,12 @@ StartChar: uniE10AE261.liga
 Encoding: 65671 -1 702
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -15 819<499 499 499 844 499 844>
 VStem: 665 91
 LayerCount: 2
 Fore
-SplineSet
-844 -15 m 1
- 759 105 l 1
- 284 107 l 1
- 615 390 l 1
- 618 698 l 1
- 499 804 l 1
- 499 444 l 1
- 189 184 l 1
- 400 -15 l 1
- 844 -15 l 1
-664 338 m 1
- 756 264 l 1
- 756 108 l 1
- 666 179 l 1
- 664 338 l 1
-EndSplineSet
+Refer: 610 -1 N 1 0 0 -1 0 789 2
 Ligature2: "PatternStemRelation" uniE10A uniE261
 EndChar
 
@@ -15448,28 +13477,12 @@ StartChar: uniE10AE260.liga
 Encoding: 65672 -1 703
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: -15 121
+Flags: HMW
+HStem: 683 121
 VStem: 499 117.5
 LayerCount: 2
 Fore
-SplineSet
-844 -15 m 1
- 400 -15 l 1
- 189 184 l 1
- 499 444 l 1
- 499 804 l 1
- 618 698 l 1
- 615 390 l 1
- 284 107 l 1
- 759 105 l 1
- 844 -15 l 1
-763 107 m 1
- 922 109 l 1
- 993 199 l 1
- 837 199 l 1
- 763 107 l 1
-EndSplineSet
+Refer: 611 -1 N 1 0 0 -1 0 789 2
 Ligature2: "PatternStemRelation" uniE10A uniE260
 EndChar
 
@@ -15477,26 +13490,12 @@ StartChar: uniE10BE261.liga
 Encoding: 65673 -1 704
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<151 794 545 794>
 VStem: 269 91
 LayerCount: 2
 Fore
-SplineSet
-151 0 m 1
- 545 0 l 1
- 794 300 l 1
- 794 804 l 1
- 661 714 l 1
- 662 144 l 1
- 268 145 l 1
- 151 0 l 1
-361 377 m 1
- 359 218 l 1
- 269 147 l 1
- 269 303 l 1
- 361 377 l 1
-EndSplineSet
+Refer: 612 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE10B uniE261
 EndChar
 
@@ -15504,26 +13503,12 @@ StartChar: uniE10BE260.liga
 Encoding: 65674 -1 705
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 804<201 844 594 844>
-VStem: 161 683<146 804>
+VStem: 161 683<0 658>
 LayerCount: 2
 Fore
-SplineSet
-201 0 m 1
- 594 0 l 1
- 844 300 l 1
- 844 804 l 1
- 710 714 l 1
- 711 144 l 1
- 317 145 l 1
- 201 0 l 1
-161 146 m 1
- 320 148 l 1
- 391 238 l 1
- 235 238 l 1
- 161 146 l 1
-EndSplineSet
+Refer: 613 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE10B uniE260
 EndChar
 
@@ -15531,30 +13516,12 @@ StartChar: uniE10CE261.liga
 Encoding: 65675 -1 706
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 116.5
+Flags: HMW
+HStem: 574 116.5
 VStem: 742 91
 LayerCount: 2
 Fore
-SplineSet
-244 111 m 1
- 363 227 l 1
- 358 506 l 1
- 685 801 l 1
- 514 801 l 1
- 249 572 l 1
- 244 111 l 1
-741 342 m 1
- 833 268 l 1
- 833 112 l 1
- 743 183 l 1
- 741 342 l 1
-151 2 m 1
- 741 0 l 1
- 834 110 l 1
- 244 111 l 1
- 151 2 l 1
-EndSplineSet
+Refer: 614 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE10C uniE261
 EndChar
 
@@ -15562,30 +13529,12 @@ StartChar: uniE10CE260.liga
 Encoding: 65676 -1 707
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 113.5 116.5
-VStem: 151 915<5 205>
+Flags: HMW
+HStem: 571 116.5
+VStem: 151 915<596 796>
 LayerCount: 2
 Fore
-SplineSet
-685 804 m 1
- 514 804 l 1
- 249 575 l 1
- 244 114 l 1
- 363 230 l 1
- 358 509 l 1
- 685 804 l 1
-836 113 m 1
- 995 115 l 1
- 1066 205 l 1
- 910 205 l 1
- 836 113 l 1
-741 3 m 1
- 834 113 l 1
- 244 114 l 1
- 151 5 l 1
- 741 3 l 1
-EndSplineSet
+Refer: 615 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE10C uniE260
 EndChar
 
@@ -15593,30 +13542,12 @@ StartChar: uniE10DE261.liga
 Encoding: 65677 -1 708
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 108 292
+Flags: HMW
+HStem: 399 292
 VStem: 642 91
 LayerCount: 2
 Fore
-SplineSet
-266 799 m 1
- 151 799 l 1
- 378 400 l 1
- 508 400 l 1
- 266 799 l 1
-151 0 m 1
- 839 0 l 1
- 737 111 l 1
- 385 105 l 1
- 640 400 l 1
- 508 400 l 1
- 151 0 l 1
-641 343 m 1
- 733 269 l 1
- 733 113 l 1
- 643 184 l 1
- 641 343 l 1
-EndSplineSet
+Refer: 616 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE10D uniE261
 EndChar
 
@@ -15624,30 +13555,12 @@ StartChar: uniE10DE260.liga
 Encoding: 65678 -1 709
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 108 292
-VStem: 151 820<0 203 203 799>
+Flags: HMW
+HStem: 399 292
+VStem: 151 820<596 799 0 596>
 LayerCount: 2
 Fore
-SplineSet
-378 400 m 1
- 508 400 l 1
- 266 799 l 1
- 151 799 l 1
- 378 400 l 1
-640 400 m 1
- 508 400 l 1
- 151 0 l 1
- 839 0 l 1
- 737 111 l 1
- 385 105 l 1
- 640 400 l 1
-741 111 m 1
- 900 113 l 1
- 971 203 l 1
- 815 203 l 1
- 741 111 l 1
-EndSplineSet
+Refer: 617 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE10D uniE260
 EndChar
 
@@ -15655,28 +13568,12 @@ StartChar: uniE10EE261.liga
 Encoding: 65679 -1 710
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 106 73
+Flags: HMW
+HStem: 610 73
 VStem: 368 48.5
 LayerCount: 2
 Fore
-SplineSet
-189 -15 m 1
- 633 -15 l 1
- 844 184 l 1
- 534 444 l 1
- 534 804 l 1
- 415 698 l 1
- 418 390 l 1
- 749 107 l 1
- 274 105 l 1
- 189 -15 l 1
-369 338 m 1
- 277 264 l 1
- 277 108 l 1
- 367 179 l 1
- 369 338 l 1
-EndSplineSet
+Refer: 618 -1 N 1 0 0 -1 0 789 2
 Ligature2: "PatternStemRelation" uniE10E uniE261
 EndChar
 
@@ -15684,28 +13581,12 @@ StartChar: uniE10EE260.liga
 Encoding: 65680 -1 711
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: -15 819<574 574 574 673 574 673>
-VStem: 155 729<104 184>
+VStem: 155 729<605 685>
 LayerCount: 2
 Fore
-SplineSet
-229 -15 m 1
- 673 -15 l 1
- 884 184 l 1
- 574 444 l 1
- 574 804 l 1
- 455 698 l 1
- 458 390 l 1
- 789 107 l 1
- 314 105 l 1
- 229 -15 l 1
-155 104 m 1
- 314 106 l 1
- 385 196 l 1
- 229 196 l 1
- 155 104 l 1
-EndSplineSet
+Refer: 619 -1 N 1 0 0 -1 0 789 2
 Ligature2: "PatternStemRelation" uniE10E uniE260
 EndChar
 
@@ -15713,30 +13594,12 @@ StartChar: uniE10FE261.liga
 Encoding: 65681 -1 712
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110 290
+Flags: HMW
+HStem: 401 290
 VStem: 634 91
 LayerCount: 2
 Fore
-SplineSet
-609 799 m 1
- 378 400 l 1
- 498 400 l 1
- 733 799 l 1
- 609 799 l 1
-727 113 m 1
- 395 107 l 1
- 622 400 l 1
- 498 400 l 1
- 151 2 l 1
- 829 2 l 1
- 727 113 l 1
-633 345 m 1
- 725 271 l 1
- 725 115 l 1
- 635 186 l 1
- 633 345 l 1
-EndSplineSet
+Refer: 620 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE10F uniE261
 EndChar
 
@@ -15744,30 +13607,12 @@ StartChar: uniE10FE260.liga
 Encoding: 65682 -1 713
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 108 290
-VStem: 151 811<0 203>
+Flags: HMW
+HStem: 403 290
+VStem: 151 811<598 801>
 LayerCount: 2
 Fore
-SplineSet
-378 398 m 1
- 498 398 l 1
- 733 797 l 1
- 609 797 l 1
- 378 398 l 1
-622 398 m 1
- 498 398 l 1
- 151 0 l 1
- 829 0 l 1
- 727 111 l 1
- 395 105 l 1
- 622 398 l 1
-732 111 m 1
- 891 113 l 1
- 962 203 l 1
- 806 203 l 1
- 732 111 l 1
-EndSplineSet
+Refer: 621 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE10F uniE260
 EndChar
 
@@ -15775,30 +13620,12 @@ StartChar: uniE110E261.liga
 Encoding: 65683 -1 714
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110 290
+Flags: HMW
+HStem: 401 290
 VStem: 255 91
 LayerCount: 2
 Fore
-SplineSet
-371 799 m 1
- 247 799 l 1
- 482 400 l 1
- 602 400 l 1
- 371 799 l 1
-253 113 m 1
- 151 2 l 1
- 829 2 l 1
- 482 400 l 1
- 358 400 l 1
- 585 107 l 1
- 253 113 l 1
-347 345 m 1
- 345 186 l 1
- 255 115 l 1
- 255 271 l 1
- 347 345 l 1
-EndSplineSet
+Refer: 622 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE110 uniE261
 EndChar
 
@@ -15806,30 +13633,12 @@ StartChar: uniE111E261.liga
 Encoding: 65684 -1 715
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 293.5
+Flags: HMW
+HStem: 397 293.5
 VStem: 253 91
 LayerCount: 2
 Fore
-SplineSet
-347 404 m 1
- 484 404 l 1
- 824 799 l 1
- 682 800 l 1
- 347 404 l 1
-838 4 m 1
- 602 404 l 1
- 484 404 l 1
- 645 109 l 1
- 252 112 l 1
- 151 3 l 1
- 838 4 l 1
-345 343 m 1
- 343 184 l 1
- 253 113 l 1
- 253 269 l 1
- 345 343 l 1
-EndSplineSet
+Refer: 623 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE111 uniE261
 EndChar
 
@@ -15837,30 +13646,12 @@ StartChar: uniE110E260.liga
 Encoding: 65685 -1 716
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 108 290
-VStem: 34 735<0 110>
+Flags: HMW
+HStem: 405 290
+VStem: 34 735<693 803>
 LayerCount: 2
 Fore
-SplineSet
-186 797 m 1
- 422 398 l 1
- 541 398 l 1
- 311 797 l 1
- 186 797 l 1
-297 398 m 1
- 525 105 l 1
- 192 111 l 1
- 91 0 l 1
- 769 0 l 1
- 422 398 l 1
- 297 398 l 1
-108 202 m 1
- 34 110 l 1
- 193 112 l 1
- 264 202 l 1
- 108 202 l 1
-EndSplineSet
+Refer: 624 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE110 uniE260
 EndChar
 
@@ -15868,30 +13659,12 @@ StartChar: uniE111E260.liga
 Encoding: 65686 -1 717
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 199 201<78 394 78 394>
-VStem: 4 744<0 107>
+Flags: HMW
+HStem: 403 201<78 394 78 394>
+VStem: 4 744<696 803>
 LayerCount: 2
 Fore
-SplineSet
-257 400 m 1
- 394 400 l 1
- 734 795 l 1
- 592 796 l 1
- 257 400 l 1
-394 400 m 1
- 555 105 l 1
- 162 108 l 1
- 61 -1 l 1
- 748 0 l 1
- 512 400 l 1
- 394 400 l 1
-78 199 m 1
- 4 107 l 1
- 163 109 l 1
- 234 199 l 1
- 78 199 l 1
-EndSplineSet
+Refer: 625 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE111 uniE260
 EndChar
 
@@ -15899,30 +13672,12 @@ StartChar: uniE112E261.liga
 Encoding: 65687 -1 718
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 108 76
-VStem: 151 688<0 0>
+Flags: HMW
+HStem: 615 76
+VStem: 151 688<799 799>
 LayerCount: 2
 Fore
-SplineSet
-724 799 m 1
- 482 400 l 1
- 612 400 l 1
- 839 799 l 1
- 724 799 l 1
-839 0 m 1
- 482 400 l 1
- 350 400 l 1
- 605 105 l 1
- 253 111 l 1
- 151 0 l 1
- 839 0 l 1
-349 343 m 1
- 257 269 l 1
- 257 113 l 1
- 347 184 l 1
- 349 343 l 1
-EndSplineSet
+Refer: 626 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE112 uniE261
 EndChar
 
@@ -15930,30 +13685,12 @@ StartChar: uniE112E260.liga
 Encoding: 65688 -1 719
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 108 292
-VStem: 23 746<0 110>
+Flags: HMW
+HStem: 399 292
+VStem: 23 746<689 799>
 LayerCount: 2
 Fore
-SplineSet
-653 799 m 1
- 412 400 l 1
- 541 400 l 1
- 769 799 l 1
- 653 799 l 1
-535 105 m 1
- 182 111 l 1
- 81 0 l 1
- 769 0 l 1
- 412 400 l 1
- 280 400 l 1
- 535 105 l 1
-97 202 m 1
- 23 110 l 1
- 182 112 l 1
- 253 202 l 1
- 97 202 l 1
-EndSplineSet
+Refer: 627 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE112 uniE260
 EndChar
 
@@ -15961,27 +13698,12 @@ StartChar: uniE113E261.liga
 Encoding: 65689 -1 720
 Width: 1000
 GlyphClass: 3
-Flags: MW
+Flags: HMW
 HStem: 0 799<244 397 244 745 244 745>
 VStem: 254 91
 LayerCount: 2
 Fore
-SplineSet
-151 0 m 1
- 745 0 l 1
- 745 480 l 1
- 397 799 l 1
- 244 799 l 1
- 650 399 l 1
- 652 109 l 1
- 252 111 l 1
- 151 0 l 1
-346 343 m 1
- 344 184 l 1
- 254 113 l 1
- 254 269 l 1
- 346 343 l 1
-EndSplineSet
+Refer: 628 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE113 uniE261
 EndChar
 
@@ -15989,30 +13711,12 @@ StartChar: uniE114E261.liga
 Encoding: 65690 -1 721
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 801<244 471>
+Flags: HMW
+HStem: -2 801<244 471>
 VStem: 152 91
 LayerCount: 2
 Fore
-SplineSet
-741 111 m 1
- 736 572 l 1
- 471 801 l 1
- 300 801 l 1
- 627 506 l 1
- 622 227 l 1
- 741 111 l 1
-244 342 m 1
- 242 183 l 1
- 152 112 l 1
- 152 268 l 1
- 244 342 l 1
-834 2 m 1
- 741 111 l 1
- 151 110 l 1
- 244 0 l 1
- 834 2 l 1
-EndSplineSet
+Refer: 629 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE114 uniE261
 EndChar
 
@@ -16020,27 +13724,12 @@ StartChar: uniE113E260.liga
 Encoding: 65691 -1 722
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 0 799<244 397 244 745 244 745>
-VStem: 89 656<109 109>
+Flags: HMW
+HStem: 2 799<244 397 244 745 244 745>
+VStem: 89 656<692 692>
 LayerCount: 2
 Fore
-SplineSet
-151 0 m 1
- 745 0 l 1
- 745 480 l 1
- 397 799 l 1
- 244 799 l 1
- 650 399 l 1
- 652 109 l 1
- 252 111 l 1
- 151 0 l 1
-89 109 m 1
- 248 111 l 1
- 319 201 l 1
- 163 201 l 1
- 89 109 l 1
-EndSplineSet
+Refer: 630 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE113 uniE260
 EndChar
 
@@ -16048,30 +13737,12 @@ StartChar: uniE114E260.liga
 Encoding: 65692 -1 723
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3 801<223 279>
-VStem: -30 844<5 112>
+Flags: HMW
+HStem: -3 801<223 279>
+VStem: -30 844<689 796>
 LayerCount: 2
 Fore
-SplineSet
-279 804 m 1
- 606 509 l 1
- 601 230 l 1
- 720 114 l 1
- 715 575 l 1
- 450 804 l 1
- 279 804 l 1
--30 112 m 1
- 129 114 l 1
- 200 204 l 1
- 44 204 l 1
- -30 112 l 1
-131 113 m 1
- 223 3 l 1
- 814 5 l 1
- 720 114 l 1
- 131 113 l 1
-EndSplineSet
+Refer: 631 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE114 uniE260
 EndChar
 
@@ -16079,29 +13750,12 @@ StartChar: uniE115E261.liga
 Encoding: 65693 -1 724
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 4.5 111 339.5 118
+Flags: HMW
+HStem: 688.5 111 346.5 118
 VStem: 151 110 499 110.5 652 91
 LayerCount: 2
 Fore
-SplineSet
-841 6 m 1
- 151 3 l 1
- 151 458 l 1
- 499 457 l 1
- 499 801 l 1
- 606 699 l 1
- 613 340 l 1
- 258 339 l 1
- 264 113 l 1
- 745 118 l 1
- 841 6 l 1
-651 350 m 1
- 743 276 l 1
- 743 120 l 1
- 653 191 l 1
- 651 350 l 1
-EndSplineSet
+Refer: 632 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE115 uniE261
 EndChar
 
@@ -16109,29 +13763,12 @@ StartChar: uniE115E260.liga
 Encoding: 65694 -1 725
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 52.5 224
-VStem: 151 827<148 148 148 395 -60 148> 261 238
+Flags: HMW
+HStem: 527.5 224
+VStem: 151 827<656 656 409 656 656 864> 261 238
 LayerCount: 2
 Fore
-SplineSet
-841 -57 m 1xc0
- 745 55 l 1
- 264 50 l 1
- 258 276 l 1
- 613 277 l 1
- 606 636 l 1
- 499 738 l 1
- 499 394 l 1xa0
- 151 395 l 1
- 151 -60 l 1
- 841 -57 l 1xc0
-748 56 m 1
- 907 58 l 1
- 978 148 l 1
- 822 148 l 1
- 748 56 l 1
-EndSplineSet
+Refer: 633 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE115 uniE260
 EndChar
 
@@ -16139,29 +13776,12 @@ StartChar: uniE116E261.liga
 Encoding: 65695 -1 726
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 4.5 111 339.5 118
+Flags: HMW
+HStem: 688.5 111 346.5 118
 VStem: 249 91 382.5 110.5 731 110
 LayerCount: 2
 Fore
-SplineSet
-151 6 m 1
- 247 118 l 1
- 728 113 l 1
- 734 339 l 1
- 379 340 l 1
- 386 699 l 1
- 493 801 l 1
- 493 457 l 1
- 841 458 l 1
- 841 3 l 1
- 151 6 l 1
-341 350 m 1
- 339 191 l 1
- 249 120 l 1
- 249 276 l 1
- 341 350 l 1
-EndSplineSet
+Refer: 634 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE116 uniE261
 EndChar
 
@@ -16169,29 +13789,12 @@ StartChar: uniE116E260.liga
 Encoding: 65696 -1 727
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: -58.5 111 276.5 118
+Flags: HMW
+HStem: 748.5 111 406.5 118
 VStem: 384.5 111.5 733 111
 LayerCount: 2
 Fore
-SplineSet
-154 -57 m 1
- 249 55 l 1
- 730 50 l 1
- 736 276 l 1
- 381 277 l 1
- 388 636 l 1
- 496 738 l 1
- 496 394 l 1
- 844 395 l 1
- 844 -60 l 1
- 154 -57 l 1
-89 53 m 1
- 248 55 l 1
- 319 145 l 1
- 163 145 l 1
- 89 53 l 1
-EndSplineSet
+Refer: 635 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE116 uniE260
 EndChar
 
@@ -16199,30 +13802,12 @@ StartChar: uniE117E261.liga
 Encoding: 65697 -1 728
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 112 126
+Flags: HMW
+HStem: 566 126
 VStem: 246 93 641 91
 LayerCount: 2
 Fore
-SplineSet
-339 238 m 1
- 704 799 l 1
- 564 799 l 1
- 248 318 l 1
- 339 238 l 1
-151 2 m 1
- 834 2 l 1
- 733 113 l 1
- 244 111 l 1
- 248 318 l 1
- 151 403 l 1
- 151 2 l 1
-640 345 m 1
- 732 271 l 1
- 732 115 l 1
- 642 186 l 1
- 640 345 l 1
-EndSplineSet
+Refer: 636 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE117 uniE261
 EndChar
 
@@ -16230,30 +13815,12 @@ StartChar: uniE118E261.liga
 Encoding: 65698 -1 729
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 112 126
+Flags: HMW
+HStem: 563 126
 VStem: 253 91 646 93
 LayerCount: 2
 Fore
-SplineSet
-646 238 m 1
- 737 318 l 1
- 421 799 l 1
- 281 799 l 1
- 646 238 l 1
-834 2 m 1
- 834 403 l 1
- 737 318 l 1
- 741 111 l 1
- 252 113 l 1
- 151 2 l 1
- 834 2 l 1
-345 345 m 1
- 343 186 l 1
- 253 115 l 1
- 253 271 l 1
- 345 345 l 1
-EndSplineSet
+Refer: 637 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE118 uniE261
 EndChar
 
@@ -16261,30 +13828,12 @@ StartChar: uniE117E260.liga
 Encoding: 65699 -1 730
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110 126
+Flags: HMW
+HStem: 565 126
 VStem: 246 93
 LayerCount: 2
 Fore
-SplineSet
-564 797 m 1
- 248 316 l 1
- 339 236 l 1
- 704 797 l 1
- 564 797 l 1
-248 316 m 1
- 151 401 l 1
- 151 0 l 1
- 834 0 l 1
- 733 111 l 1
- 244 109 l 1
- 248 316 l 1
-737 111 m 1
- 896 113 l 1
- 967 203 l 1
- 811 203 l 1
- 737 111 l 1
-EndSplineSet
+Refer: 638 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE117 uniE260
 EndChar
 
@@ -16292,33 +13841,12 @@ StartChar: uniE119E261.liga
 Encoding: 65700 -1 731
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 182.5
+Flags: HMW
+HStem: 506 182.5
 VStem: 245.5 255 651 91
 LayerCount: 2
 Fore
-SplineSet
-613 696 m 1
- 502 799 l 1
- 499 400 l 1
- 247 400 l 1
- 364 292 l 1
- 502 294 l 2
- 586 299 612 328 613 400 c 2
- 613 696 l 1
-151 0 m 1
- 844 1 l 1
- 742 112 l 1
- 244 109 l 1
- 247 400 l 1
- 151 493 l 1
- 151 0 l 1
-650 343 m 1
- 742 269 l 1
- 742 113 l 1
- 652 184 l 1
- 650 343 l 1
-EndSplineSet
+Refer: 639 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE119 uniE261
 EndChar
 
@@ -16326,33 +13854,12 @@ StartChar: uniE119E260.liga
 Encoding: 65701 -1 732
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 50.5 182.5
+Flags: HMW
+HStem: 568 182.5
 VStem: 245.5 255
 LayerCount: 2
 Fore
-SplineSet
-613 340 m 2
- 613 636 l 1
- 502 739 l 1
- 499 340 l 1
- 247 340 l 1
- 364 232 l 1
- 502 234 l 2
- 586 239 612 268 613 340 c 2
-247 340 m 1
- 151 433 l 1
- 151 -60 l 1
- 844 -59 l 1
- 742 52 l 1
- 244 49 l 1
- 247 340 l 1
-746 52 m 1
- 905 54 l 1
- 976 144 l 1
- 820 144 l 1
- 746 52 l 1
-EndSplineSet
+Refer: 640 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE119 uniE260
 EndChar
 
@@ -16360,33 +13867,12 @@ StartChar: uniE11AE261.liga
 Encoding: 65702 -1 733
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110.5 182.5
+Flags: HMW
+HStem: 506 182.5
 VStem: 253 91 494.5 255
 LayerCount: 2
 Fore
-SplineSet
-382 696 m 1
- 382 400 l 2
- 383 328 409 299 493 294 c 2
- 631 292 l 1
- 748 400 l 1
- 496 400 l 1
- 493 799 l 1
- 382 696 l 1
-844 0 m 1
- 844 493 l 1
- 748 400 l 1
- 751 109 l 1
- 253 112 l 1
- 151 1 l 1
- 844 0 l 1
-345 343 m 1
- 343 184 l 1
- 253 113 l 1
- 253 269 l 1
- 345 343 l 1
-EndSplineSet
+Refer: 641 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE11A uniE261
 EndChar
 
@@ -16394,33 +13880,12 @@ StartChar: uniE11AE260.liga
 Encoding: 65703 -1 734
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 50.5 182.5
+Flags: HMW
+HStem: 566 182.5
 VStem: 494 254.5
 LayerCount: 2
 Fore
-SplineSet
-381 636 m 1
- 381 340 l 2
- 382 268 408 239 493 234 c 2
- 630 232 l 1
- 747 340 l 1
- 495 340 l 1
- 493 739 l 1
- 381 636 l 1
-750 49 m 1
- 252 52 l 1
- 151 -59 l 1
- 844 -60 l 1
- 844 433 l 1
- 747 340 l 1
- 750 49 l 1
-166 142 m 1
- 92 50 l 1
- 251 52 l 1
- 322 142 l 1
- 166 142 l 1
-EndSplineSet
+Refer: 642 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE11A uniE260
 EndChar
 
@@ -16428,29 +13893,12 @@ StartChar: uniE11BE261.liga
 Encoding: 65704 -1 735
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 1.5 119.5 291.5 110.5
+Flags: HMW
+HStem: 680 119.5 399 110.5
 VStem: 151 124.5 655 91
 LayerCount: 2
 Fore
-SplineSet
-844 3 m 1
- 151 0 l 1
- 421 293 l 1
- 151 290 l 1
- 151 801 l 1
- 274 683 l 1
- 277 402 l 1
- 675 402 l 1
- 437 119 l 1
- 748 123 l 1
- 844 3 l 1
-654 356 m 1
- 746 282 l 1
- 746 126 l 1
- 656 197 l 1
- 654 356 l 1
-EndSplineSet
+Refer: 643 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE11B uniE261
 EndChar
 
@@ -16458,30 +13906,12 @@ StartChar: uniE118E260.liga
 Encoding: 65705 -1 736
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 110 126
+Flags: HMW
+HStem: 563 126
 VStem: 560 93
 LayerCount: 2
 Fore
-SplineSet
-560 236 m 1
- 651 316 l 1
- 335 797 l 1
- 195 797 l 1
- 560 236 l 1
-655 109 m 1
- 166 111 l 1
- 65 0 l 1
- 748 0 l 1
- 748 401 l 1
- 651 316 l 1
- 655 109 l 1
-82 202 m 1
- 8 110 l 1
- 167 112 l 1
- 238 202 l 1
- 82 202 l 1
-EndSplineSet
+Refer: 644 -1 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE118 uniE260
 EndChar
 
@@ -16489,29 +13919,12 @@ StartChar: uniE11BE260.liga
 Encoding: 65706 -1 737
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 61 170.5
-VStem: 151 831<-60 155 155 741 155 230>
+Flags: HMW
+HStem: 571.5 170.5
+VStem: 151 831<648 863 62 648 573 648>
 LayerCount: 2
 Fore
-SplineSet
-844 -57 m 1
- 748 63 l 1
- 437 59 l 1
- 675 342 l 1
- 277 342 l 1
- 274 623 l 1
- 151 741 l 1
- 151 230 l 1
- 421 233 l 1
- 151 -60 l 1
- 844 -57 l 1
-752 63 m 1
- 911 65 l 1
- 982 155 l 1
- 826 155 l 1
- 752 63 l 1
-EndSplineSet
+Refer: 645 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE11B uniE260
 EndChar
 
@@ -16519,29 +13932,12 @@ StartChar: uniE11CE261.liga
 Encoding: 65707 -1 738
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3.5 118 298 107
-VStem: 151 103<119 297 119 405> 655 91
+Flags: HMW
+HStem: 679.5 118 396 107
+VStem: 151 103<504 682 396 682> 655 91
 LayerCount: 2
 Fore
-SplineSet
-844 5 m 1
- 151 2 l 1
- 151 405 l 1
- 389 405 l 1
- 2 801 l 1
- 172 801 l 1
- 651 299 l 1
- 254 297 l 1
- 254 119 l 1
- 748 124 l 1
- 844 5 l 1
-654 358 m 1
- 746 284 l 1
- 746 128 l 1
- 656 199 l 1
- 654 358 l 1
-EndSplineSet
+Refer: 646 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE11C uniE261
 EndChar
 
@@ -16549,29 +13945,12 @@ StartChar: uniE11CE260.liga
 Encoding: 65708 -1 739
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3.5 118 298 107
-VStem: 151 103<119 297 119 405>
+Flags: HMW
+HStem: 681.5 118 398 107
+VStem: 151 103<506 684 398 684>
 LayerCount: 2
 Fore
-SplineSet
-844 5 m 1
- 151 2 l 1
- 151 405 l 1
- 389 405 l 1
- 2 801 l 1
- 172 801 l 1
- 651 299 l 1
- 254 297 l 1
- 254 119 l 1
- 748 124 l 1
- 844 5 l 1
-676 217 m 1
- 750 125 l 1
- 906 125 l 1
- 835 215 l 1
- 676 217 l 1
-EndSplineSet
+Refer: 647 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE11C uniE260
 EndChar
 
@@ -16579,29 +13958,12 @@ StartChar: uniE11DE261.liga
 Encoding: 65709 -1 740
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3.5 118 298 107
-VStem: 249 91 741 103<119 297 297 297>
+Flags: HMW
+HStem: 681.5 118 398 107
+VStem: 249 91 741 103<506 684 506 506>
 LayerCount: 2
 Fore
-SplineSet
-151 5 m 1
- 247 124 l 1
- 741 119 l 1
- 741 297 l 1
- 344 299 l 1
- 823 801 l 1
- 993 801 l 1
- 606 405 l 1
- 844 405 l 1
- 844 2 l 1
- 151 5 l 1
-341 358 m 1
- 339 199 l 1
- 249 128 l 1
- 249 284 l 1
- 341 358 l 1
-EndSplineSet
+Refer: 648 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE11D uniE261
 EndChar
 
@@ -16609,29 +13971,12 @@ StartChar: uniE11DE260.liga
 Encoding: 65710 -1 741
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 3.5 118 298 107
-VStem: 654 103<119 297 297 297>
+Flags: HMW
+HStem: 681.5 118 398 107
+VStem: 654 103<506 684 506 506>
 LayerCount: 2
 Fore
-SplineSet
-64 5 m 1
- 160 124 l 1
- 654 119 l 1
- 654 297 l 1
- 257 299 l 1
- 736 801 l 1
- 906 801 l 1
- 519 405 l 1
- 757 405 l 1
- 757 2 l 1
- 64 5 l 1
-232 217 m 1
- 73 215 l 1
- 2 125 l 1
- 158 125 l 1
- 232 217 l 1
-EndSplineSet
+Refer: 649 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE11D uniE260
 EndChar
 
@@ -16639,32 +13984,12 @@ StartChar: uniE11EE261.liga
 Encoding: 65711 -1 742
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 123.5 281.5
+Flags: HMW
+HStem: 399 281.5
 VStem: 750 91
 LayerCount: 2
 Fore
-SplineSet
-274 124 m 1
- 398 230 l 1
- 400 405 l 1
- 766 405 l 1
- 345 804 l 1
- 151 804 l 1
- 492 519 l 1
- 279 519 l 1
- 274 124 l 1
-749 354 m 1
- 841 280 l 1
- 841 124 l 1
- 751 195 l 1
- 749 354 l 1
-160 5 m 1
- 751 0 l 1
- 843 123 l 1
- 274 124 l 1
- 160 5 l 1
-EndSplineSet
+Refer: 650 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE11E uniE261
 EndChar
 
@@ -16672,32 +13997,12 @@ StartChar: uniE11EE260.liga
 Encoding: 65712 -1 743
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 2.5 121 124 91 405 114<400 400 400 492 279 766>
+Flags: HMW
+HStem: 680.5 121 589 91 285 114<400 400 400 492 279 766>
 VStem: 276.5 122.5
 LayerCount: 2
 Fore
-SplineSet
-400 405 m 1
- 398 230 l 1
- 274 124 l 1
- 279 519 l 1
- 492 519 l 1
- 151 804 l 1
- 345 804 l 1
- 766 405 l 1
- 400 405 l 1
-1072 215 m 1x70
- 1001 125 l 1
- 842 123 l 1
- 843 123 l 1x70
- 751 0 l 1
- 160 5 l 1
- 274 124 l 1
- 842 123 l 1xb0
- 916 215 l 1
- 1072 215 l 1x70
-EndSplineSet
+Refer: 651 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE11E uniE260
 EndChar
 
@@ -16705,32 +14010,12 @@ StartChar: uniE11FE261.liga
 Encoding: 65713 -1 744
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 123.5 281.5
+Flags: HMW
+HStem: 399 281.5
 VStem: 153 91
 LayerCount: 2
 Fore
-SplineSet
-720 124 m 1
- 715 519 l 1
- 502 519 l 1
- 843 804 l 1
- 649 804 l 1
- 228 405 l 1
- 594 405 l 1
- 596 230 l 1
- 720 124 l 1
-245 354 m 1
- 243 195 l 1
- 153 124 l 1
- 153 280 l 1
- 245 354 l 1
-834 5 m 1
- 720 124 l 1
- 151 123 l 1
- 243 0 l 1
- 834 5 l 1
-EndSplineSet
+Refer: 652 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE11F uniE261
 EndChar
 
@@ -16738,32 +14023,12 @@ StartChar: uniE120E261.liga
 Encoding: 65714 -1 745
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 112.5 241.5
+Flags: HMW
+HStem: 450 241.5
 VStem: 389 110 751 91
 LayerCount: 2
 Fore
-SplineSet
-388 219 m 1
- 390 354 l 1
- 609 354 l 1
- 610 691 l 1
- 499 803 l 1
- 499 458 l 1
- 279 458 l 1
- 274 113 l 1
- 388 219 l 1
-750 345 m 1
- 842 271 l 1
- 842 115 l 1
- 752 186 l 1
- 750 345 l 1
-160 4 m 1
- 748 0 l 1
- 843 112 l 1
- 274 113 l 1
- 160 4 l 1
-EndSplineSet
+Refer: 653 -1 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE120 uniE261
 EndChar
 
@@ -16771,32 +14036,12 @@ StartChar: uniE11FE260.liga
 Encoding: 65715 -1 746
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 214 191<65 594 65 594>
-VStem: -9 852<122 804>
+Flags: HMW
+HStem: 398 191<65 594 65 594>
+VStem: -9 852<-1 681>
 LayerCount: 2
 Fore
-SplineSet
-843 804 m 1
- 649 804 l 1
- 228 405 l 1
- 594 405 l 1
- 596 230 l 1
- 720 124 l 1
- 715 519 l 1
- 502 519 l 1
- 843 804 l 1
-65 214 m 1
- -9 122 l 1
- 151 124 l 1
- 222 214 l 1
- 65 214 l 1
-243 0 m 1
- 834 5 l 1
- 720 124 l 1
- 151 123 l 1
- 243 0 l 1
-EndSplineSet
+Refer: 654 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE11F uniE260
 EndChar
 
@@ -16804,32 +14049,12 @@ StartChar: uniE120E260.liga
 Encoding: 65716 -1 747
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: -7 110.5 103 92<841 1071 841 1071 843 1071> 345 104<390 390 390 499 279 609>
+Flags: HMW
+HStem: 699.5 110.5 608 92<841 1071 841 1071 843 1071> 354 104<390 390 390 499 279 609>
 VStem: 276.5 112.5 499 110.5
 LayerCount: 2
 Fore
-SplineSet
-390 345 m 1xb8
- 388 210 l 1
- 274 104 l 1
- 279 449 l 1
- 499 449 l 1
- 499 794 l 1
- 610 682 l 1
- 609 345 l 1
- 390 345 l 1xb8
-1071 195 m 1x78
- 1000 105 l 1
- 841 103 l 1
- 843 103 l 1x78
- 748 -9 l 1
- 160 -5 l 1
- 274 104 l 1
- 841 103 l 1xb8
- 915 195 l 1
- 1071 195 l 1x78
-EndSplineSet
+Refer: 655 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE120 uniE260
 EndChar
 
@@ -16837,32 +14062,12 @@ StartChar: uniE121E261.liga
 Encoding: 65717 -1 748
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 112.5 241.5
+Flags: HMW
+HStem: 449 241.5
 VStem: 161 91 504 110
 LayerCount: 2
 Fore
-SplineSet
-615 219 m 1
- 729 113 l 1
- 724 458 l 1
- 504 458 l 1
- 504 803 l 1
- 393 691 l 1
- 394 354 l 1
- 613 354 l 1
- 615 219 l 1
-253 345 m 1
- 251 186 l 1
- 161 115 l 1
- 161 271 l 1
- 253 345 l 1
-843 4 m 1
- 729 113 l 1
- 160 112 l 1
- 255 0 l 1
- 843 4 l 1
-EndSplineSet
+Refer: 656 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE121 uniE261
 EndChar
 
@@ -16870,31 +14075,12 @@ StartChar: uniE121E260.liga
 Encoding: 65718 -1 749
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 103.5 241.5
+Flags: HMW
+HStem: 458 241.5
 VStem: 495 110
 LayerCount: 2
 Fore
-SplineSet
-495 794 m 1
- 383 682 l 1
- 384 345 l 1
- 604 345 l 1
- 606 210 l 1
- 720 104 l 1
- 715 449 l 1
- 495 449 l 1
- 495 794 l 1
-720 104 m 1
- 151 103 l 1
- 222 193 l 1
- 65 193 l 1
- -9 101 l 1
- 150 103 l 1
- 246 -9 l 1
- 833 -5 l 1
- 720 104 l 1
-EndSplineSet
+Refer: 657 -1 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE121 uniE260
 EndChar
 
@@ -16902,29 +14088,12 @@ StartChar: uniE122E261.liga
 Encoding: 65719 -1 750
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: 1.5 119.5 291.5 110.5
+Flags: HMW
+HStem: 680 119.5 399 110.5
 VStem: 249 91 719.5 124.5
 LayerCount: 2
 Fore
-SplineSet
-151 3 m 1
- 247 123 l 1
- 558 119 l 1
- 320 402 l 1
- 718 402 l 1
- 721 683 l 1
- 844 801 l 1
- 844 290 l 1
- 574 293 l 1
- 844 0 l 1
- 151 3 l 1
-341 356 m 1
- 339 197 l 1
- 249 126 l 1
- 249 282 l 1
- 341 356 l 1
-EndSplineSet
+Refer: 658 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE122 uniE261
 EndChar
 
@@ -16932,29 +14101,12 @@ StartChar: uniE122E260.liga
 Encoding: 65720 -1 751
 Width: 1000
 GlyphClass: 3
-Flags: MW
-HStem: -58.5 119.5 231.5 110.5
+Flags: HMW
+HStem: 740 119.5 459 110.5
 VStem: 718.5 125.5
 LayerCount: 2
 Fore
-SplineSet
-151 -57 m 1
- 246 63 l 1
- 557 59 l 1
- 319 342 l 1
- 717 342 l 1
- 720 623 l 1
- 844 741 l 1
- 844 230 l 1
- 573 233 l 1
- 844 -60 l 1
- 151 -57 l 1
-89 62 m 1
- 248 64 l 1
- 319 154 l 1
- 163 154 l 1
- 89 62 l 1
-EndSplineSet
+Refer: 659 -1 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE122 uniE260
 EndChar
 
@@ -16964,7 +14116,6 @@ Width: 1000
 GlyphClass: 2
 Flags: W
 HStem: 295 260
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -16985,20 +14136,13 @@ VStem: 160 684<695 804>
 LayerCount: 2
 Fore
 SplineSet
-748 801 m 1
- 160 804 l 1
- 499 491 l 1
- 499 0 l 1
- 623 129 l 1
- 622 508 l 1
- 438 697 l 1
- 844 695 l 1
- 748 801 l 1
 751 602 m 5
  844 695 l 5
  964.727539062 654.713867188 1026.05859375 537.473632812 981 435 c 5
  1019.15820312 478.060546875 843.622070312 651.018554688 751 602 c 5
 EndSplineSet
+Refer: 199 57543 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0C7 uniE262
 EndChar
 
@@ -17007,25 +14151,9 @@ Encoding: 65722 -1 754
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 804<656.793 995.793>
-VStem: 311.793 684<695 804>
 LayerCount: 2
 Fore
-SplineSet
-407.79296875 801 m 1
- 995.79296875 804 l 1
- 656.79296875 491 l 1
- 656.79296875 0 l 1
- 532.79296875 129 l 1
- 533.79296875 508 l 1
- 717.79296875 697 l 1
- 311.79296875 695 l 1
- 407.79296875 801 l 1
-404.79296875 602 m 5
- 311.79296875 695 l 5
- 191.065429688 654.713867188 129.734375 537.473632812 174.79296875 435 c 5
- 136.634765625 478.060546875 312.170898438 651.018554688 404.79296875 602 c 5
-EndSplineSet
+Refer: 753 -1 N -1 0 0 1 1155.79 0 2
 Ligature2: "PatternStemRelation" uniE0C8 uniE262
 EndChar
 
@@ -17033,29 +14161,17 @@ StartChar: uniE0C9E262.liga
 Encoding: 65723 -1 755
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 545 150.5
-VStem: 495 89<400 400>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-744 800 m 1
- 158 803 l 1
- 495 400 l 1
- 584 472 l 1
- 406 696 l 1
- 840 695 l 1
- 744 800 l 1
-691 63 m 1
- 693 545 l 1
- 584 472 l 1
- 584 3 l 1
- 691 63 l 1
-747 602 m 5
- 840 695 l 5
- 960.727539062 654.713867188 1022.05859375 537.473632812 977 435 c 5
- 1015.15820312 478.060546875 839.622070312 651.018554688 747 602 c 5
+748 602 m 5
+ 841 695 l 5
+ 961.727539062 654.713867188 1023.05859375 537.473632812 978 435 c 5
+ 1016.15820312 478.060546875 840.622070312 651.018554688 748 602 c 5
 EndSplineSet
+Refer: 201 57545 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0C9 uniE262
 EndChar
 
@@ -17064,28 +14180,9 @@ Encoding: 65724 -1 756
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 545 150.5
-VStem: 565.793 89<400 400>
 LayerCount: 2
 Fore
-SplineSet
-405.79296875 800 m 1
- 991.79296875 803 l 1
- 654.79296875 400 l 1
- 565.79296875 472 l 1
- 743.79296875 696 l 1
- 309.79296875 695 l 1
- 405.79296875 800 l 1
-458.79296875 63 m 1
- 456.79296875 545 l 1
- 565.79296875 472 l 1
- 565.79296875 3 l 1
- 458.79296875 63 l 1
-402.79296875 602 m 5
- 309.79296875 695 l 5
- 189.065429688 654.713867188 127.734375 537.473632812 172.79296875 435 c 5
- 134.634765625 478.060546875 310.170898438 651.018554688 402.79296875 602 c 5
-EndSplineSet
+Refer: 755 -1 N -1 0 0 1 1150.79 0 2
 Ligature2: "PatternStemRelation" uniE0CA uniE262
 EndChar
 
@@ -17093,29 +14190,17 @@ StartChar: uniE0CBE262.liga
 Encoding: 65725 -1 757
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 566.5 128.5
-VStem: 150 694<693 804>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-844 693 m 1
- 748 801 l 1
- 150 804 l 1
- 370 565 l 1
- 496 568 l 1
- 378 697 l 1
- 844 693 l 1
-374 130 m 1
- 370 565 l 1
- 256 568 l 1
- 263 0 l 1
- 374 130 l 1
-751 600 m 5
- 844 693 l 5
- 964.727539062 652.713867188 1026.05859375 535.473632812 981 433 c 5
- 1019.15820312 476.060546875 843.622070312 649.018554688 751 600 c 5
+750 602 m 5
+ 843 695 l 5
+ 963.727539062 654.713867188 1025.05859375 537.473632812 980 435 c 5
+ 1018.15820312 478.060546875 842.622070312 651.018554688 750 602 c 5
 EndSplineSet
+Refer: 203 57547 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CB uniE262
 EndChar
 
@@ -17124,28 +14209,9 @@ Encoding: 65726 -1 758
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 566.5 128.5
-VStem: 301.793 694<693 804>
 LayerCount: 2
 Fore
-SplineSet
-301.79296875 693 m 1
- 397.79296875 801 l 1
- 995.79296875 804 l 1
- 775.79296875 565 l 1
- 649.79296875 568 l 1
- 767.79296875 697 l 1
- 301.79296875 693 l 1
-771.79296875 130 m 1
- 775.79296875 565 l 1
- 889.79296875 568 l 1
- 882.79296875 0 l 1
- 771.79296875 130 l 1
-394.79296875 600 m 5
- 301.79296875 693 l 5
- 181.065429688 652.713867188 119.734375 535.473632812 164.79296875 433 c 5
- 126.634765625 476.060546875 302.170898438 649.018554688 394.79296875 600 c 5
-EndSplineSet
+Refer: 757 -1 N -1 0 0 1 1144.79 0 2
 Ligature2: "PatternStemRelation" uniE0CC uniE262
 EndChar
 
@@ -17153,25 +14219,17 @@ StartChar: uniE0CDE262.liga
 Encoding: 65727 -1 759
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 0 804<151 794>
-VStem: 151 643<0 804>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-794 804 m 1
- 400 804 l 1
- 151 504 l 1
- 151 0 l 1
- 284 90 l 1
- 283 660 l 1
- 677 659 l 1
- 794 804 l 1
-584 566 m 5
- 677 659 l 5
- 797.727539062 618.713867188 859.05859375 501.473632812 814 399 c 5
- 852.158203125 442.060546875 676.622070312 615.018554688 584 566 c 5
+584 563 m 5
+ 677 656 l 5
+ 797.727539062 615.713867188 859.05859375 498.473632812 814 396 c 5
+ 852.158203125 439.060546875 676.622070312 612.018554688 584 563 c 5
 EndSplineSet
+Refer: 205 57549 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CD uniE262
 EndChar
 
@@ -17179,26 +14237,17 @@ StartChar: uniE0CEE262.liga
 Encoding: 65728 -1 760
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 1 800<250 842 392 842>
-VStem: 158 684<800 801>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-842 801 m 1
- 158 800 l 1
- 505 399 l 1
- 250 1 l 1
- 392 1 l 1
- 666 399 l 1
- 408 687 l 1
- 752 688 l 1
- 842 801 l 1
-659 595 m 5
- 752 688 l 5
- 872.727539062 647.713867188 934.05859375 530.473632812 889 428 c 5
- 927.158203125 471.060546875 751.622070312 644.018554688 659 595 c 5
+660 595 m 5
+ 753 688 l 5
+ 873.727539062 647.713867188 935.05859375 530.473632812 890 428 c 5
+ 928.158203125 471.060546875 752.622070312 644.018554688 660 595 c 5
 EndSplineSet
+Refer: 206 57550 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CE uniE262
 EndChar
 
@@ -17206,24 +14255,17 @@ StartChar: uniE0CFE262.liga
 Encoding: 65729 -1 761
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 0 799<151 151>
-VStem: 151 583<798 798 798 799>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-734 798 m 1
- 151 799 l 1
- 151 0 l 1
- 267 153 l 1
- 264 690 l 1
- 632 687 l 1
- 734 798 l 1
-539 594 m 5
- 632 687 l 5
- 752.727539062 646.713867188 814.05859375 529.473632812 769 427 c 5
- 807.158203125 470.060546875 631.622070312 643.018554688 539 594 c 5
+539 593 m 5
+ 632 686 l 5
+ 752.727539062 645.713867188 814.05859375 528.473632812 769 426 c 5
+ 807.158203125 469.060546875 631.622070312 642.018554688 539 593 c 5
 EndSplineSet
+Refer: 207 57551 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0CF uniE262
 EndChar
 
@@ -17232,23 +14274,9 @@ Encoding: 65730 -1 762
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 799<783.793 783.793>
-VStem: 200.793 583<798 798 798 799>
 LayerCount: 2
 Fore
-SplineSet
-200.79296875 798 m 1
- 783.79296875 799 l 1
- 783.79296875 0 l 1
- 667.79296875 153 l 1
- 670.79296875 690 l 1
- 302.79296875 687 l 1
- 200.79296875 798 l 1
-395.79296875 594 m 5
- 302.79296875 687 l 5
- 182.065429688 646.713867188 120.734375 529.473632812 165.79296875 427 c 5
- 127.634765625 470.060546875 303.170898438 643.018554688 395.79296875 594 c 5
-EndSplineSet
+Refer: 761 -1 N -1 0 0 1 934.793 0 2
 Ligature2: "PatternStemRelation" uniE0D0 uniE262
 EndChar
 
@@ -17256,27 +14284,17 @@ StartChar: uniE0D1E262.liga
 Encoding: 65731 -1 763
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 574 112
-VStem: 151 593<688 801>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-151 801 m 1
- 264 684 l 1
- 744 688 l 1
- 651 802 l 1
- 151 801 l 1
-268 115 m 1
- 382 0 l 1
- 378 574 l 1
- 264 684 l 1
- 268 115 l 1
-651 595 m 5
- 744 688 l 5
- 864.727539062 647.713867188 926.05859375 530.473632812 881 428 c 5
- 919.158203125 471.060546875 743.622070312 644.018554688 651 595 c 5
+650 593 m 5
+ 743 686 l 5
+ 863.727539062 645.713867188 925.05859375 528.473632812 880 426 c 5
+ 918.158203125 469.060546875 742.622070312 642.018554688 650 593 c 5
 EndSplineSet
+Refer: 209 57553 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D1 uniE262
 EndChar
 
@@ -17285,26 +14303,9 @@ Encoding: 65732 -1 764
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 574 112
-VStem: 302.793 593<688 801>
 LayerCount: 2
 Fore
-SplineSet
-895.79296875 801 m 1
- 782.79296875 684 l 1
- 302.79296875 688 l 1
- 395.79296875 802 l 1
- 895.79296875 801 l 1
-778.79296875 115 m 1
- 664.79296875 0 l 1
- 668.79296875 574 l 1
- 782.79296875 684 l 1
- 778.79296875 115 l 1
-395.79296875 595 m 5
- 302.79296875 688 l 5
- 182.065429688 647.713867188 120.734375 530.473632812 165.79296875 428 c 5
- 127.634765625 471.060546875 303.170898438 644.018554688 395.79296875 595 c 5
-EndSplineSet
+Refer: 763 -1 N -1 0 0 1 1045.79 0 2
 Ligature2: "PatternStemRelation" uniE0D2 uniE262
 EndChar
 
@@ -17312,29 +14313,17 @@ StartChar: uniE0D3E262.liga
 Encoding: 65733 -1 765
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 4 795<235 235>
-VStem: 241 99
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-748 799 m 1
- 151 799 l 1
- 151 298 l 1
- 238 403 l 1
- 244 690 l 1
- 647 688 l 1
- 748 799 l 1
-340 496 m 1
- 238 403 l 1
- 235 4 l 1
- 331 79 l 1
- 340 496 l 1
 554 595 m 5
  647 688 l 5
  767.727539062 647.713867188 829.05859375 530.473632812 784 428 c 5
  822.158203125 471.060546875 646.622070312 644.018554688 554 595 c 5
 EndSplineSet
+Refer: 211 57555 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D3 uniE262
 EndChar
 
@@ -17343,28 +14332,9 @@ Encoding: 65734 -1 766
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 4 795<714.793 714.793>
-VStem: 609.793 99
 LayerCount: 2
 Fore
-SplineSet
-201.79296875 799 m 1
- 798.79296875 799 l 1
- 798.79296875 298 l 1
- 711.79296875 403 l 1
- 705.79296875 690 l 1
- 302.79296875 688 l 1
- 201.79296875 799 l 1
-609.79296875 496 m 1
- 711.79296875 403 l 1
- 714.79296875 4 l 1
- 618.79296875 79 l 1
- 609.79296875 496 l 1
-395.79296875 595 m 5
- 302.79296875 688 l 5
- 182.065429688 647.713867188 120.734375 530.473632812 165.79296875 428 c 5
- 127.634765625 471.060546875 303.170898438 644.018554688 395.79296875 595 c 5
-EndSplineSet
+Refer: 765 -1 N -1 0 0 1 949.793 0 2
 Ligature2: "PatternStemRelation" uniE0D4 uniE262
 EndChar
 
@@ -17372,26 +14342,17 @@ StartChar: uniE0D5E262.liga
 Encoding: 65735 -1 767
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 0 799<499 652 652 652>
-VStem: 151 594<319 799 319 799>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-745 799 m 1
- 151 799 l 1
- 151 319 l 1
- 499 0 l 1
- 652 0 l 1
- 246 400 l 1
- 244 690 l 1
- 644 688 l 1
- 745 799 l 1
-551 595 m 1
- 644 688 l 1
- 764.727539062 647.713867188 826.05859375 530.473632812 781 428 c 1
- 819.158203125 471.060546875 643.622070312 644.018554688 551 595 c 1
+552 594 m 5
+ 645 687 l 5
+ 765.727539062 646.713867188 827.05859375 529.473632812 782 427 c 5
+ 820.158203125 470.060546875 644.622070312 643.018554688 552 594 c 5
 EndSplineSet
+Refer: 213 57557 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D5 uniE262
 EndChar
 
@@ -17400,25 +14361,9 @@ Encoding: 65736 -1 768
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 1 800<219.793 811.793 219.793 669.793>
-VStem: 219.793 684<800 801>
 LayerCount: 2
 Fore
-SplineSet
-219.79296875 801 m 1
- 903.79296875 800 l 1
- 556.79296875 399 l 1
- 811.79296875 1 l 1
- 669.79296875 1 l 1
- 395.79296875 399 l 1
- 653.79296875 687 l 1
- 309.79296875 688 l 1
- 219.79296875 801 l 1
-402.79296875 595 m 5
- 309.79296875 688 l 5
- 189.065429688 647.713867188 127.734375 530.473632812 172.79296875 428 c 5
- 134.634765625 471.060546875 310.170898438 644.018554688 402.79296875 595 c 5
-EndSplineSet
+Refer: 760 -1 N -1 0 0 1 1062.79 0 2
 Ligature2: "PatternStemRelation" uniE0D6 uniE262
 EndChar
 
@@ -17426,24 +14371,17 @@ StartChar: uniE0D7E262.liga
 Encoding: 65737 -1 769
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 0 802<499 749 631 749>
-VStem: 151 598<799 802>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-749 802 m 1
- 151 799 l 1
- 499 0 l 1
- 631 0 l 1
- 325 684 l 1
- 648 683 l 1
- 749 802 l 1
-555 590 m 5
- 648 683 l 5
- 768.727539062 642.713867188 830.05859375 525.473632812 785 423 c 5
- 823.158203125 466.060546875 647.622070312 639.018554688 555 590 c 5
+556 589 m 5
+ 649 682 l 5
+ 769.727539062 641.713867188 831.05859375 524.473632812 786 422 c 5
+ 824.158203125 465.060546875 648.622070312 638.018554688 556 589 c 5
 EndSplineSet
+Refer: 215 57559 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D7 uniE262
 EndChar
 
@@ -17452,23 +14390,9 @@ Encoding: 65738 -1 770
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 802<201.793 451.793 201.793 319.793>
-VStem: 201.793 598<799 802>
 LayerCount: 2
 Fore
-SplineSet
-201.79296875 802 m 1
- 799.79296875 799 l 1
- 451.79296875 0 l 1
- 319.79296875 0 l 1
- 625.79296875 684 l 1
- 302.79296875 683 l 1
- 201.79296875 802 l 1
-395.79296875 590 m 5
- 302.79296875 683 l 5
- 182.065429688 642.713867188 120.734375 525.473632812 165.79296875 423 c 5
- 127.634765625 466.060546875 303.170898438 639.018554688 395.79296875 590 c 5
-EndSplineSet
+Refer: 769 -1 N -1 0 0 1 951.793 0 2
 Ligature2: "PatternStemRelation" uniE0D8 uniE262
 EndChar
 
@@ -17476,29 +14400,17 @@ StartChar: uniE0D9E262.liga
 Encoding: 65739 -1 771
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 0 802<151 153>
-VStem: 151 693<0 669 0 669>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-153 802 m 1
- 331 671 l 1
- 844 669 l 1
- 718 801 l 1
- 153 802 l 1
-151 0 m 1
- 280 90 l 1
- 280 497 l 1
- 262 552 377 557 454 550 c 1
- 331 671 l 1
- 181 664 173 621 151 544 c 1
- 151 0 l 1
-750 576 m 5
- 843 669 l 5
- 963.727539062 628.713867188 1025.05859375 511.473632812 980 409 c 5
- 1018.15820312 452.060546875 842.622070312 625.018554688 750 576 c 5
+750 575 m 5
+ 843 668 l 5
+ 963.727539062 627.713867188 1025.05859375 510.473632812 980 408 c 5
+ 1018.15820312 451.060546875 842.622070312 624.018554688 750 575 c 5
 EndSplineSet
+Refer: 217 57561 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0D9 uniE262
 EndChar
 
@@ -17507,28 +14419,9 @@ Encoding: 65740 -1 772
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 802<992.793 994.793>
-VStem: 301.793 693<0 669 0 669>
 LayerCount: 2
 Fore
-SplineSet
-992.79296875 802 m 1
- 814.79296875 671 l 1
- 301.79296875 669 l 1
- 427.79296875 801 l 1
- 992.79296875 802 l 1
-994.79296875 0 m 1
- 865.79296875 90 l 1
- 865.79296875 497 l 1
- 883.79296875 552 768.79296875 557 691.79296875 550 c 1
- 814.79296875 671 l 1
- 964.79296875 664 972.79296875 621 994.79296875 544 c 1
- 994.79296875 0 l 1
-395.79296875 576 m 5
- 302.79296875 669 l 5
- 182.065429688 628.713867188 120.734375 511.473632812 165.79296875 409 c 5
- 127.634765625 452.060546875 303.170898438 625.018554688 395.79296875 576 c 5
-EndSplineSet
+Refer: 771 -1 N -1 0 0 1 1145.79 0 2
 Ligature2: "PatternStemRelation" uniE0DA uniE262
 EndChar
 
@@ -17536,29 +14429,17 @@ StartChar: uniE0DBE262.liga
 Encoding: 65741 -1 773
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 399 293.5
-VStem: 151 687<799 800>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 387 399 l 1
- 505 399 l 1
- 344 694 l 1
- 737 691 l 1
- 838 800 l 1
- 151 799 l 1
-642 399 m 1
- 505 399 l 1
- 165 4 l 1
- 307 3 l 1
- 642 399 l 1
-644 598 m 5
- 737 691 l 5
- 857.727539062 650.713867188 919.05859375 533.473632812 874 431 c 5
- 912.158203125 474.060546875 736.622070312 647.018554688 644 598 c 5
+644 597 m 5
+ 737 690 l 5
+ 857.727539062 649.713867188 919.05859375 532.473632812 874 430 c 5
+ 912.158203125 473.060546875 736.622070312 646.018554688 644 597 c 5
 EndSplineSet
+Refer: 219 57563 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DB uniE262
 EndChar
 
@@ -17566,27 +14447,17 @@ StartChar: uniE0DCE262.liga
 Encoding: 65742 -1 774
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: -15 819<499 499>
-VStem: 189 655<605 804>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-844 804 m 1
- 400 804 l 1
- 189 605 l 1
- 499 345 l 1
- 499 -15 l 1
- 618 91 l 1
- 615 399 l 1
- 284 682 l 1
- 759 684 l 1
- 844 804 l 1
-666 591 m 5
- 759 684 l 5
- 879.727539062 643.713867188 941.05859375 526.473632812 896 424 c 5
- 934.158203125 467.060546875 758.622070312 640.018554688 666 591 c 5
+667 590 m 5
+ 760 683 l 5
+ 880.727539062 642.713867188 942.05859375 525.473632812 897 423 c 5
+ 935.158203125 466.060546875 759.622070312 639.018554688 667 590 c 5
 EndSplineSet
+Refer: 220 57564 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DC uniE262
 EndChar
 
@@ -17595,24 +14466,9 @@ Encoding: 65743 -1 775
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 804<185.793 828.793>
-VStem: 185.793 643<0 804>
 LayerCount: 2
 Fore
-SplineSet
-185.79296875 804 m 1
- 579.79296875 804 l 1
- 828.79296875 504 l 1
- 828.79296875 0 l 1
- 695.79296875 90 l 1
- 696.79296875 660 l 1
- 302.79296875 659 l 1
- 185.79296875 804 l 1
-395.79296875 566 m 5
- 302.79296875 659 l 5
- 182.065429688 618.713867188 120.734375 501.473632812 165.79296875 399 c 5
- 127.634765625 442.060546875 303.170898438 615.018554688 395.79296875 566 c 5
-EndSplineSet
+Refer: 759 -1 N -1 0 0 1 979.793 0 2
 Ligature2: "PatternStemRelation" uniE0DD uniE262
 EndChar
 
@@ -17620,29 +14476,17 @@ StartChar: uniE0DEE262.liga
 Encoding: 65744 -1 776
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 574 116.5
-VStem: 151 683<691 799>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 244 690 l 1
- 834 691 l 1
- 741 801 l 1
- 151 799 l 1
-244 690 m 1
- 249 229 l 1
- 514 0 l 1
- 685 0 l 1
- 358 295 l 1
- 363 574 l 1
- 244 690 l 1
-741 598 m 5
- 834 691 l 5
- 954.727539062 650.713867188 1016.05859375 533.473632812 971 431 c 5
- 1009.15820312 474.060546875 833.622070312 647.018554688 741 598 c 5
+742 596 m 5
+ 835 689 l 5
+ 955.727539062 648.713867188 1017.05859375 531.473632812 972 429 c 5
+ 1010.15820312 472.060546875 834.622070312 645.018554688 742 596 c 5
 EndSplineSet
+Refer: 222 57566 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DE uniE262
 EndChar
 
@@ -17650,29 +14494,17 @@ StartChar: uniE0DFE262.liga
 Encoding: 65745 -1 777
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 399 292
-VStem: 151 688<799 799>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 508 399 l 1
- 640 399 l 1
- 385 694 l 1
- 737 688 l 1
- 839 799 l 1
- 151 799 l 1
-266 0 m 1
- 508 399 l 1
- 378 399 l 1
- 151 0 l 1
- 266 0 l 1
-644 595 m 5
- 737 688 l 5
- 857.727539062 647.713867188 919.05859375 530.473632812 874 428 c 5
- 912.158203125 471.060546875 736.622070312 644.018554688 644 595 c 5
+642 593 m 5
+ 735 686 l 5
+ 855.727539062 645.713867188 917.05859375 528.473632812 872 426 c 5
+ 910.158203125 469.060546875 734.622070312 642.018554688 642 593 c 5
 EndSplineSet
+Refer: 223 57567 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0DF uniE262
 EndChar
 
@@ -17681,26 +14513,9 @@ Encoding: 65746 -1 778
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: -15 819<600.793 600.793>
-VStem: 255.793 655<605 804>
 LayerCount: 2
 Fore
-SplineSet
-255.79296875 804 m 1
- 699.79296875 804 l 1
- 910.79296875 605 l 1
- 600.79296875 345 l 1
- 600.79296875 -15 l 1
- 481.79296875 91 l 1
- 484.79296875 399 l 1
- 815.79296875 682 l 1
- 340.79296875 684 l 1
- 255.79296875 804 l 1
-433.79296875 591 m 5
- 340.79296875 684 l 5
- 220.065429688 643.713867188 158.734375 526.473632812 203.79296875 424 c 5
- 165.634765625 467.060546875 341.170898438 640.018554688 433.79296875 591 c 5
-EndSplineSet
+Refer: 774 -1 N -1 0 0 1 1100.79 0 2
 Ligature2: "PatternStemRelation" uniE0E0 uniE262
 EndChar
 
@@ -17708,29 +14523,17 @@ StartChar: uniE0E1E262.liga
 Encoding: 65747 -1 779
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 401 290
-VStem: 151 678<799 799>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-727 688 m 1
- 829 799 l 1
- 151 799 l 1
- 498 401 l 1
- 622 401 l 1
- 395 694 l 1
- 727 688 l 1
-609 2 m 1
- 733 2 l 1
- 498 401 l 1
- 378 401 l 1
- 609 2 l 1
-634 595 m 5
- 727 688 l 5
- 847.727539062 647.713867188 909.05859375 530.473632812 864 428 c 5
- 902.158203125 471.060546875 726.622070312 644.018554688 634 595 c 5
+636 595 m 5
+ 729 688 l 5
+ 849.727539062 647.713867188 911.05859375 530.473632812 866 428 c 5
+ 904.158203125 471.060546875 728.622070312 644.018554688 636 595 c 5
 EndSplineSet
+Refer: 225 57569 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E1 uniE262
 EndChar
 
@@ -17739,28 +14542,9 @@ Encoding: 65748 -1 780
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 401 290
-VStem: 200.793 678<799 799>
 LayerCount: 2
 Fore
-SplineSet
-302.79296875 688 m 1
- 200.79296875 799 l 1
- 878.79296875 799 l 1
- 531.79296875 401 l 1
- 407.79296875 401 l 1
- 634.79296875 694 l 1
- 302.79296875 688 l 1
-420.79296875 2 m 1
- 296.79296875 2 l 1
- 531.79296875 401 l 1
- 651.79296875 401 l 1
- 420.79296875 2 l 1
-395.79296875 595 m 5
- 302.79296875 688 l 5
- 182.065429688 647.713867188 120.734375 530.473632812 165.79296875 428 c 5
- 127.634765625 471.060546875 303.170898438 644.018554688 395.79296875 595 c 5
-EndSplineSet
+Refer: 779 -1 N -1 0 0 1 1031.79 0 2
 Ligature2: "PatternStemRelation" uniE0E2 uniE262
 EndChar
 
@@ -17769,28 +14553,9 @@ Encoding: 65749 -1 781
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 399 293.5
-VStem: 201.793 687<799 800>
 LayerCount: 2
 Fore
-SplineSet
-888.79296875 799 m 1
- 652.79296875 399 l 1
- 534.79296875 399 l 1
- 695.79296875 694 l 1
- 302.79296875 691 l 1
- 201.79296875 800 l 1
- 888.79296875 799 l 1
-397.79296875 399 m 1
- 534.79296875 399 l 1
- 874.79296875 4 l 1
- 732.79296875 3 l 1
- 397.79296875 399 l 1
-395.79296875 598 m 5
- 302.79296875 691 l 5
- 182.065429688 650.713867188 120.734375 533.473632812 165.79296875 431 c 5
- 127.634765625 474.060546875 303.170898438 647.018554688 395.79296875 598 c 5
-EndSplineSet
+Refer: 773 -1 N -1 0 0 1 1039.79 0 2
 Ligature2: "PatternStemRelation" uniE0E3 uniE262
 EndChar
 
@@ -17799,28 +14564,9 @@ Encoding: 65750 -1 782
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 399 292
-VStem: 200.793 688<799 799>
 LayerCount: 2
 Fore
-SplineSet
-888.79296875 799 m 1
- 531.79296875 399 l 1
- 399.79296875 399 l 1
- 654.79296875 694 l 1
- 302.79296875 688 l 1
- 200.79296875 799 l 1
- 888.79296875 799 l 1
-773.79296875 0 m 1
- 531.79296875 399 l 1
- 661.79296875 399 l 1
- 888.79296875 0 l 1
- 773.79296875 0 l 1
-395.79296875 595 m 5
- 302.79296875 688 l 5
- 182.065429688 647.713867188 120.734375 530.473632812 165.79296875 428 c 5
- 127.634765625 471.060546875 303.170898438 644.018554688 395.79296875 595 c 5
-EndSplineSet
+Refer: 777 -1 N -1 0 0 1 1037.79 0 2
 Ligature2: "PatternStemRelation" uniE0E4 uniE262
 EndChar
 
@@ -17829,25 +14575,9 @@ Encoding: 65751 -1 783
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 799<294.793 447.793 294.793 294.793>
-VStem: 201.793 594<319 799 319 799>
 LayerCount: 2
 Fore
-SplineSet
-201.79296875 799 m 1
- 795.79296875 799 l 1
- 795.79296875 319 l 1
- 447.79296875 0 l 1
- 294.79296875 0 l 1
- 700.79296875 400 l 1
- 702.79296875 690 l 1
- 302.79296875 688 l 1
- 201.79296875 799 l 1
-395.79296875 595 m 1
- 302.79296875 688 l 1
- 182.065429688 647.713867188 120.734375 530.473632812 165.79296875 428 c 1
- 127.634765625 471.060546875 303.170898438 644.018554688 395.79296875 595 c 1
-EndSplineSet
+Refer: 767 -1 N -1 0 0 1 947.793 0 2
 Ligature2: "PatternStemRelation" uniE0E5 uniE262
 EndChar
 
@@ -17856,28 +14586,9 @@ Encoding: 65752 -1 784
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 574 116.5
-VStem: 302.793 683<691 799>
 LayerCount: 2
 Fore
-SplineSet
-985.79296875 799 m 1
- 892.79296875 690 l 1
- 302.79296875 691 l 1
- 395.79296875 801 l 1
- 985.79296875 799 l 1
-892.79296875 690 m 1
- 887.79296875 229 l 1
- 622.79296875 0 l 1
- 451.79296875 0 l 1
- 778.79296875 295 l 1
- 773.79296875 574 l 1
- 892.79296875 690 l 1
-395.79296875 598 m 5
- 302.79296875 691 l 5
- 182.065429688 650.713867188 120.734375 533.473632812 165.79296875 431 c 5
- 127.634765625 474.060546875 303.170898438 647.018554688 395.79296875 598 c 5
-EndSplineSet
+Refer: 776 -1 N -1 0 0 1 1137.79 0 2
 Ligature2: "PatternStemRelation" uniE0E6 uniE262
 EndChar
 
@@ -17885,28 +14596,17 @@ StartChar: uniE0E7E262.liga
 Encoding: 65753 -1 785
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 346.5 118 688.5 111
-VStem: 151 110 499 110.5
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-841 798 m 1
- 745 686 l 1
- 264 691 l 1
- 258 465 l 1
- 613 464 l 1
- 606 105 l 1
- 499 3 l 1
- 499 347 l 1
- 151 346 l 1
- 151 801 l 1
- 841 798 l 1
-652 593 m 5
- 745 686 l 5
- 865.727539062 645.713867188 927.05859375 528.473632812 882 426 c 5
- 920.158203125 469.060546875 744.622070312 642.018554688 652 593 c 5
+652 591 m 5
+ 745 684 l 5
+ 865.727539062 643.713867188 927.05859375 526.473632812 882 424 c 5
+ 920.158203125 467.060546875 744.622070312 640.018554688 652 591 c 5
 EndSplineSet
+Refer: 231 57575 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E7 uniE262
 EndChar
 
@@ -17915,27 +14615,9 @@ Encoding: 65754 -1 786
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 346.5 118 688.5 111
-VStem: 786.793 110 438.293 110.5
 LayerCount: 2
 Fore
-SplineSet
-206.79296875 798 m 1xc0
- 302.79296875 686 l 1
- 783.79296875 691 l 1
- 789.79296875 465 l 1
- 434.79296875 464 l 1
- 441.79296875 105 l 1
- 548.79296875 3 l 1
- 548.79296875 347 l 1
- 896.79296875 346 l 1
- 896.79296875 801 l 1
- 206.79296875 798 l 1xc0
-395.79296875 593 m 5
- 302.79296875 686 l 5
- 182.065429688 645.713867188 120.734375 528.473632812 165.79296875 426 c 5
- 127.634765625 469.060546875 303.170898438 642.018554688 395.79296875 593 c 5
-EndSplineSet
+Refer: 785 -1 N -1 0 0 1 1047.79 0 2
 Ligature2: "PatternStemRelation" uniE0E8 uniE262
 EndChar
 
@@ -17943,29 +14625,17 @@ StartChar: uniE0E9E262.liga
 Encoding: 65755 -1 787
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 563 126
-VStem: 246 93
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 151 398 l 1
- 248 483 l 1
- 244 690 l 1
- 733 688 l 1
- 834 799 l 1
- 151 799 l 1
-339 563 m 1
- 248 483 l 1
- 564 2 l 1
- 704 2 l 1
- 339 563 l 1
 640 595 m 5
  733 688 l 5
  853.727539062 647.713867188 915.05859375 530.473632812 870 428 c 5
  908.158203125 471.060546875 732.622070312 644.018554688 640 595 c 5
 EndSplineSet
+Refer: 233 57577 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0E9 uniE262
 EndChar
 
@@ -17974,28 +14644,9 @@ Encoding: 65756 -1 788
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 563 126
-VStem: 696.793 93
 LayerCount: 2
 Fore
-SplineSet
-884.79296875 799 m 1
- 884.79296875 398 l 1
- 787.79296875 483 l 1
- 791.79296875 690 l 1
- 302.79296875 688 l 1
- 201.79296875 799 l 1
- 884.79296875 799 l 1
-696.79296875 563 m 1
- 787.79296875 483 l 1
- 471.79296875 2 l 1
- 331.79296875 2 l 1
- 696.79296875 563 l 1
-395.79296875 595 m 5
- 302.79296875 688 l 5
- 182.065429688 647.713867188 120.734375 530.473632812 165.79296875 428 c 5
- 127.634765625 471.060546875 303.170898438 644.018554688 395.79296875 595 c 5
-EndSplineSet
+Refer: 787 -1 N -1 0 0 1 1035.79 0 2
 Ligature2: "PatternStemRelation" uniE0EA uniE262
 EndChar
 
@@ -18003,32 +14654,17 @@ StartChar: uniE0EBE262.liga
 Encoding: 65757 -1 789
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 506 182.5
-VStem: 245.5 255
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-151 799 m 1
- 151 306 l 1
- 247 399 l 1
- 244 690 l 1
- 742 687 l 1
- 844 798 l 1
- 151 799 l 1
-613 103 m 1
- 613 399 l 2
- 612 471 586 500 502 505 c 2
- 364 507 l 1
- 247 399 l 1
- 499 399 l 1
- 502 0 l 1
- 613 103 l 1
-649 594 m 5
- 742 687 l 5
- 862.727539062 646.713867188 924.05859375 529.473632812 879 427 c 5
- 917.158203125 470.060546875 741.622070312 643.018554688 649 594 c 5
+650 593 m 5
+ 743 686 l 5
+ 863.727539062 645.713867188 925.05859375 528.473632812 880 426 c 5
+ 918.158203125 469.060546875 742.622070312 642.018554688 650 593 c 5
 EndSplineSet
+Refer: 235 57579 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EB uniE262
 EndChar
 
@@ -18037,31 +14673,9 @@ Encoding: 65758 -1 790
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 506 182.5
-VStem: 544.293 255
 LayerCount: 2
 Fore
-SplineSet
-893.79296875 799 m 1
- 893.79296875 306 l 1
- 797.79296875 399 l 1
- 800.79296875 690 l 1
- 302.79296875 687 l 1
- 200.79296875 798 l 1
- 893.79296875 799 l 1
-431.79296875 103 m 1
- 431.79296875 399 l 2
- 432.79296875 471 458.79296875 500 542.79296875 505 c 2
- 680.79296875 507 l 1
- 797.79296875 399 l 1
- 545.79296875 399 l 1
- 542.79296875 0 l 1
- 431.79296875 103 l 1
-395.79296875 594 m 5
- 302.79296875 687 l 5
- 182.065429688 646.713867188 120.734375 529.473632812 165.79296875 427 c 5
- 127.634765625 470.060546875 303.170898438 643.018554688 395.79296875 594 c 5
-EndSplineSet
+Refer: 789 -1 N -1 0 0 1 1045.79 0 2
 Ligature2: "PatternStemRelation" uniE0EC uniE262
 EndChar
 
@@ -18069,28 +14683,17 @@ StartChar: uniE0EDE262.liga
 Encoding: 65759 -1 791
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 399 110.5 680 119.5
-VStem: 151 124.5
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-844 798 m 1
- 748 678 l 1
- 437 682 l 1
- 675 399 l 1
- 277 399 l 1
- 274 118 l 1
- 151 0 l 1
- 151 511 l 1
- 421 508 l 1
- 151 801 l 1
- 844 798 l 1
-655 585 m 5
- 748 678 l 5
- 868.727539062 637.713867188 930.05859375 520.473632812 885 418 c 5
- 923.158203125 461.060546875 747.622070312 634.018554688 655 585 c 5
+654 595 m 5
+ 747 688 l 5
+ 867.727539062 647.713867188 929.05859375 530.473632812 884 428 c 5
+ 922.158203125 471.060546875 746.622070312 644.018554688 654 595 c 5
 EndSplineSet
+Refer: 237 57581 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0ED uniE262
 EndChar
 
@@ -18098,28 +14701,17 @@ StartChar: uniE0EEE262.liga
 Encoding: 65760 -1 792
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 398 107 681.5 118
-VStem: 151 103<506 684 506 801>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-844 798 m 1
- 748 679 l 1
- 254 684 l 1
- 254 506 l 1
- 651 504 l 1
- 172 2 l 1
- 2 2 l 1
- 389 398 l 1
- 151 398 l 1
- 151 801 l 1
- 844 798 l 1
-655 586 m 5
- 748 679 l 5
- 868.727539062 638.713867188 930.05859375 521.473632812 885 419 c 5
- 923.158203125 462.060546875 747.622070312 635.018554688 655 586 c 5
+654 587 m 5
+ 747 680 l 5
+ 867.727539062 639.713867188 929.05859375 522.473632812 884 420 c 5
+ 922.158203125 463.060546875 746.622070312 636.018554688 654 587 c 5
 EndSplineSet
+Refer: 238 57582 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0EE uniE262
 EndChar
 
@@ -18128,27 +14720,9 @@ Encoding: 65761 -1 793
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 398 107 681.5 118
-VStem: 647.793 103<506 684 506 801>
 LayerCount: 2
 Fore
-SplineSet
-57.79296875 798 m 1
- 153.79296875 679 l 1
- 647.79296875 684 l 1
- 647.79296875 506 l 1
- 250.79296875 504 l 1
- 729.79296875 2 l 1
- 899.79296875 2 l 1
- 512.79296875 398 l 1
- 750.79296875 398 l 1
- 750.79296875 801 l 1
- 57.79296875 798 l 1
-246.79296875 586 m 5
- 153.79296875 679 l 5
- 33.0654296875 638.713867188 -28.265625 521.473632812 16.79296875 419 c 5
- -21.365234375 462.060546875 154.170898438 635.018554688 246.79296875 586 c 5
-EndSplineSet
+Refer: 792 -1 N -1 0 0 1 900.793 0 2
 Ligature2: "PatternStemRelation" uniE0EF uniE262
 EndChar
 
@@ -18156,31 +14730,17 @@ StartChar: uniE0F0E262.liga
 Encoding: 65762 -1 794
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 399 281.5
-VStem: 151 692<0 681>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-160 799 m 1
- 274 680 l 1
- 843 681 l 1
- 751 804 l 1
- 160 799 l 1
-274 680 m 1
- 279 285 l 1
- 492 285 l 1
- 151 0 l 1
- 345 0 l 1
- 766 399 l 1
- 400 399 l 1
- 398 574 l 1
- 274 680 l 1
-750 588 m 5
- 843 681 l 5
- 963.727539062 640.713867188 1025.05859375 523.473632812 980 421 c 5
- 1018.15820312 464.060546875 842.622070312 637.018554688 750 588 c 5
+750 587 m 5
+ 843 680 l 5
+ 963.727539062 639.713867188 1025.05859375 522.473632812 980 420 c 5
+ 1018.15820312 463.060546875 842.622070312 636.018554688 750 587 c 5
 EndSplineSet
+Refer: 240 57584 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0F0 uniE262
 EndChar
 
@@ -18189,30 +14749,9 @@ Encoding: 65763 -1 795
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 399 281.5
-VStem: 302.793 692<0 681>
 LayerCount: 2
 Fore
-SplineSet
-985.79296875 799 m 1
- 871.79296875 680 l 1
- 302.79296875 681 l 1
- 394.79296875 804 l 1
- 985.79296875 799 l 1
-871.79296875 680 m 1
- 866.79296875 285 l 1
- 653.79296875 285 l 1
- 994.79296875 0 l 1
- 800.79296875 0 l 1
- 379.79296875 399 l 1
- 745.79296875 399 l 1
- 747.79296875 574 l 1
- 871.79296875 680 l 1
-395.79296875 588 m 5
- 302.79296875 681 l 5
- 182.065429688 640.713867188 120.734375 523.473632812 165.79296875 421 c 5
- 127.634765625 464.060546875 303.170898438 637.018554688 395.79296875 588 c 5
-EndSplineSet
+Refer: 794 -1 N -1 0 0 1 1145.79 0 2
 Ligature2: "PatternStemRelation" uniE0F1 uniE262
 EndChar
 
@@ -18220,31 +14759,17 @@ StartChar: uniE0F2E262.liga
 Encoding: 65764 -1 796
 Width: 1000
 GlyphClass: 3
-Flags: HMW
-HStem: 449 241.5
-VStem: 389 110
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-160 799 m 1
- 274 690 l 1
- 843 691 l 1
- 748 803 l 1
- 160 799 l 1
-388 584 m 1
- 274 690 l 1
- 279 345 l 1
- 499 345 l 1
- 499 0 l 1
- 610 112 l 1
- 609 449 l 1
- 390 449 l 1
- 388 584 l 1
-750 598 m 5
- 843 691 l 5
- 963.727539062 650.713867188 1025.05859375 533.473632812 980 431 c 5
- 1018.15820312 474.060546875 842.622070312 647.018554688 750 598 c 5
+750 597 m 5
+ 843 690 l 5
+ 963.727539062 649.713867188 1025.05859375 532.473632812 980 430 c 5
+ 1018.15820312 473.060546875 842.622070312 646.018554688 750 597 c 5
 EndSplineSet
+Refer: 242 57586 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0F2 uniE262
 EndChar
 
@@ -18253,30 +14778,9 @@ Encoding: 65765 -1 797
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 449 241.5
-VStem: 655.793 110
 LayerCount: 2
 Fore
-SplineSet
-994.79296875 799 m 1
- 880.79296875 690 l 1
- 311.79296875 691 l 1
- 406.79296875 803 l 1
- 994.79296875 799 l 1
-766.79296875 584 m 1
- 880.79296875 690 l 1
- 875.79296875 345 l 1
- 655.79296875 345 l 1
- 655.79296875 0 l 1
- 544.79296875 112 l 1
- 545.79296875 449 l 1
- 764.79296875 449 l 1
- 766.79296875 584 l 1
-404.79296875 598 m 5
- 311.79296875 691 l 5
- 191.065429688 650.713867188 129.734375 533.473632812 174.79296875 431 c 5
- 136.634765625 474.060546875 312.170898438 647.018554688 404.79296875 598 c 5
-EndSplineSet
+Refer: 796 -1 N -1 0 0 1 1154.79 0 2
 Ligature2: "PatternStemRelation" uniE0F3 uniE262
 EndChar
 
@@ -18285,27 +14789,9 @@ Encoding: 65766 -1 798
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 399 110.5 680 119.5
-VStem: 775.293 124.5
 LayerCount: 2
 Fore
-SplineSet
-206.79296875 798 m 1
- 302.79296875 678 l 1
- 613.79296875 682 l 1
- 375.79296875 399 l 1
- 773.79296875 399 l 1
- 776.79296875 118 l 1
- 899.79296875 0 l 1
- 899.79296875 511 l 1
- 629.79296875 508 l 1
- 899.79296875 801 l 1
- 206.79296875 798 l 1
-395.79296875 585 m 5
- 302.79296875 678 l 5
- 182.065429688 637.713867188 120.734375 520.473632812 165.79296875 418 c 5
- 127.634765625 461.060546875 303.170898438 634.018554688 395.79296875 585 c 5
-EndSplineSet
+Refer: 791 -1 N -1 0 0 1 1049.79 0 2
 Ligature2: "PatternStemRelation" uniE0F4 uniE262
 EndChar
 
@@ -18319,20 +14805,12 @@ VStem: 160 684<0 109>
 LayerCount: 2
 Fore
 SplineSet
-748 3 m 1
- 160 0 l 1
- 499 313 l 1
- 499 804 l 1
- 623 675 l 1
- 622 296 l 1
- 438 107 l 1
- 844 109 l 1
- 748 3 l 1
 751 202 m 5
  844 109 l 5
  964.727539062 149.286132812 1026.05859375 266.526367188 981 369 c 5
  1019.15820312 325.939453125 843.622070312 152.981445312 751 202 c 5
 EndSplineSet
+Refer: 199 57543 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F5 uniE262
 EndChar
 
@@ -18341,25 +14819,9 @@ Encoding: 65768 -1 800
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 804<656.793 995.793>
-VStem: 311.793 684<0 109>
 LayerCount: 2
 Fore
-SplineSet
-407.79296875 3 m 1
- 995.79296875 0 l 1
- 656.79296875 313 l 1
- 656.79296875 804 l 1
- 532.79296875 675 l 1
- 533.79296875 296 l 1
- 717.79296875 107 l 1
- 311.79296875 109 l 1
- 407.79296875 3 l 1
-404.79296875 202 m 5
- 311.79296875 109 l 5
- 191.065429688 149.286132812 129.734375 266.526367188 174.79296875 369 c 5
- 136.634765625 325.939453125 312.170898438 152.981445312 404.79296875 202 c 5
-EndSplineSet
+Refer: 753 -1 N -1 -0 0 -1 1155.79 804 2
 Ligature2: "PatternStemRelation" uniE0F6 uniE262
 EndChar
 
@@ -18368,28 +14830,15 @@ Encoding: 65769 -1 801
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 150.5
-VStem: 495 89<406 406>
 LayerCount: 2
 Fore
 SplineSet
-744 6 m 1
- 158 3 l 1
- 495 406 l 1
- 584 334 l 1
- 406 110 l 1
- 840 111 l 1
- 744 6 l 1
-691 743 m 1
- 693 261 l 1
- 584 334 l 1
- 584 803 l 1
- 691 743 l 1
-747 204 m 5
- 840 111 l 5
- 960.727539062 151.286132812 1022.05859375 268.526367188 977 371 c 5
- 1015.15820312 327.939453125 839.622070312 154.981445312 747 204 c 5
+748 204 m 5
+ 841 111 l 5
+ 961.727539062 151.286132812 1023.05859375 268.526367188 978 371 c 5
+ 1016.15820312 327.939453125 840.622070312 154.981445312 748 204 c 5
 EndSplineSet
+Refer: 201 57545 N 1 0 0 -1 0 806 2
 Ligature2: "PatternStemRelation" uniE0F7 uniE262
 EndChar
 
@@ -18398,28 +14847,9 @@ Encoding: 65770 -1 802
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 150.5
-VStem: 565.793 89<406 406>
 LayerCount: 2
 Fore
-SplineSet
-405.79296875 6 m 1
- 991.79296875 3 l 1
- 654.79296875 406 l 1
- 565.79296875 334 l 1
- 743.79296875 110 l 1
- 309.79296875 111 l 1
- 405.79296875 6 l 1
-458.79296875 743 m 1
- 456.79296875 261 l 1
- 565.79296875 334 l 1
- 565.79296875 803 l 1
- 458.79296875 743 l 1
-402.79296875 204 m 5
- 309.79296875 111 l 5
- 189.065429688 151.286132812 127.734375 268.526367188 172.79296875 371 c 5
- 134.634765625 327.939453125 310.170898438 154.981445312 402.79296875 204 c 5
-EndSplineSet
+Refer: 755 -1 N -1 -0 0 -1 1150.79 806 2
 Ligature2: "PatternStemRelation" uniE0F8 uniE262
 EndChar
 
@@ -18428,28 +14858,15 @@ Encoding: 65771 -1 803
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 109 128.5
-VStem: 150 694<0 111>
 LayerCount: 2
 Fore
 SplineSet
-844 111 m 1
- 748 3 l 1
- 150 0 l 1
- 370 239 l 1
- 496 236 l 1
- 378 107 l 1
- 844 111 l 1
-374 674 m 1
- 370 239 l 1
- 256 236 l 1
- 263 804 l 1
- 374 674 l 1
-751 204 m 5
- 844 111 l 5
- 964.727539062 151.286132812 1026.05859375 268.526367188 981 371 c 5
- 1019.15820312 327.939453125 843.622070312 154.981445312 751 204 c 5
+750 202 m 5
+ 843 109 l 5
+ 963.727539062 149.286132812 1025.05859375 266.526367188 980 369 c 5
+ 1018.15820312 325.939453125 842.622070312 152.981445312 750 202 c 5
 EndSplineSet
+Refer: 203 57547 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0F9 uniE262
 EndChar
 
@@ -18458,28 +14875,9 @@ Encoding: 65772 -1 804
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 109 128.5
-VStem: 301.793 694<0 111>
 LayerCount: 2
 Fore
-SplineSet
-301.79296875 111 m 1
- 397.79296875 3 l 1
- 995.79296875 0 l 1
- 775.79296875 239 l 1
- 649.79296875 236 l 1
- 767.79296875 107 l 1
- 301.79296875 111 l 1
-771.79296875 674 m 1
- 775.79296875 239 l 1
- 889.79296875 236 l 1
- 882.79296875 804 l 1
- 771.79296875 674 l 1
-394.79296875 204 m 5
- 301.79296875 111 l 5
- 181.065429688 151.286132812 119.734375 268.526367188 164.79296875 371 c 5
- 126.634765625 327.939453125 302.170898438 154.981445312 394.79296875 204 c 5
-EndSplineSet
+Refer: 757 -1 N -1 -0 0 -1 1144.79 804 2
 Ligature2: "PatternStemRelation" uniE0FA uniE262
 EndChar
 
@@ -18488,24 +14886,15 @@ Encoding: 65773 -1 805
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 804<151 794>
-VStem: 151 643<0 804>
 LayerCount: 2
 Fore
 SplineSet
-794 0 m 1
- 400 0 l 1
- 151 300 l 1
- 151 804 l 1
- 284 714 l 1
- 283 144 l 1
- 677 145 l 1
- 794 0 l 1
-584 238 m 5
- 677 145 l 5
- 797.727539062 185.286132812 859.05859375 302.526367188 814 405 c 5
- 852.158203125 361.939453125 676.622070312 188.981445312 584 238 c 5
+584 241 m 5
+ 677 148 l 5
+ 797.727539062 188.286132812 859.05859375 305.526367188 814 408 c 5
+ 852.158203125 364.939453125 676.622070312 191.981445312 584 241 c 5
 EndSplineSet
+Refer: 205 57549 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE0FB uniE262
 EndChar
 
@@ -18514,25 +14903,15 @@ Encoding: 65774 -1 806
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 1 800<250 842 392 842>
-VStem: 158 684<1 2>
 LayerCount: 2
 Fore
 SplineSet
-842 1 m 1
- 158 2 l 1
- 505 403 l 1
- 250 801 l 1
- 392 801 l 1
- 666 403 l 1
- 408 115 l 1
- 752 114 l 1
- 842 1 l 1
-659 207 m 5
- 752 114 l 5
- 872.727539062 154.286132812 934.05859375 271.526367188 889 374 c 5
- 927.158203125 330.939453125 751.622070312 157.981445312 659 207 c 5
+660 207 m 5
+ 753 114 l 5
+ 873.727539062 154.286132812 935.05859375 271.526367188 890 374 c 5
+ 928.158203125 330.939453125 752.622070312 157.981445312 660 207 c 5
 EndSplineSet
+Refer: 206 57550 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE0FC uniE262
 EndChar
 
@@ -18541,23 +14920,15 @@ Encoding: 65775 -1 807
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 799<151 151>
-VStem: 151 583<1 1 0 1>
 LayerCount: 2
 Fore
 SplineSet
-734 1 m 1
- 151 0 l 1
- 151 799 l 1
- 267 646 l 1
- 264 109 l 1
- 632 112 l 1
- 734 1 l 1
-539 205 m 5
- 632 112 l 5
- 752.727539062 152.286132812 814.05859375 269.526367188 769 372 c 5
- 807.158203125 328.939453125 631.622070312 155.981445312 539 205 c 5
+539 206 m 5
+ 632 113 l 5
+ 752.727539062 153.286132812 814.05859375 270.526367188 769 373 c 5
+ 807.158203125 329.939453125 631.622070312 156.981445312 539 206 c 5
 EndSplineSet
+Refer: 207 57551 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE0FD uniE262
 EndChar
 
@@ -18566,23 +14937,9 @@ Encoding: 65776 -1 808
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 799<783.793 783.793>
-VStem: 200.793 583<1 1 0 1>
 LayerCount: 2
 Fore
-SplineSet
-200.79296875 1 m 1
- 783.79296875 0 l 1
- 783.79296875 799 l 1
- 667.79296875 646 l 1
- 670.79296875 109 l 1
- 302.79296875 112 l 1
- 200.79296875 1 l 1
-395.79296875 205 m 5
- 302.79296875 112 l 5
- 182.065429688 152.286132812 120.734375 269.526367188 165.79296875 372 c 5
- 127.634765625 328.939453125 303.170898438 155.981445312 395.79296875 205 c 5
-EndSplineSet
+Refer: 761 -1 N -1 -0 0 -1 934.793 799 2
 Ligature2: "PatternStemRelation" uniE0FE uniE262
 EndChar
 
@@ -18591,26 +14948,15 @@ Encoding: 65777 -1 809
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 116 112
-VStem: 151 593<1 114>
 LayerCount: 2
 Fore
 SplineSet
-151 1 m 1
- 264 118 l 1
- 744 114 l 1
- 651 0 l 1
- 151 1 l 1
-268 687 m 1
- 382 802 l 1
- 378 228 l 1
- 264 118 l 1
- 268 687 l 1
-651 207 m 5
- 744 114 l 5
- 864.727539062 154.286132812 926.05859375 271.526367188 881 374 c 5
- 919.158203125 330.939453125 743.622070312 157.981445312 651 207 c 5
+650 209 m 5
+ 743 116 l 5
+ 863.727539062 156.286132812 925.05859375 273.526367188 880 376 c 5
+ 918.158203125 332.939453125 742.622070312 159.981445312 650 209 c 5
 EndSplineSet
+Refer: 209 57553 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE0FF uniE262
 EndChar
 
@@ -18619,26 +14965,9 @@ Encoding: 65778 -1 810
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 116 112
-VStem: 302.793 593<1 114>
 LayerCount: 2
 Fore
-SplineSet
-895.79296875 1 m 1
- 782.79296875 118 l 1
- 302.79296875 114 l 1
- 395.79296875 0 l 1
- 895.79296875 1 l 1
-778.79296875 687 m 1
- 664.79296875 802 l 1
- 668.79296875 228 l 1
- 782.79296875 118 l 1
- 778.79296875 687 l 1
-395.79296875 207 m 5
- 302.79296875 114 l 5
- 182.065429688 154.286132812 120.734375 271.526367188 165.79296875 374 c 5
- 127.634765625 330.939453125 303.170898438 157.981445312 395.79296875 207 c 5
-EndSplineSet
+Refer: 763 -1 N -1 -0 0 -1 1045.79 802 2
 Ligature2: "PatternStemRelation" uniE100 uniE262
 EndChar
 
@@ -18647,28 +14976,15 @@ Encoding: 65779 -1 811
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 4 795<235 235>
-VStem: 241 99
 LayerCount: 2
 Fore
 SplineSet
-748 4 m 1
- 151 4 l 1
- 151 505 l 1
- 238 400 l 1
- 244 113 l 1
- 647 115 l 1
- 748 4 l 1
-340 307 m 1
- 238 400 l 1
- 235 799 l 1
- 331 724 l 1
- 340 307 l 1
 554 208 m 5
  647 115 l 5
  767.727539062 155.286132812 829.05859375 272.526367188 784 375 c 5
  822.158203125 331.939453125 646.622070312 158.981445312 554 208 c 5
 EndSplineSet
+Refer: 211 57555 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE101 uniE262
 EndChar
 
@@ -18677,28 +14993,9 @@ Encoding: 65780 -1 812
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 4 795<714.793 714.793>
-VStem: 609.793 99
 LayerCount: 2
 Fore
-SplineSet
-201.79296875 4 m 1
- 798.79296875 4 l 1
- 798.79296875 505 l 1
- 711.79296875 400 l 1
- 705.79296875 113 l 1
- 302.79296875 115 l 1
- 201.79296875 4 l 1
-609.79296875 307 m 1
- 711.79296875 400 l 1
- 714.79296875 799 l 1
- 618.79296875 724 l 1
- 609.79296875 307 l 1
-395.79296875 208 m 5
- 302.79296875 115 l 5
- 182.065429688 155.286132812 120.734375 272.526367188 165.79296875 375 c 5
- 127.634765625 331.939453125 303.170898438 158.981445312 395.79296875 208 c 5
-EndSplineSet
+Refer: 765 -1 N -1 -0 0 -1 949.793 803 2
 Ligature2: "PatternStemRelation" uniE102 uniE262
 EndChar
 
@@ -18707,25 +15004,15 @@ Encoding: 65781 -1 813
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 799<499 652 652 652>
-VStem: 151 594<0 480 0 480>
 LayerCount: 2
 Fore
 SplineSet
-745 0 m 1
- 151 0 l 1
- 151 480 l 1
- 499 799 l 1
- 652 799 l 1
- 246 399 l 1
- 244 109 l 1
- 644 111 l 1
- 745 0 l 1
-551 204 m 1
- 644 111 l 1
- 764.727539062 151.286132812 826.05859375 268.526367188 781 371 c 1
- 819.158203125 327.939453125 643.622070312 154.981445312 551 204 c 1
+552 205 m 5
+ 645 112 l 5
+ 765.727539062 152.286132812 827.05859375 269.526367188 782 372 c 5
+ 820.158203125 328.939453125 644.622070312 155.981445312 552 205 c 5
 EndSplineSet
+Refer: 213 57557 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE103 uniE262
 EndChar
 
@@ -18734,25 +15021,9 @@ Encoding: 65782 -1 814
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 1 800<219.793 811.793 219.793 669.793>
-VStem: 219.793 684<1 2>
 LayerCount: 2
 Fore
-SplineSet
-219.79296875 1 m 1
- 903.79296875 2 l 1
- 556.79296875 403 l 1
- 811.79296875 801 l 1
- 669.79296875 801 l 1
- 395.79296875 403 l 1
- 653.79296875 115 l 1
- 309.79296875 114 l 1
- 219.79296875 1 l 1
-402.79296875 207 m 5
- 309.79296875 114 l 5
- 189.065429688 154.286132812 127.734375 271.526367188 172.79296875 374 c 5
- 134.634765625 330.939453125 310.170898438 157.981445312 402.79296875 207 c 5
-EndSplineSet
+Refer: 760 -1 N -1 -0 0 -1 1062.79 802 2
 Ligature2: "PatternStemRelation" uniE104 uniE262
 EndChar
 
@@ -18761,23 +15032,15 @@ Encoding: 65783 -1 815
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 802<499 749 631 749>
-VStem: 151 598<0 3>
 LayerCount: 2
 Fore
 SplineSet
-749 0 m 1
- 151 3 l 1
- 499 802 l 1
- 631 802 l 1
- 325 118 l 1
- 648 119 l 1
- 749 0 l 1
-555 212 m 5
- 648 119 l 5
- 768.727539062 159.286132812 830.05859375 276.526367188 785 379 c 5
- 823.158203125 335.939453125 647.622070312 162.981445312 555 212 c 5
+556 213 m 5
+ 649 120 l 5
+ 769.727539062 160.286132812 831.05859375 277.526367188 786 380 c 5
+ 824.158203125 336.939453125 648.622070312 163.981445312 556 213 c 5
 EndSplineSet
+Refer: 215 57559 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE105 uniE262
 EndChar
 
@@ -18786,23 +15049,9 @@ Encoding: 65784 -1 816
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 802<201.793 451.793 201.793 319.793>
-VStem: 201.793 598<0 3>
 LayerCount: 2
 Fore
-SplineSet
-201.79296875 0 m 1
- 799.79296875 3 l 1
- 451.79296875 802 l 1
- 319.79296875 802 l 1
- 625.79296875 118 l 1
- 302.79296875 119 l 1
- 201.79296875 0 l 1
-395.79296875 212 m 5
- 302.79296875 119 l 5
- 182.065429688 159.286132812 120.734375 276.526367188 165.79296875 379 c 5
- 127.634765625 335.939453125 303.170898438 162.981445312 395.79296875 212 c 5
-EndSplineSet
+Refer: 769 -1 N -1 -0 0 -1 951.793 802 2
 Ligature2: "PatternStemRelation" uniE106 uniE262
 EndChar
 
@@ -18811,28 +15060,15 @@ Encoding: 65785 -1 817
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 802<151 153>
-VStem: 151 693<133 802 133 802>
 LayerCount: 2
 Fore
 SplineSet
-153 0 m 1
- 331 131 l 1
- 844 133 l 1
- 718 1 l 1
- 153 0 l 1
-151 802 m 1
- 280 712 l 1
- 280 305 l 1
- 262 250 377 245 454 252 c 1
- 331 131 l 1
- 181 138 173 181 151 258 c 1
- 151 802 l 1
-750 226 m 5
- 843 133 l 5
- 963.727539062 173.286132812 1025.05859375 290.526367188 980 393 c 5
- 1018.15820312 349.939453125 842.622070312 176.981445312 750 226 c 5
+750 227 m 5
+ 843 134 l 5
+ 963.727539062 174.286132812 1025.05859375 291.526367188 980 394 c 5
+ 1018.15820312 350.939453125 842.622070312 177.981445312 750 227 c 5
 EndSplineSet
+Refer: 217 57561 N 1 0 0 -1 0 802 2
 Ligature2: "PatternStemRelation" uniE107 uniE262
 EndChar
 
@@ -18841,28 +15077,9 @@ Encoding: 65786 -1 818
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 802<992.793 994.793>
-VStem: 301.793 693<133 802 133 802>
 LayerCount: 2
 Fore
-SplineSet
-992.79296875 0 m 1
- 814.79296875 131 l 1
- 301.79296875 133 l 1
- 427.79296875 1 l 1
- 992.79296875 0 l 1
-994.79296875 802 m 1
- 865.79296875 712 l 1
- 865.79296875 305 l 1
- 883.79296875 250 768.79296875 245 691.79296875 252 c 1
- 814.79296875 131 l 1
- 964.79296875 138 972.79296875 181 994.79296875 258 c 1
- 994.79296875 802 l 1
-395.79296875 226 m 5
- 302.79296875 133 l 5
- 182.065429688 173.286132812 120.734375 290.526367188 165.79296875 393 c 5
- 127.634765625 349.939453125 303.170898438 176.981445312 395.79296875 226 c 5
-EndSplineSet
+Refer: 771 -1 N -1 -0 0 -1 1145.79 802 2
 Ligature2: "PatternStemRelation" uniE108 uniE262
 EndChar
 
@@ -18871,28 +15088,15 @@ Encoding: 65787 -1 819
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 293.5
-VStem: 151 687<3 4>
 LayerCount: 2
 Fore
 SplineSet
-151 4 m 1
- 387 404 l 1
- 505 404 l 1
- 344 109 l 1
- 737 112 l 1
- 838 3 l 1
- 151 4 l 1
-642 404 m 1
- 505 404 l 1
- 165 799 l 1
- 307 800 l 1
- 642 404 l 1
-644 205 m 5
- 737 112 l 5
- 857.727539062 152.286132812 919.05859375 269.526367188 874 372 c 5
- 912.158203125 328.939453125 736.622070312 155.981445312 644 205 c 5
+644 206 m 5
+ 737 113 l 5
+ 857.727539062 153.286132812 919.05859375 270.526367188 874 373 c 5
+ 912.158203125 329.939453125 736.622070312 156.981445312 644 206 c 5
 EndSplineSet
+Refer: 219 57563 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE109 uniE262
 EndChar
 
@@ -18901,26 +15105,15 @@ Encoding: 65788 -1 820
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: -15 819<499 499>
-VStem: 189 655<-15 184>
 LayerCount: 2
 Fore
 SplineSet
-844 -15 m 1
- 400 -15 l 1
- 189 184 l 1
- 499 444 l 1
- 499 804 l 1
- 618 698 l 1
- 615 390 l 1
- 284 107 l 1
- 759 105 l 1
- 844 -15 l 1
-666 198 m 5
- 759 105 l 5
- 879.727539062 145.286132812 941.05859375 262.526367188 896 365 c 5
- 934.158203125 321.939453125 758.622070312 148.981445312 666 198 c 5
+667 199 m 5
+ 760 106 l 5
+ 880.727539062 146.286132812 942.05859375 263.526367188 897 366 c 5
+ 935.158203125 322.939453125 759.622070312 149.981445312 667 199 c 5
 EndSplineSet
+Refer: 220 57564 N 1 0 0 -1 0 789 2
 Ligature2: "PatternStemRelation" uniE10A uniE262
 EndChar
 
@@ -18929,24 +15122,9 @@ Encoding: 65789 -1 821
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 804<185.793 828.793>
-VStem: 185.793 643<0 804>
 LayerCount: 2
 Fore
-SplineSet
-185.79296875 0 m 1
- 579.79296875 0 l 1
- 828.79296875 300 l 1
- 828.79296875 804 l 1
- 695.79296875 714 l 1
- 696.79296875 144 l 1
- 302.79296875 145 l 1
- 185.79296875 0 l 1
-395.79296875 238 m 5
- 302.79296875 145 l 5
- 182.065429688 185.286132812 120.734375 302.526367188 165.79296875 405 c 5
- 127.634765625 361.939453125 303.170898438 188.981445312 395.79296875 238 c 5
-EndSplineSet
+Refer: 759 -1 N -1 -0 0 -1 979.793 804 2
 Ligature2: "PatternStemRelation" uniE10B uniE262
 EndChar
 
@@ -18955,28 +15133,15 @@ Encoding: 65790 -1 822
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 116.5
-VStem: 151 683<2 110>
 LayerCount: 2
 Fore
 SplineSet
-151 2 m 1
- 244 111 l 1
- 834 110 l 1
- 741 0 l 1
- 151 2 l 1
-244 111 m 1
- 249 572 l 1
- 514 801 l 1
- 685 801 l 1
- 358 506 l 1
- 363 227 l 1
- 244 111 l 1
-741 203 m 5
- 834 110 l 5
- 954.727539062 150.286132812 1016.05859375 267.526367188 971 370 c 5
- 1009.15820312 326.939453125 833.622070312 153.981445312 741 203 c 5
+742 205 m 5
+ 835 112 l 5
+ 955.727539062 152.286132812 1017.05859375 269.526367188 972 372 c 5
+ 1010.15820312 328.939453125 834.622070312 155.981445312 742 205 c 5
 EndSplineSet
+Refer: 222 57566 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE10C uniE262
 EndChar
 
@@ -18985,28 +15150,15 @@ Encoding: 65791 -1 823
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 108 292
-VStem: 151 688<0 0>
 LayerCount: 2
 Fore
 SplineSet
-151 0 m 1
- 508 400 l 1
- 640 400 l 1
- 385 105 l 1
- 737 111 l 1
- 839 0 l 1
- 151 0 l 1
-266 799 m 1
- 508 400 l 1
- 378 400 l 1
- 151 799 l 1
- 266 799 l 1
-644 204 m 5
- 737 111 l 5
- 857.727539062 151.286132812 919.05859375 268.526367188 874 371 c 5
- 912.158203125 327.939453125 736.622070312 154.981445312 644 204 c 5
+642 206 m 5
+ 735 113 l 5
+ 855.727539062 153.286132812 917.05859375 270.526367188 872 373 c 5
+ 910.158203125 329.939453125 734.622070312 156.981445312 642 206 c 5
 EndSplineSet
+Refer: 223 57567 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE10D uniE262
 EndChar
 
@@ -19015,26 +15167,9 @@ Encoding: 65792 -1 824
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: -15 819<600.793 600.793>
-VStem: 255.793 655<-15 184>
 LayerCount: 2
 Fore
-SplineSet
-255.79296875 -15 m 1
- 699.79296875 -15 l 1
- 910.79296875 184 l 1
- 600.79296875 444 l 1
- 600.79296875 804 l 1
- 481.79296875 698 l 1
- 484.79296875 390 l 1
- 815.79296875 107 l 1
- 340.79296875 105 l 1
- 255.79296875 -15 l 1
-433.79296875 198 m 5
- 340.79296875 105 l 5
- 220.065429688 145.286132812 158.734375 262.526367188 203.79296875 365 c 5
- 165.634765625 321.939453125 341.170898438 148.981445312 433.79296875 198 c 5
-EndSplineSet
+Refer: 774 -1 N -1 -0 0 -1 1100.79 789 2
 Ligature2: "PatternStemRelation" uniE10E uniE262
 EndChar
 
@@ -19043,28 +15178,15 @@ Encoding: 65793 -1 825
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110 290
-VStem: 151 678<2 2>
 LayerCount: 2
 Fore
 SplineSet
-727 113 m 1
- 829 2 l 1
- 151 2 l 1
- 498 400 l 1
- 622 400 l 1
- 395 107 l 1
- 727 113 l 1
-609 799 m 1
- 733 799 l 1
- 498 400 l 1
- 378 400 l 1
- 609 799 l 1
-634 206 m 5
- 727 113 l 5
- 847.727539062 153.286132812 909.05859375 270.526367188 864 373 c 5
- 902.158203125 329.939453125 726.622070312 156.981445312 634 206 c 5
+636 206 m 5
+ 729 113 l 5
+ 849.727539062 153.286132812 911.05859375 270.526367188 866 373 c 5
+ 904.158203125 329.939453125 728.622070312 156.981445312 636 206 c 5
 EndSplineSet
+Refer: 225 57569 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE10F uniE262
 EndChar
 
@@ -19073,28 +15195,9 @@ Encoding: 65794 -1 826
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110 290
-VStem: 200.793 678<2 2>
 LayerCount: 2
 Fore
-SplineSet
-302.79296875 113 m 1
- 200.79296875 2 l 1
- 878.79296875 2 l 1
- 531.79296875 400 l 1
- 407.79296875 400 l 1
- 634.79296875 107 l 1
- 302.79296875 113 l 1
-420.79296875 799 m 1
- 296.79296875 799 l 1
- 531.79296875 400 l 1
- 651.79296875 400 l 1
- 420.79296875 799 l 1
-395.79296875 206 m 5
- 302.79296875 113 l 5
- 182.065429688 153.286132812 120.734375 270.526367188 165.79296875 373 c 5
- 127.634765625 329.939453125 303.170898438 156.981445312 395.79296875 206 c 5
-EndSplineSet
+Refer: 779 -1 N -1 -0 0 -1 1031.79 801 2
 Ligature2: "PatternStemRelation" uniE110 uniE262
 EndChar
 
@@ -19103,28 +15206,9 @@ Encoding: 65795 -1 827
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 293.5
-VStem: 201.793 687<3 4>
 LayerCount: 2
 Fore
-SplineSet
-888.79296875 4 m 1
- 652.79296875 404 l 1
- 534.79296875 404 l 1
- 695.79296875 109 l 1
- 302.79296875 112 l 1
- 201.79296875 3 l 1
- 888.79296875 4 l 1
-397.79296875 404 m 1
- 534.79296875 404 l 1
- 874.79296875 799 l 1
- 732.79296875 800 l 1
- 397.79296875 404 l 1
-395.79296875 205 m 5
- 302.79296875 112 l 5
- 182.065429688 152.286132812 120.734375 269.526367188 165.79296875 372 c 5
- 127.634765625 328.939453125 303.170898438 155.981445312 395.79296875 205 c 5
-EndSplineSet
+Refer: 773 -1 N -1 -0 0 -1 1039.79 803 2
 Ligature2: "PatternStemRelation" uniE111 uniE262
 EndChar
 
@@ -19133,28 +15217,9 @@ Encoding: 65796 -1 828
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 108 292
-VStem: 200.793 688<0 0>
 LayerCount: 2
 Fore
-SplineSet
-888.79296875 0 m 1
- 531.79296875 400 l 1
- 399.79296875 400 l 1
- 654.79296875 105 l 1
- 302.79296875 111 l 1
- 200.79296875 0 l 1
- 888.79296875 0 l 1
-773.79296875 799 m 1
- 531.79296875 400 l 1
- 661.79296875 400 l 1
- 888.79296875 799 l 1
- 773.79296875 799 l 1
-395.79296875 204 m 5
- 302.79296875 111 l 5
- 182.065429688 151.286132812 120.734375 268.526367188 165.79296875 371 c 5
- 127.634765625 327.939453125 303.170898438 154.981445312 395.79296875 204 c 5
-EndSplineSet
+Refer: 777 -1 N -1 -0 0 -1 1037.79 799 2
 Ligature2: "PatternStemRelation" uniE112 uniE262
 EndChar
 
@@ -19163,25 +15228,9 @@ Encoding: 65797 -1 829
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 0 799<294.793 447.793 294.793 294.793>
-VStem: 201.793 594<0 480 0 480>
 LayerCount: 2
 Fore
-SplineSet
-201.79296875 0 m 1
- 795.79296875 0 l 1
- 795.79296875 480 l 1
- 447.79296875 799 l 1
- 294.79296875 799 l 1
- 700.79296875 399 l 1
- 702.79296875 109 l 1
- 302.79296875 111 l 1
- 201.79296875 0 l 1
-395.79296875 204 m 1
- 302.79296875 111 l 1
- 182.065429688 151.286132812 120.734375 268.526367188 165.79296875 371 c 1
- 127.634765625 327.939453125 303.170898438 154.981445312 395.79296875 204 c 1
-EndSplineSet
+Refer: 767 -1 N -1 -0 0 -1 947.793 799 2
 Ligature2: "PatternStemRelation" uniE113 uniE262
 EndChar
 
@@ -19190,28 +15239,9 @@ Encoding: 65798 -1 830
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 116.5
-VStem: 302.793 683<2 110>
 LayerCount: 2
 Fore
-SplineSet
-985.79296875 2 m 1
- 892.79296875 111 l 1
- 302.79296875 110 l 1
- 395.79296875 0 l 1
- 985.79296875 2 l 1
-892.79296875 111 m 1
- 887.79296875 572 l 1
- 622.79296875 801 l 1
- 451.79296875 801 l 1
- 778.79296875 506 l 1
- 773.79296875 227 l 1
- 892.79296875 111 l 1
-395.79296875 203 m 5
- 302.79296875 110 l 5
- 182.065429688 150.286132812 120.734375 267.526367188 165.79296875 370 c 5
- 127.634765625 326.939453125 303.170898438 153.981445312 395.79296875 203 c 5
-EndSplineSet
+Refer: 776 -1 N -1 -0 0 -1 1137.79 801 2
 Ligature2: "PatternStemRelation" uniE114 uniE262
 EndChar
 
@@ -19220,27 +15250,15 @@ Encoding: 65799 -1 831
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 339.5 118 4.5 111
-VStem: 151 110 499 110.5
 LayerCount: 2
 Fore
 SplineSet
-841 6 m 1x30
- 745 118 l 1
- 264 113 l 1
- 258 339 l 1
- 613 340 l 1
- 606 699 l 1
- 499 801 l 1
- 499 457 l 1
- 151 458 l 1
- 151 3 l 1
- 841 6 l 1x30
-652 211 m 5
- 745 118 l 5
- 865.727539062 158.286132812 927.05859375 275.526367188 882 378 c 5
- 920.158203125 334.939453125 744.622070312 161.981445312 652 211 c 5
+652 213 m 5
+ 745 120 l 5
+ 865.727539062 160.286132812 927.05859375 277.526367188 882 380 c 5
+ 920.158203125 336.939453125 744.622070312 163.981445312 652 213 c 5
 EndSplineSet
+Refer: 231 57575 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE115 uniE262
 EndChar
 
@@ -19249,27 +15267,9 @@ Encoding: 65800 -1 832
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 339.5 118 4.5 111
-VStem: 786.793 110 438.293 110.5
 LayerCount: 2
 Fore
-SplineSet
-206.79296875 6 m 1x00
- 302.79296875 118 l 1
- 783.79296875 113 l 1
- 789.79296875 339 l 1
- 434.79296875 340 l 1
- 441.79296875 699 l 1
- 548.79296875 801 l 1
- 548.79296875 457 l 1
- 896.79296875 458 l 1
- 896.79296875 3 l 1
- 206.79296875 6 l 1x00
-395.79296875 211 m 5
- 302.79296875 118 l 5
- 182.065429688 158.286132812 120.734375 275.526367188 165.79296875 378 c 5
- 127.634765625 334.939453125 303.170898438 161.981445312 395.79296875 211 c 5
-EndSplineSet
+Refer: 785 -1 N -1 -0 0 -1 1047.79 804 2
 Ligature2: "PatternStemRelation" uniE116 uniE262
 EndChar
 
@@ -19278,28 +15278,15 @@ Encoding: 65801 -1 833
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 112 126
-VStem: 246 93
 LayerCount: 2
 Fore
 SplineSet
-151 2 m 1
- 151 403 l 1
- 248 318 l 1
- 244 111 l 1
- 733 113 l 1
- 834 2 l 1
- 151 2 l 1
-339 238 m 1
- 248 318 l 1
- 564 799 l 1
- 704 799 l 1
- 339 238 l 1
 640 206 m 5
  733 113 l 5
  853.727539062 153.286132812 915.05859375 270.526367188 870 373 c 5
  908.158203125 329.939453125 732.622070312 156.981445312 640 206 c 5
 EndSplineSet
+Refer: 233 57577 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE117 uniE262
 EndChar
 
@@ -19308,28 +15295,9 @@ Encoding: 65802 -1 834
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 112 126
-VStem: 696.793 93
 LayerCount: 2
 Fore
-SplineSet
-884.79296875 2 m 1
- 884.79296875 403 l 1
- 787.79296875 318 l 1
- 791.79296875 111 l 1
- 302.79296875 113 l 1
- 201.79296875 2 l 1
- 884.79296875 2 l 1
-696.79296875 238 m 1
- 787.79296875 318 l 1
- 471.79296875 799 l 1
- 331.79296875 799 l 1
- 696.79296875 238 l 1
-395.79296875 206 m 5
- 302.79296875 113 l 5
- 182.065429688 153.286132812 120.734375 270.526367188 165.79296875 373 c 5
- 127.634765625 329.939453125 303.170898438 156.981445312 395.79296875 206 c 5
-EndSplineSet
+Refer: 787 -1 N -1 -0 0 -1 1035.79 801 2
 Ligature2: "PatternStemRelation" uniE118 uniE262
 EndChar
 
@@ -19338,31 +15306,15 @@ Encoding: 65803 -1 835
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 182.5
-VStem: 245.5 255
 LayerCount: 2
 Fore
 SplineSet
-151 0 m 1
- 151 493 l 1
- 247 400 l 1
- 244 109 l 1
- 742 112 l 1
- 844 1 l 1
- 151 0 l 1
-613 696 m 1
- 613 400 l 2
- 612 328 586 299 502 294 c 2
- 364 292 l 1
- 247 400 l 1
- 499 400 l 1
- 502 799 l 1
- 613 696 l 1
-649 205 m 5
- 742 112 l 5
- 862.727539062 152.286132812 924.05859375 269.526367188 879 372 c 5
- 917.158203125 328.939453125 741.622070312 155.981445312 649 205 c 5
+650 206 m 5
+ 743 113 l 5
+ 863.727539062 153.286132812 925.05859375 270.526367188 880 373 c 5
+ 918.158203125 329.939453125 742.622070312 156.981445312 650 206 c 5
 EndSplineSet
+Refer: 235 57579 N 1 0 0 -1 0 799 2
 Ligature2: "PatternStemRelation" uniE119 uniE262
 EndChar
 
@@ -19371,31 +15323,9 @@ Encoding: 65804 -1 836
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 110.5 182.5
-VStem: 544.293 255
 LayerCount: 2
 Fore
-SplineSet
-893.79296875 0 m 1
- 893.79296875 493 l 1
- 797.79296875 400 l 1
- 800.79296875 109 l 1
- 302.79296875 112 l 1
- 200.79296875 1 l 1
- 893.79296875 0 l 1
-431.79296875 696 m 1
- 431.79296875 400 l 2
- 432.79296875 328 458.79296875 299 542.79296875 294 c 2
- 680.79296875 292 l 1
- 797.79296875 400 l 1
- 545.79296875 400 l 1
- 542.79296875 799 l 1
- 431.79296875 696 l 1
-395.79296875 205 m 5
- 302.79296875 112 l 5
- 182.065429688 152.286132812 120.734375 269.526367188 165.79296875 372 c 5
- 127.634765625 328.939453125 303.170898438 155.981445312 395.79296875 205 c 5
-EndSplineSet
+Refer: 789 -1 N -1 -0 0 -1 1045.79 799 2
 Ligature2: "PatternStemRelation" uniE11A uniE262
 EndChar
 
@@ -19404,27 +15334,15 @@ Encoding: 65805 -1 837
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 291.5 110.5 1.5 119.5
-VStem: 151 124.5
 LayerCount: 2
 Fore
 SplineSet
-844 3 m 1xa0
- 748 123 l 1
- 437 119 l 1
- 675 402 l 1
- 277 402 l 1
- 274 683 l 1
- 151 801 l 1
- 151 290 l 1
- 421 293 l 1
- 151 0 l 1
- 844 3 l 1xa0
-655 216 m 5
- 748 123 l 5
- 868.727539062 163.286132812 930.05859375 280.526367188 885 383 c 5
- 923.158203125 339.939453125 747.622070312 166.981445312 655 216 c 5
+654 206 m 5
+ 747 113 l 5
+ 867.727539062 153.286132812 929.05859375 270.526367188 884 373 c 5
+ 922.158203125 329.939453125 746.622070312 156.981445312 654 206 c 5
 EndSplineSet
+Refer: 237 57581 N 1 0 0 -1 0 801 2
 Ligature2: "PatternStemRelation" uniE11B uniE262
 EndChar
 
@@ -19433,27 +15351,15 @@ Encoding: 65806 -1 838
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 298 107 3.5 118
-VStem: 151 103<119 297 2 297>
 LayerCount: 2
 Fore
 SplineSet
-844 5 m 1xa0
- 748 124 l 1
- 254 119 l 1
- 254 297 l 1
- 651 299 l 1
- 172 801 l 1
- 2 801 l 1
- 389 405 l 1
- 151 405 l 1
- 151 2 l 1
- 844 5 l 1xa0
-655 217 m 5
- 748 124 l 5
- 868.727539062 164.286132812 930.05859375 281.526367188 885 384 c 5
- 923.158203125 340.939453125 747.622070312 167.981445312 655 217 c 5
+654 216 m 5
+ 747 123 l 5
+ 867.727539062 163.286132812 929.05859375 280.526367188 884 383 c 5
+ 922.158203125 339.939453125 746.622070312 166.981445312 654 216 c 5
 EndSplineSet
+Refer: 238 57582 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE11C uniE262
 EndChar
 
@@ -19462,27 +15368,9 @@ Encoding: 65807 -1 839
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 298 107 3.5 118
-VStem: 647.793 103<119 297 2 297>
 LayerCount: 2
 Fore
-SplineSet
-57.79296875 5 m 1xa0
- 153.79296875 124 l 1
- 647.79296875 119 l 1
- 647.79296875 297 l 1
- 250.79296875 299 l 1
- 729.79296875 801 l 1
- 899.79296875 801 l 1
- 512.79296875 405 l 1
- 750.79296875 405 l 1
- 750.79296875 2 l 1
- 57.79296875 5 l 1xa0
-246.79296875 217 m 5
- 153.79296875 124 l 5
- 33.0654296875 164.286132812 -28.265625 281.526367188 16.79296875 384 c 5
- -21.365234375 340.939453125 154.170898438 167.981445312 246.79296875 217 c 5
-EndSplineSet
+Refer: 792 -1 N -1 -0 0 -1 900.793 803 2
 Ligature2: "PatternStemRelation" uniE11D uniE262
 EndChar
 
@@ -19491,30 +15379,15 @@ Encoding: 65808 -1 840
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 123.5 281.5
-VStem: 151 692<123 804>
 LayerCount: 2
 Fore
 SplineSet
-160 5 m 1
- 274 124 l 1
- 843 123 l 1
- 751 0 l 1
- 160 5 l 1
-274 124 m 1
- 279 519 l 1
- 492 519 l 1
- 151 804 l 1
- 345 804 l 1
- 766 405 l 1
- 400 405 l 1
- 398 230 l 1
- 274 124 l 1
-750 216 m 5
- 843 123 l 5
- 963.727539062 163.286132812 1025.05859375 280.526367188 980 383 c 5
- 1018.15820312 339.939453125 842.622070312 166.981445312 750 216 c 5
+750 217 m 5
+ 843 124 l 5
+ 963.727539062 164.286132812 1025.05859375 281.526367188 980 384 c 5
+ 1018.15820312 340.939453125 842.622070312 167.981445312 750 217 c 5
 EndSplineSet
+Refer: 240 57584 N 1 0 0 -1 0 804 2
 Ligature2: "PatternStemRelation" uniE11E uniE262
 EndChar
 
@@ -19523,30 +15396,9 @@ Encoding: 65809 -1 841
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 123.5 281.5
-VStem: 302.793 692<123 804>
 LayerCount: 2
 Fore
-SplineSet
-985.79296875 5 m 1
- 871.79296875 124 l 1
- 302.79296875 123 l 1
- 394.79296875 0 l 1
- 985.79296875 5 l 1
-871.79296875 124 m 1
- 866.79296875 519 l 1
- 653.79296875 519 l 1
- 994.79296875 804 l 1
- 800.79296875 804 l 1
- 379.79296875 405 l 1
- 745.79296875 405 l 1
- 747.79296875 230 l 1
- 871.79296875 124 l 1
-395.79296875 216 m 5
- 302.79296875 123 l 5
- 182.065429688 163.286132812 120.734375 280.526367188 165.79296875 383 c 5
- 127.634765625 339.939453125 303.170898438 166.981445312 395.79296875 216 c 5
-EndSplineSet
+Refer: 794 -1 N -1 -0 0 -1 1145.79 804 2
 Ligature2: "PatternStemRelation" uniE11F uniE262
 EndChar
 
@@ -19555,30 +15407,15 @@ Encoding: 65810 -1 842
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 112.5 241.5
-VStem: 389 110
 LayerCount: 2
 Fore
 SplineSet
-160 4 m 1
- 274 113 l 1
- 843 112 l 1
- 748 0 l 1
- 160 4 l 1
-388 219 m 1
- 274 113 l 1
- 279 458 l 1
- 499 458 l 1
- 499 803 l 1
- 610 691 l 1
- 609 354 l 1
- 390 354 l 1
- 388 219 l 1
-750 205 m 5
- 843 112 l 5
- 963.727539062 152.286132812 1025.05859375 269.526367188 980 372 c 5
- 1018.15820312 328.939453125 842.622070312 155.981445312 750 205 c 5
+750 206 m 5
+ 843 113 l 5
+ 963.727539062 153.286132812 1025.05859375 270.526367188 980 373 c 5
+ 1018.15820312 329.939453125 842.622070312 156.981445312 750 206 c 5
 EndSplineSet
+Refer: 242 57586 N 1 0 0 -1 0 803 2
 Ligature2: "PatternStemRelation" uniE120 uniE262
 EndChar
 
@@ -19587,30 +15424,9 @@ Encoding: 65811 -1 843
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 112.5 241.5
-VStem: 655.793 110
 LayerCount: 2
 Fore
-SplineSet
-994.79296875 4 m 1
- 880.79296875 113 l 1
- 311.79296875 112 l 1
- 406.79296875 0 l 1
- 994.79296875 4 l 1
-766.79296875 219 m 1
- 880.79296875 113 l 1
- 875.79296875 458 l 1
- 655.79296875 458 l 1
- 655.79296875 803 l 1
- 544.79296875 691 l 1
- 545.79296875 354 l 1
- 764.79296875 354 l 1
- 766.79296875 219 l 1
-404.79296875 205 m 5
- 311.79296875 112 l 5
- 191.065429688 152.286132812 129.734375 269.526367188 174.79296875 372 c 5
- 136.634765625 328.939453125 312.170898438 155.981445312 404.79296875 205 c 5
-EndSplineSet
+Refer: 796 -1 N -1 -0 0 -1 1154.79 803 2
 Ligature2: "PatternStemRelation" uniE121 uniE262
 EndChar
 
@@ -19619,27 +15435,9 @@ Encoding: 65812 -1 844
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 291.5 110.5 1.5 119.5
-VStem: 775.293 124.5
 LayerCount: 2
 Fore
-SplineSet
-206.79296875 3 m 1xa0
- 302.79296875 123 l 1
- 613.79296875 119 l 1
- 375.79296875 402 l 1
- 773.79296875 402 l 1
- 776.79296875 683 l 1
- 899.79296875 801 l 1
- 899.79296875 290 l 1
- 629.79296875 293 l 1
- 899.79296875 0 l 1
- 206.79296875 3 l 1xa0
-395.79296875 216 m 5
- 302.79296875 123 l 5
- 182.065429688 163.286132812 120.734375 280.526367188 165.79296875 383 c 5
- 127.634765625 339.939453125 303.170898438 166.981445312 395.79296875 216 c 5
-EndSplineSet
+Refer: 791 -1 N -1 -0 0 -1 1049.79 801 2
 Ligature2: "PatternStemRelation" uniE122 uniE262
 EndChar
 
@@ -19649,7 +15447,6 @@ Width: 1000
 GlyphClass: 3
 Flags: HMW
 HStem: 295 260
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19659,6 +15456,7 @@ SplineSet
  722.060546875 425.841796875 895.018554688 601.377929688 846 694 c 5
 EndSplineSet
 Refer: 199 57543 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "PatternStemRelation" uniE0C7 uniE265
 EndChar
 
@@ -19668,7 +15466,6 @@ Width: 1000
 GlyphClass: 3
 Flags: HMW
 HStem: 295 260
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19686,8 +15483,6 @@ Encoding: 65815 -1 847
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19705,8 +15500,6 @@ Encoding: 65816 -1 848
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19724,8 +15517,6 @@ Encoding: 65817 -1 849
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19743,8 +15534,6 @@ Encoding: 65818 -1 850
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19762,8 +15551,6 @@ Encoding: 65819 -1 851
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19781,8 +15568,6 @@ Encoding: 65820 -1 852
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19800,8 +15585,6 @@ Encoding: 65821 -1 853
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19819,8 +15602,6 @@ Encoding: 65822 -1 854
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19838,8 +15619,6 @@ Encoding: 65823 -1 855
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19857,8 +15636,6 @@ Encoding: 65824 -1 856
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19876,8 +15653,6 @@ Encoding: 65825 -1 857
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19895,8 +15670,6 @@ Encoding: 65826 -1 858
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19914,8 +15687,6 @@ Encoding: 65827 -1 859
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19933,8 +15704,6 @@ Encoding: 65828 -1 860
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19952,8 +15721,6 @@ Encoding: 65829 -1 861
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19971,8 +15738,6 @@ Encoding: 65830 -1 862
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -19990,8 +15755,6 @@ Encoding: 65831 -1 863
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20009,8 +15772,6 @@ Encoding: 65832 -1 864
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20028,8 +15789,6 @@ Encoding: 65833 -1 865
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20047,8 +15806,6 @@ Encoding: 65834 -1 866
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20066,8 +15823,6 @@ Encoding: 65835 -1 867
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20085,8 +15840,6 @@ Encoding: 65836 -1 868
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20104,8 +15857,6 @@ Encoding: 65837 -1 869
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20123,8 +15874,6 @@ Encoding: 65838 -1 870
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20142,8 +15891,6 @@ Encoding: 65839 -1 871
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20161,8 +15908,6 @@ Encoding: 65840 -1 872
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20180,8 +15925,6 @@ Encoding: 65841 -1 873
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20199,8 +15942,6 @@ Encoding: 65842 -1 874
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20218,8 +15959,6 @@ Encoding: 65843 -1 875
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20237,8 +15976,6 @@ Encoding: 65844 -1 876
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20256,8 +15993,6 @@ Encoding: 65845 -1 877
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20275,8 +16010,6 @@ Encoding: 65846 -1 878
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20294,8 +16027,6 @@ Encoding: 65847 -1 879
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20313,8 +16044,6 @@ Encoding: 65848 -1 880
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20332,8 +16061,6 @@ Encoding: 65849 -1 881
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20351,8 +16078,6 @@ Encoding: 65850 -1 882
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20370,8 +16095,6 @@ Encoding: 65851 -1 883
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20389,8 +16112,6 @@ Encoding: 65852 -1 884
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20408,8 +16129,6 @@ Encoding: 65853 -1 885
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20427,8 +16146,6 @@ Encoding: 65854 -1 886
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20446,8 +16163,6 @@ Encoding: 65855 -1 887
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20465,8 +16180,6 @@ Encoding: 65856 -1 888
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20484,8 +16197,6 @@ Encoding: 65857 -1 889
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20503,8 +16214,6 @@ Encoding: 65858 -1 890
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20523,7 +16232,6 @@ Width: 1000
 GlyphClass: 3
 Flags: HMW
 HStem: 249 260
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20542,7 +16250,6 @@ Width: 1000
 GlyphClass: 3
 Flags: HMW
 HStem: 249 260
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20560,8 +16267,6 @@ Encoding: 65861 -1 893
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20579,8 +16284,6 @@ Encoding: 65862 -1 894
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20598,8 +16301,6 @@ Encoding: 65863 -1 895
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20617,8 +16318,6 @@ Encoding: 65864 -1 896
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20636,8 +16335,6 @@ Encoding: 65865 -1 897
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20655,8 +16352,6 @@ Encoding: 65866 -1 898
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20674,8 +16369,6 @@ Encoding: 65867 -1 899
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20693,8 +16386,6 @@ Encoding: 65868 -1 900
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20712,8 +16403,6 @@ Encoding: 65869 -1 901
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20731,8 +16420,6 @@ Encoding: 65870 -1 902
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20750,8 +16437,6 @@ Encoding: 65871 -1 903
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20769,8 +16454,6 @@ Encoding: 65872 -1 904
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20788,8 +16471,6 @@ Encoding: 65873 -1 905
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20807,8 +16488,6 @@ Encoding: 65874 -1 906
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20826,8 +16505,6 @@ Encoding: 65875 -1 907
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20845,8 +16522,6 @@ Encoding: 65876 -1 908
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20864,8 +16539,6 @@ Encoding: 65877 -1 909
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20883,8 +16556,6 @@ Encoding: 65878 -1 910
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20902,8 +16573,6 @@ Encoding: 65879 -1 911
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20921,8 +16590,6 @@ Encoding: 65880 -1 912
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20940,8 +16607,6 @@ Encoding: 65881 -1 913
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20959,8 +16624,6 @@ Encoding: 65882 -1 914
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20978,8 +16641,6 @@ Encoding: 65883 -1 915
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -20997,8 +16658,6 @@ Encoding: 65884 -1 916
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21016,8 +16675,6 @@ Encoding: 65885 -1 917
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21035,8 +16692,6 @@ Encoding: 65886 -1 918
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21054,8 +16709,6 @@ Encoding: 65887 -1 919
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21073,8 +16726,6 @@ Encoding: 65888 -1 920
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21092,8 +16743,6 @@ Encoding: 65889 -1 921
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21111,8 +16760,6 @@ Encoding: 65890 -1 922
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21130,8 +16777,6 @@ Encoding: 65891 -1 923
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21149,8 +16794,6 @@ Encoding: 65892 -1 924
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21168,8 +16811,6 @@ Encoding: 65893 -1 925
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21187,8 +16828,6 @@ Encoding: 65894 -1 926
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21206,8 +16845,6 @@ Encoding: 65895 -1 927
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21225,8 +16862,6 @@ Encoding: 65896 -1 928
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21244,8 +16879,6 @@ Encoding: 65897 -1 929
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21263,8 +16896,6 @@ Encoding: 65898 -1 930
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21282,8 +16913,6 @@ Encoding: 65899 -1 931
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21301,8 +16930,6 @@ Encoding: 65900 -1 932
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21320,8 +16947,6 @@ Encoding: 65901 -1 933
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21339,8 +16964,6 @@ Encoding: 65902 -1 934
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21358,8 +16981,6 @@ Encoding: 65903 -1 935
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21377,8 +16998,6 @@ Encoding: 65904 -1 936
 Width: 1000
 GlyphClass: 3
 Flags: HMW
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -21396,7 +17015,6 @@ Encoding: 57957 57957 937
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
 VStem: 327.396 260
 LayerCount: 2
 Fore
@@ -21413,8 +17031,6 @@ Encoding: 57955 57955 938
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -22782,8 +18398,6 @@ Encoding: 57959 57959 1032
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -22800,8 +18414,6 @@ Encoding: 57958 57958 1033
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -26878,8 +22490,6 @@ Encoding: 57970 57970 1310
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 Refer: 567 57969 N -1 0 0 1 994 0 2
@@ -26908,8 +22518,6 @@ Encoding: 57967 57967 1312
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -26979,7 +22587,6 @@ Encoding: 57963 57963 1316
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
 VStem: 751 92
 LayerCount: 2
 Fore
@@ -26997,8 +22604,6 @@ Encoding: 57964 57964 1317
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -27033,8 +22638,6 @@ Encoding: 57966 57966 1319
 Width: 1000
 GlyphClass: 2
 Flags: W
-HStem: 
-VStem: 
 LayerCount: 2
 Fore
 SplineSet
@@ -39239,6 +34842,5 @@ Fore
 Refer: 2101 -1 N 1 0 0 -1 0 966 2
 Ligature2: "PatternStemRelation" uniE122 uniE270
 EndChar
-
 EndChars
 EndSplineFont

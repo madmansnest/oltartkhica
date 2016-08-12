@@ -37,23 +37,23 @@ characters.each do |c|
   data = {}
   c.each_line do |l|
     m = /(.+?): (.+?)\n/.match(l)
-    data["sfd_#{m[1].downcase}".to_sym] = m[2] if m
+    data["#{m[1].downcase}".to_sym] = m[2] if m
   end
   ss = StringScanner.new(c)
   ss.scan_until(/SplineSet\n/)
   splineset = ss.scan_until(/\nEndSplineSet/)
-  data[:sfd_splineset] = splineset.chomp("\nEndSplineSet") if splineset
-  codes = data[:sfd_encoding].split(' ')
-  data[:sfd_code] = codes[0]
-  data[:sfd_unicode] = codes[1]
-  data[:sfd_lookupname] = /"(.+?)"/.match(data[:sfd_ligature2])[1] if data[:sfd_ligature2]
-  data[:sfd_name] = data[:sfd_startchar]
+  data[:splineset] = splineset.chomp("\nEndSplineSet") if splineset
+  codes = data[:encoding].split(' ')
+  data[:code] = codes[0]
+  data[:unicode] = codes[1]
+  data[:lookupname] = /"(.+?)"/.match(data[:ligature2])[1] if data[:ligature2]
+  data[:name] = data[:startchar]
   update_data = data.select {|k,v| columns.include?(k)}  
-  if DB[:glyphs].where(:sfd_name => data[:sfd_name])
-    log "\nUpdating Character #{data[:sfd_name]}"
-    DB[:glyphs].where(:sfd_name => data[:sfd_name]).update(update_data)
+  if DB[:glyphs].where(:name => data[:name]).count > 0
+    log "\nUpdating Character #{data[:name]}"
+    DB[:glyphs].where(:name => data[:name]).update(update_data)
   else
-    log "\nAdding Character #{data[:sfd_name]}"
+    log "\nAdding Character #{data[:name]}"
     DB[:glyphs].insert(update_data)
   end
 end

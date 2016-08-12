@@ -14,21 +14,21 @@ def log(s)
 end
 
 puts DB[:fontinfo].where(:unit => 'fontinfo').first[:contents]
-puts "BeginChars: #{DB[:glyphs].max(:sfd_code).to_i+1} #{DB[:glyphs].max(:id).to_i}\n\n"
+puts "BeginChars: #{DB[:glyphs].max(:code).to_i+1} #{DB[:glyphs].max(:id).to_i}\n\n"
 DB[:glyphs].each do |c|
-  puts "StartChar: #{c[:sfd_name]}"
-  puts "Encoding: #{c[:sfd_code]} #{c[:sfd_unicode]} #{c[:id]-1}"
-  puts "Width: #{c[:sfd_width]}"
-  puts "GlyphClass: #{c[:sfd_glyphclass]}"
-  puts "Flags: #{c[:sfd_flags]}"
-  puts "HStem: #{c[:sfd_hstem]}"
-  puts "VStem: #{c[:sfd_vstem]}"
+  puts "StartChar: #{c[:name]}"
+  puts "Encoding: #{c[:code]} #{c[:unicode]} #{c[:id]-1}"
+  puts "Width: #{c[:width]}"
+  puts "GlyphClass: #{c[:glyphclass]}"
+  puts "Flags: #{c[:flags]}"
+  puts "HStem: #{c[:hstem]}"
+  puts "VStem: #{c[:vstem]}"
   puts "LayerCount: 2\nFore"
-  puts "SplineSet\n#{c[:sfd_splineset]}\nEndSplineSet" if c[:sfd_splineset]
-  puts "Refer: #{c[:sfd_refer]}" if c[:sfd_refer]
-  if c[:sfd_lookupname]
-    components = /uni([0-9|A-F]+)\.liga/.match(c[:sfd_name])[1].scan(/.{4}/).map{|cmp|'uni'+cmp}
-    puts %Q{Ligature#{components.size}: "#{c[:sfd_lookupname]}" #{components.join(' ')}}
+  puts "SplineSet\n#{c[:splineset]}\nEndSplineSet" if c[:splineset]
+  puts "Refer: #{c[:refer]}" if c[:refer]
+  if c[:lookupname]
+    components = /uni([0-9|A-F]+)\.liga/.match(c[:name])[1].scan(/.{4}/).map{|cmp|'uni'+cmp}
+    puts %Q{Ligature#{components.size}: "#{c[:lookupname]}" #{components.join(' ')}}
   end
   puts "EndChar\n\n"
 end

@@ -2,27 +2,25 @@
 #
 # Run every time before editing in FontForge.
 
-require 'rubygems'
-require 'sequel'
-require 'logger'
+require './routines.rb'
 
-DB = Sequel.sqlite('oltartkhica.sqlite3', :loggers => [Logger.new(STDERR)])
-
-# The simplest logger
-def log(s)
-  STDERR.puts(s)
-end
+checked = ARGV[0]=='checked'
 
 puts DB[:fontinfo].where(:unit => 'fontinfo').first[:contents]
 puts "BeginChars: #{DB[:glyphs].max(:code).to_i+1} #{DB[:glyphs].max(:id).to_i}\n\n"
-DB[:glyphs].each do |c|
+if checked
+  glyphs = DB[:glyphs].where(:checked=>true)
+else
+  glyphs = DB[:glyphs]
+end
+glyphs.each do |c|
   puts "StartChar: #{c[:name]}"
   puts "Encoding: #{c[:code]} #{c[:unicode]} #{c[:id]-1}"
   puts "Width: #{c[:width]}"
   puts "GlyphClass: #{c[:glyphclass]}"
   puts "Flags: #{c[:flags]}"
-  puts "HStem: #{c[:hstem]}"
-  puts "VStem: #{c[:vstem]}"
+  puts "HStem: #{c[:hstem]}" if c[:hstem]
+  puts "VStem: #{c[:vstem]}" if c[:vstem]
   puts "LayerCount: 2\nFore"
   puts "SplineSet\n#{c[:splineset]}\nEndSplineSet" if c[:splineset]
   puts "Refer: #{c[:refer]}" if c[:refer]

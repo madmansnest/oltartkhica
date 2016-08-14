@@ -32,4 +32,6 @@ Consonantal characters are input by their transliteration with the following adj
 * Ţ, dh, xh, ļ, ç, and ż are shown with ‘,’ after the letter, e.g. ‘l,’, ‘z,’, etc; tļ is input with ‘tl’;
 * Letters with a hacek (ň, č, ř, ž) are shown with ‘,’ before the letter, e.g. ‘,n’, ‘,c’, etc; E.g. ‘čʰ’ is input with ‘,ch’.
 
+Prefixes and suffixes are input in rather unintuitive way. First of all, they are always input after the root letter, even the prefixes (see the rules for ligatures in the main font file). Secondly, a slash ‘/’ is added in the place of the root letter. E.g. prefix q+C is input with ‘q/’ and suffix C+ř is input with ‘/,r’. Gemination is input with ‘//’
+
 Punctuation (quote and transliteration symbols) are input with ‘/’.

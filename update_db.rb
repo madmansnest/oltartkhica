@@ -3,20 +3,9 @@
 # Run every time after editing `Oltartkhica-Regular.sfd` in FontForge in order to keep 
 # the database synced.
 
-require 'rubygems'
-require 'sequel'
-require 'logger'
-require 'strscan'
+require './routines.rb'
 
-DB = Sequel.sqlite('oltartkhica.sqlite3', :loggers => [Logger.new(STDERR)])
-infile = 'Oltartkhica-Regular.sfd'
-
-# The simplest logger
-def log(s)
-  STDERR.puts(s)
-end
-
-sfd = File.read(infile)
+sfd = File.read(INFILE)
 
 log "Reading Font Info"
 

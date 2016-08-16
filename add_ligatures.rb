@@ -1,6 +1,6 @@
 require './routines.rb'
 
-character_range = 0xe0c7..0xe122
+character_range = [0xe290]
 ligature_range = 0xe273..0xe28f
 free_code = Incrementer.new(DB[:glyphs].max(:code).to_i)
 

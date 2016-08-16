@@ -17,6 +17,30 @@ So far Itkuil characters are encoded starting at the beginning of the Unicode Pr
 
 Suggested order in which characters are encoded is provided in the file Encoding.txt.
 
+## Ligatures
+
+Character modifiers or extensions are implemented with OpenType ligatures. That means, any string starting with the base characters and followed by characters representing modifiers will be automatically replaced by the font rendering engine with a single glyph carrying all the modifiers.
+
+This requires a rule that the base character (including primary and consonantal characters, together with placeholders) always goes first in the string (otherwise it won’t be clear for the engine what characters ). In most cases that is also natural, except when a consonantal modifier is a prefix. Therefore, e.g. consonantal cluster ‘lt’ should be represented with the string <Consonantal t><Modifier l+C> in this order.
+
+Due to the fact that every of 96 Primary Case Characters can simultaneously take 17 modifiers for Configuration&Essence to its top part and 23 modifiers for Extension&Affiliation to the bottom part, a total number of ligature glyphs required for Primary Case Characters is 96×18×24 = 41472. Similarly, every of 46 Consonantal Characters and their 46 Vertically Inverted Counterparts can take 17 modifiers for Pattern, Stem and Relation to horizontal bar and 29 modifiers for Consonant Affixes to its vertical line, therefore the total number of ligature glyphs required for Consonantal Characters is 92×18×30 = 49680.
+
+Such an enourmous number of glyphs that rivals that of CJK characters, is implausible to create by hand. However due to the very regular nature of ligatures it is perfectly possible to automate most of the process.
+
+Only basic (non-reversed non-inverted characters) with a single modifier require some manual work, i.e. modifying the end of the line and placing the modifier in the right place. [Not sure how many is that for Primary Characters — add this later.] For Consonantal Characters that is 23 characters with 17 horizontal bar modifiers plus 23 characters with 29 vertical line modifiers, or 1058 glyphs. Because modifying a glyph is easier than drawing a new one, it is doable (and have been done) by a single person in a several days’ time. Laterally Reversed and Vertically Inverted Characters are created using  flipped references in FontForge. And glyphs for characters with both top and bottom modifiers are created by a script by taking the reference to the glyph with a bottom modifier, then copying the top modifier from glyph.
+
+This system has a major flaw that is does not allow to modify the top part of the character, only the position of the modifier. As a result, characters with a modifier to the top do not currently look exactly like they should. And an important limitation currently is that while modifying the bottom modifiers it is not allowed to move the horisontal part of the character, otherwise the modifiers would get displaced by the script in complex glyphs.
+
+Consonantal Placeholder characters (Horizontal Bar, Laterally Reversed Horizontal Bar and Vertical Bar) are encoded as separate characters. As stated in Section 11.3.4.10 of the Grammar, Horizontal Bar is used to mark Bias in the words which do not have a Derivational Suffix, and Laterally Reversed Horizontal Bar is used in such words instead of the vertical-bar diacritic. Vertical Bar is mentioned in Section 11.3.4.3 of the Grammar and is used if a single Consonantal Character with extensions and diacritics is not enough to represent a triconsonantal or a tetraconsonantal root. Notice that Vertical Bar is different from similarly looking Secondary Placeholder Character, and the visual style of the glyph follows that of Consonantal Characters.
+
+Notice that as there are only 16 of 17 horizontal bar modifiers used to represent Bias, the Horizontal Bar with a P1S1+FRA character is not needed. However, it is still present in the font. The reason is the non-standard usage that is described below.
+
+### Proposed Non-standard usage for the Horizontal Bar character
+
+A shortcut method of writing borrowed words in Ithkuil is proposed as follows. Instead of official orthographic usage of consonantal character  p for carrier root and following it with transliteration enclosed within  transliteration signs, in place of basic consonantal character the original script in the foreign language is put, followed by a Horizontal Bar character with the extensions for Pattern, Stem and Relation of the carrier root as well as all necessary diacritics. While this might be thought to disrupt the unified visual style of Ithkuil script, using original orthography within a writing system is exteremely common, and even when two writing systems have a completely different look and feel, they can be intermixed, e.g. foreign words written in Latin script may occur even within Chinese and Japanese text, even in vertical writing.
+
+Aside from removing the need for transliteration and making the writing more compact, this makes it possible to express in written Ithkuil even the words that cannot yet be used in spoken Ithkuil, e.g. using an ideograhic character in place of unassigned root for which the consonantal form is not yet known.
+
 ## Input
 
 There is an input table in the .cin in the font package that can be used to type Ithkuil. See IME.txt for more information on the input method table.
@@ -27,15 +51,23 @@ There is an input table in the .cin in the font package that can be used to type
 * Primary characters need cosmetic rework because the line width varies from character to character, and spacing is wrong sometimes.
 * Modifiers are not implemented and are unusable; Consonantal character modifiers are not even encoded yet.
 * A quick way of producing ligatures shall be found, as we have to create 41472 Primary + 171396 Consonantal glyphs for ligatures.
-* Some blocks are placed illogically: Laterally reversed Secondary Case characters do not follow Secondary Case characters but are rather put after Secondary Aspect Characters; Ligatures not found on Primary Characters are put after Secondary Modality characters in a separate block.
+* Some blocks are placed illogically: Laterally reversed Secondary Case characters do not follow Secondary Case characters but are rather put after Secondary Aspect Characters; Ligatures not found on Primary Characters are put after Secondary Modality characters in a separate block. Vertical Line Consonantal Placeholder follows Consonantal Modifiers instead of being included in the Placeholders Block.
 * Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs.
+* Horizontal part modifiers should be reworked to allow to change the form of the line. A new mechanism to create ligatures with both horizontal and vertical modifier should also be created.
 
 ## Fixing and improving
 
 There’s a lot of work to do with the font, and any help will be appreciated. Feel free to hack on whatever you feel can be improved, and send the pull request. Any suggestions on how the font can be improved are also heartily welcome. The author is /u/mnyonpa on Reddit.
 
-## Total number of characters required
+## Total number of characters
 
+Current statistics for the font:
+Total number of glyphs in the font: 4845
+Total number of glyphs that have Unicode codepoints (that is, without the combined characters): 613
+Total number of glyphs that are a combination of 2 characters (that is, characters with one extension): 4232
+
+Below is the original list I made before starting to work on the font, and therefore it contains some errors.
+---
 96 Primary characters ✔
 ×18 Confuguration&Essence mods
 ×24 Extension&Affiliation mods
@@ -51,14 +83,12 @@ There’s a lot of work to do with the font, and any help will be appreciated. F
 8 Phase diacritics = 7 Perspective&Designation diacritics + 1
 8 Sanction diacritics are included in 11 Version diacritics ✔
 46 Consonantal characters ✔
-×23 Prefix mods
-×9 Suffix mods
-(unless mods are made as diacritics this requires 9522 more characters)
+×22 Affix mods ✔
 + Vertically inverted Consonant characters for Incorporated Roots and Suffixes ✔
 13 Affix Diacritics = 11 Version diacritics + 2 ✔
-×18 Pattern/Stem/Relation mods
+×18 Pattern/Stem/Relation mods ✔
 3 Function diacritics are included in Perspective&Designation diacritics ✔
-×18 inverted Pattern/Stem/Relation mods
+×18 inverted Pattern/Stem/Relation mods ✔
 +? Inverted diacritics for Format&Context ✔
 5 Illocution diacritics are probably included in Mood diacritics ✔
 6 Negative polarity diacritics included ✔
@@ -68,7 +98,7 @@ There’s a lot of work to do with the font, and any help will be appreciated. F
 Consonantal Placeholder ✔
 Quote mark ✔
 Transliteration mark ✔
-18 vowel transliteration mods included
+18 vowel transliteration mods included ✔
 7 Tone diacritics included ✔
 10+4 Number characters
 9 Number diacritics

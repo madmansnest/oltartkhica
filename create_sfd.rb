@@ -26,7 +26,7 @@ glyphs.each do |c|
   puts "Refer: #{c[:refer]}" if c[:refer]
   if c[:lookupname]
     components = /uni([0-9|A-F]+)\.liga/.match(c[:name])[1].scan(/.{4}/).map{|cmp|'uni'+cmp}
-    puts %Q{Ligature#{components.size}: "#{c[:lookupname]}" #{components.join(' ')}}
+    puts %Q{Ligature2: "#{c[:lookupname]}" #{components.join(' ')}}
   end
   puts "EndChar\n\n"
 end

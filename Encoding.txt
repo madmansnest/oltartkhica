@@ -21,6 +21,7 @@ U+E257~U+E25F Consonantal Extensions for Suffixes
 U+E260~U+E270 Consonantal Extensions for Pattern, Stem, and Relation
 U+E271~U+E272 Placeholder characters for showing bias
 U+E272~U+E28F Consonantal Extensions for Consonantal Affixes
+U+E290 Consonantal Placeholder
 
 # Code Points
 
@@ -638,3 +639,4 @@ U+E28C ITHKUIL MODIFIER ż+C
 U+E28D ITHKUIL MODIFIER j+C
 U+E28E ITHKUIL MODIFIER dh+C
 U+E28F ITHKUIL MODIFIER ž+C
+U+E290 ITHKUIL CONSONANTAL PLACEHOLDER CHARACTER

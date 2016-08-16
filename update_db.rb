@@ -5,7 +5,8 @@
 
 require './routines.rb'
 
-sfd = File.read(INFILE)
+infile = ARGV[0] || INFILE
+sfd = File.read(infile)
 
 log "Reading Font Info"
 
@@ -37,10 +38,16 @@ characters.each do |c|
   data[:unicode] = codes[1]
   data[:lookupname] = /"(.+?)"/.match(data[:ligature2])[1] if data[:ligature2]
   data[:name] = data[:startchar]
-  update_data = data.select {|k,v| columns.include?(k)}  
-  if DB[:glyphs].where(:name => data[:name]).count > 0
-    log "\nUpdating Character #{data[:name]}"
-    DB[:glyphs].where(:name => data[:name]).update(update_data)
+  update_data = data.select {|k,v| columns.include?(k)}
+  already_exists = DB[:glyphs].where(:name => data[:name])
+  if already_exists.count > 0
+    original_data = already_exists.first
+    if original_data.merge(update_data) == original_data
+      log "\n Skipping unchanged Character #{data[:name]}"
+    else
+      log "\nUpdating Character #{data[:name]}"
+      already_exists.update(update_data)
+    end
   else
     log "\nAdding Character #{data[:name]}"
     DB[:glyphs].insert(update_data)

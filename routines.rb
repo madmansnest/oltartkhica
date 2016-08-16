@@ -3,7 +3,8 @@ require 'sequel'
 require 'logger'
 require 'strscan'
 
-DB = Sequel.sqlite('oltartkhica.sqlite3', :loggers => [Logger.new(STDERR)])
+LOGGER = nil#Logger.new(STDERR)
+DB = Sequel.sqlite('oltartkhica.sqlite3', :loggers => [LOGGER])
 INFILE = 'Oltartkhica-Regular.sfd'
 
 # The simplest logger

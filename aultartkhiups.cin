@@ -629,8 +629,11 @@ dir 
 neg 
 adm 
 nc 
-/ 
-/ 
+nc 
+nc 
+nc 
+/ 
+/ 
 exs 
 fnc/sta 
 sta/fnc 

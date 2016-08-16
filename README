@@ -23,6 +23,8 @@ Character modifiers or extensions are implemented with OpenType ligatures. That 
 
 This requires a rule that the base character (including primary and consonantal characters, together with placeholders) always goes first in the string (otherwise it won’t be clear for the engine what characters ). In most cases that is also natural, except when a consonantal modifier is a prefix. Therefore, e.g. consonantal cluster ‘lt’ should be represented with the string <Consonantal t><Modifier l+C> in this order.
 
+Also, currently it is required that if two modifiers are present, the horizontal bar modifier precedes the vertical bar modifier. So, <character><horizontal modifier><vertical modifier> is currently the only way to trigger a ligature for a character with two modifiers present.
+
 Due to the fact that every of 96 Primary Case Characters can simultaneously take 17 modifiers for Configuration&Essence to its top part and 23 modifiers for Extension&Affiliation to the bottom part, a total number of ligature glyphs required for Primary Case Characters is 96×18×24 = 41472. Similarly, every of 46 Consonantal Characters and their 46 Vertically Inverted Counterparts can take 17 modifiers for Pattern, Stem and Relation to horizontal bar and 29 modifiers for Consonant Affixes to its vertical line, therefore the total number of ligature glyphs required for Consonantal Characters is 92×18×30 = 49680.
 
 Such an enourmous number of glyphs that rivals that of CJK characters, is implausible to create by hand. However due to the very regular nature of ligatures it is perfectly possible to automate most of the process.
@@ -37,9 +39,9 @@ Notice that as there are only 16 of 17 horizontal bar modifiers used to represen
 
 ### Proposed Non-standard usage for the Horizontal Bar character
 
-A shortcut method of writing borrowed words in Ithkuil is proposed as follows. Instead of official orthographic usage of consonantal character  p for carrier root and following it with transliteration enclosed within  transliteration signs, in place of basic consonantal character the original script in the foreign language is put, followed by a Horizontal Bar character with the extensions for Pattern, Stem and Relation of the carrier root as well as all necessary diacritics. While this might be thought to disrupt the unified visual style of Ithkuil script, using original orthography within a writing system is exteremely common, and even when two writing systems have a completely different look and feel, they can be intermixed, e.g. foreign words written in Latin script may occur even within Chinese and Japanese text, even in vertical writing.
+A shortcut method of writing borrowed words in Ithkuil is proposed as follows. Instead of official orthographic usage of consonantal character  p for carrier root and following it with transliteration enclosed within  transliteration signs, in place of basic consonantal character the original script in the foreign language is put, followed by a Horizontal Bar character with the extensions for Pattern, Stem and Relation of the carrier root as well as all necessary diacritics. While this might be thought to disrupt the unified visual style of Ithkuil script, using original foreign orthography within a writing system is exteremely common, and even when two writing systems have a completely different look and feel, they can be intermixed, e.g. foreign words written in Latin script may occur within Chinese and Japanese text, even in vertical writing.
 
-Aside from removing the need for transliteration and making the writing more compact, this makes it possible to express in written Ithkuil even the words that cannot yet be used in spoken Ithkuil, e.g. using an ideograhic character in place of unassigned root for which the consonantal form is not yet known.
+Aside from removing the need for transliteration and making (in come cases) the writing more compact, this makes it possible to express in written Ithkuil even the words that cannot yet be used in spoken Ithkuil, e.g. using an ideograhic character in place of unassigned root for which the consonantal form is not yet known.
 
 ## Input
 

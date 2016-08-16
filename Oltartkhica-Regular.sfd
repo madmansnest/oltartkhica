@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470845832
-ModificationTime: 1471315038
+ModificationTime: 1471330803
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,7 +65,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 4845 15 5
+WinInfo: 735 15 5
 BeginPrivate: 6
 BlueScale 5 0.037
 BlueFuzz 1 0
@@ -11371,6 +11371,7 @@ SplineSet
  772 602 l 5
 EndSplineSet
 Refer: 199 57543 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0C7 uniE260
 EndChar
 
@@ -11504,6 +11505,7 @@ SplineSet
  772 602 l 5
 EndSplineSet
 Refer: 203 57547 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0CB uniE260
 EndChar
 
@@ -11631,6 +11633,7 @@ SplineSet
  680 596 l 5
 EndSplineSet
 Refer: 206 57550 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0CE uniE260
 EndChar
 
@@ -11717,6 +11720,7 @@ SplineSet
  652 456 l 5
 EndSplineSet
 Refer: 209 57553 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0D1 uniE261
 EndChar
 
@@ -11869,6 +11873,7 @@ SplineSet
  568 594 l 5
 EndSplineSet
 Refer: 213 57557 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0D5 uniE260
 EndChar
 
@@ -12047,6 +12052,7 @@ SplineSet
  644 458 l 5
 EndSplineSet
 Refer: 219 57563 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0DB uniE261
 EndChar
 
@@ -12581,6 +12587,7 @@ SplineSet
  668 594 l 5
 EndSplineSet
 Refer: 235 57579 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0EB uniE260
 EndChar
 
@@ -12594,6 +12601,7 @@ VStem: 651 91 245.5 255
 LayerCount: 2
 Fore
 Refer: 639 -1 N -1 0 0 1 995 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0EC uniE261
 EndChar
 
@@ -12614,10 +12622,11 @@ SplineSet
  656 460 l 5
 EndSplineSet
 Refer: 237 57581 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0ED uniE261
 EndChar
 
-StartChar: uniE0EDE260.liga
+StartChar: uniE0ECE260.liga
 Encoding: 689 -1 644
 Width: 1000
 GlyphClass: 3
@@ -12650,7 +12659,7 @@ Refer: 238 57582 N 1 0 0 1 0 0 2
 Ligature2: "Consonantal Horizontal Line" uniE0EE uniE261
 EndChar
 
-StartChar: uniE0EEE260.liga
+StartChar: uniE0EDE260.liga
 Encoding: 691 -1 646
 Width: 1000
 GlyphClass: 3
@@ -12683,7 +12692,7 @@ Refer: 645 -1 N -1 0 0 1 846 0 2
 Ligature2: "Consonantal Horizontal Line" uniE0EF uniE261
 EndChar
 
-StartChar: uniE0EFE260.liga
+StartChar: uniE0EEE260.liga
 Encoding: 693 -1 648
 Width: 1000
 GlyphClass: 3
@@ -12703,7 +12712,7 @@ Refer: 238 57582 N 1 0 0 1 0 0 2
 Ligature2: "Consonantal Horizontal Line" uniE0EF uniE260
 EndChar
 
-StartChar: uniE0ECE260.liga
+StartChar: uniE0EFE260.liga
 Encoding: 694 -1 649
 Width: 1000
 GlyphClass: 3
@@ -12713,6 +12722,7 @@ VStem: 157.5 254.5
 LayerCount: 2
 Fore
 Refer: 648 -1 N -1 0 0 1 906 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0EC uniE260
 EndChar
 
@@ -12913,7 +12923,7 @@ Refer: 570 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0F6 uniE261
 EndChar
 
-StartChar: uniE0F7E260.liga
+StartChar: uniE0F6E260.liga
 Encoding: 708 -1 663
 Width: 1000
 GlyphClass: 3
@@ -12939,7 +12949,7 @@ Refer: 572 -1 N 1 0 0 -1 0 806 2
 Ligature2: "Consonantal Horizontal Line" uniE0F7 uniE261
 EndChar
 
-StartChar: uniE0F8E261.liga
+StartChar: uniE0F7E260.liga
 Encoding: 710 -1 665
 Width: 1000
 GlyphClass: 3
@@ -12952,7 +12962,7 @@ Refer: 573 -1 N 1 0 0 -1 0 806 2
 Ligature2: "Consonantal Horizontal Line" uniE0F8 uniE261
 EndChar
 
-StartChar: uniE0F8E260.liga
+StartChar: uniE0F8E261.liga
 Encoding: 711 -1 666
 Width: 1000
 GlyphClass: 3
@@ -12965,7 +12975,7 @@ Refer: 574 -1 N 1 0 0 -1 0 806 2
 Ligature2: "Consonantal Horizontal Line" uniE0F8 uniE260
 EndChar
 
-StartChar: uniE0F6E260.liga
+StartChar: uniE0F8E260.liga
 Encoding: 712 -1 667
 Width: 1000
 GlyphClass: 3
@@ -12991,7 +13001,7 @@ Refer: 576 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0F9 uniE260
 EndChar
 
-StartChar: uniE0F9E261.liga
+StartChar: uniE0FAE260.liga
 Encoding: 714 -1 669
 Width: 1000
 GlyphClass: 3
@@ -13004,7 +13014,7 @@ Refer: 577 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0F9 uniE261
 EndChar
 
-StartChar: uniE0FAE261.liga
+StartChar: uniE0F9E261.liga
 Encoding: 715 -1 670
 Width: 1000
 GlyphClass: 3
@@ -13017,7 +13027,7 @@ Refer: 578 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0FA uniE261
 EndChar
 
-StartChar: uniE0FAE260.liga
+StartChar: uniE0FAE261.liga
 Encoding: 716 -1 671
 Width: 1000
 GlyphClass: 3
@@ -13030,7 +13040,7 @@ Refer: 579 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0FA uniE260
 EndChar
 
-StartChar: uniE0FBE261.liga
+StartChar: uniE0FBE260.liga
 Encoding: 717 -1 672
 Width: 1000
 GlyphClass: 3
@@ -13043,7 +13053,7 @@ Refer: 580 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0FB uniE261
 EndChar
 
-StartChar: uniE0FCE261.liga
+StartChar: uniE0FBE261.liga
 Encoding: 718 -1 673
 Width: 1000
 GlyphClass: 3
@@ -13056,7 +13066,7 @@ Refer: 581 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE0FC uniE261
 EndChar
 
-StartChar: uniE0FCE260.liga
+StartChar: uniE0FCE261.liga
 Encoding: 719 -1 674
 Width: 1000
 GlyphClass: 3
@@ -13069,7 +13079,7 @@ Refer: 582 -1 N 1 0 0 -1 0 802 2
 Ligature2: "Consonantal Horizontal Line" uniE0FC uniE260
 EndChar
 
-StartChar: uniE0FBE260.liga
+StartChar: uniE0FCE260.liga
 Encoding: 720 -1 675
 Width: 1000
 GlyphClass: 3
@@ -13160,7 +13170,7 @@ Refer: 589 -1 N 1 0 0 -1 0 802 2
 Ligature2: "Consonantal Horizontal Line" uniE0FF uniE260
 EndChar
 
-StartChar: uniE100E260.liga
+StartChar: uniE100E261.liga
 Encoding: 727 -1 682
 Width: 1000
 GlyphClass: 3
@@ -13173,7 +13183,7 @@ Refer: 590 -1 N 1 0 0 -1 0 802 2
 Ligature2: "Consonantal Horizontal Line" uniE100 uniE260
 EndChar
 
-StartChar: uniE100E261.liga
+StartChar: uniE100E260.liga
 Encoding: 728 -1 683
 Width: 1000
 GlyphClass: 3
@@ -13199,7 +13209,7 @@ Refer: 592 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE101 uniE261
 EndChar
 
-StartChar: uniE101E260.liga
+StartChar: uniE102E261.liga
 Encoding: 730 -1 685
 Width: 1000
 GlyphClass: 3
@@ -13212,7 +13222,7 @@ Refer: 593 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE101 uniE260
 EndChar
 
-StartChar: uniE102E261.liga
+StartChar: uniE101E260.liga
 Encoding: 731 -1 686
 Width: 1000
 GlyphClass: 3
@@ -13303,7 +13313,7 @@ Refer: 600 -1 N 1 0 0 -1 0 802 2
 Ligature2: "Consonantal Horizontal Line" uniE105 uniE261
 EndChar
 
-StartChar: uniE106E261.liga
+StartChar: uniE105E260.liga
 Encoding: 738 -1 693
 Width: 1000
 GlyphClass: 3
@@ -13316,7 +13326,7 @@ Refer: 601 -1 N 1 0 0 -1 0 802 2
 Ligature2: "Consonantal Horizontal Line" uniE106 uniE261
 EndChar
 
-StartChar: uniE106E260.liga
+StartChar: uniE106E261.liga
 Encoding: 739 -1 694
 Width: 1000
 GlyphClass: 3
@@ -13329,7 +13339,7 @@ Refer: 602 -1 N 1 0 0 -1 0 802 2
 Ligature2: "Consonantal Horizontal Line" uniE106 uniE260
 EndChar
 
-StartChar: uniE105E260.liga
+StartChar: uniE106E260.liga
 Encoding: 740 -1 695
 Width: 1000
 GlyphClass: 3
@@ -13589,7 +13599,7 @@ Refer: 622 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE110 uniE261
 EndChar
 
-StartChar: uniE111E261.liga
+StartChar: uniE110E260.liga
 Encoding: 760 -1 715
 Width: 1000
 GlyphClass: 3
@@ -13602,7 +13612,7 @@ Refer: 623 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE111 uniE261
 EndChar
 
-StartChar: uniE110E260.liga
+StartChar: uniE111E261.liga
 Encoding: 761 -1 716
 Width: 1000
 GlyphClass: 3
@@ -13667,7 +13677,7 @@ Refer: 628 -1 N 1 0 0 -1 0 799 2
 Ligature2: "Consonantal Horizontal Line" uniE113 uniE261
 EndChar
 
-StartChar: uniE114E261.liga
+StartChar: uniE113E260.liga
 Encoding: 766 -1 721
 Width: 1000
 GlyphClass: 3
@@ -13680,7 +13690,7 @@ Refer: 629 -1 N 1 0 0 -1 0 799 2
 Ligature2: "Consonantal Horizontal Line" uniE114 uniE261
 EndChar
 
-StartChar: uniE113E260.liga
+StartChar: uniE114E261.liga
 Encoding: 767 -1 722
 Width: 1000
 GlyphClass: 3
@@ -13745,7 +13755,7 @@ Refer: 634 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE116 uniE261
 EndChar
 
-StartChar: uniE116E260.liga
+StartChar: uniE117E261.liga
 Encoding: 772 -1 727
 Width: 1000
 GlyphClass: 3
@@ -13758,7 +13768,7 @@ Refer: 635 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE116 uniE260
 EndChar
 
-StartChar: uniE117E261.liga
+StartChar: uniE116E260.liga
 Encoding: 773 -1 728
 Width: 1000
 GlyphClass: 3
@@ -13771,7 +13781,7 @@ Refer: 636 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE117 uniE261
 EndChar
 
-StartChar: uniE118E261.liga
+StartChar: uniE117E260.liga
 Encoding: 774 -1 729
 Width: 1000
 GlyphClass: 3
@@ -13784,7 +13794,7 @@ Refer: 637 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE118 uniE261
 EndChar
 
-StartChar: uniE117E260.liga
+StartChar: uniE118E261.liga
 Encoding: 775 -1 730
 Width: 1000
 GlyphClass: 3
@@ -13810,7 +13820,7 @@ Refer: 639 -1 N 1 0 0 -1 0 799 2
 Ligature2: "Consonantal Horizontal Line" uniE119 uniE261
 EndChar
 
-StartChar: uniE119E260.liga
+StartChar: uniE118E260.liga
 Encoding: 777 -1 732
 Width: 1000
 GlyphClass: 3
@@ -13823,7 +13833,7 @@ Refer: 640 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE119 uniE260
 EndChar
 
-StartChar: uniE11AE261.liga
+StartChar: uniE119E260.liga
 Encoding: 778 -1 733
 Width: 1000
 GlyphClass: 3
@@ -13836,7 +13846,7 @@ Refer: 641 -1 N 1 0 0 -1 0 799 2
 Ligature2: "Consonantal Horizontal Line" uniE11A uniE261
 EndChar
 
-StartChar: uniE11AE260.liga
+StartChar: uniE11AE261.liga
 Encoding: 779 -1 734
 Width: 1000
 GlyphClass: 3
@@ -13862,7 +13872,7 @@ Refer: 643 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE11B uniE261
 EndChar
 
-StartChar: uniE118E260.liga
+StartChar: uniE11AE260.liga
 Encoding: 781 -1 736
 Width: 1000
 GlyphClass: 3
@@ -13875,7 +13885,7 @@ Refer: 644 -1 N 1 0 0 -1 0 799 2
 Ligature2: "Consonantal Horizontal Line" uniE118 uniE260
 EndChar
 
-StartChar: uniE11BE260.liga
+StartChar: uniE11CE261.liga
 Encoding: 782 -1 737
 Width: 1000
 GlyphClass: 3
@@ -13888,7 +13898,7 @@ Refer: 645 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE11B uniE260
 EndChar
 
-StartChar: uniE11CE261.liga
+StartChar: uniE11BE260.liga
 Encoding: 783 -1 738
 Width: 1000
 GlyphClass: 3
@@ -13901,7 +13911,7 @@ Refer: 646 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE11C uniE261
 EndChar
 
-StartChar: uniE11CE260.liga
+StartChar: uniE11DE261.liga
 Encoding: 784 -1 739
 Width: 1000
 GlyphClass: 3
@@ -13914,7 +13924,7 @@ Refer: 647 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE11C uniE260
 EndChar
 
-StartChar: uniE11DE261.liga
+StartChar: uniE11CE260.liga
 Encoding: 785 -1 740
 Width: 1000
 GlyphClass: 3
@@ -13979,7 +13989,7 @@ Refer: 652 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE11F uniE261
 EndChar
 
-StartChar: uniE120E261.liga
+StartChar: uniE11FE260.liga
 Encoding: 790 -1 745
 Width: 1000
 GlyphClass: 3
@@ -13992,7 +14002,7 @@ Refer: 653 -1 N 1 0 0 -1 0 804 2
 Ligature2: "Consonantal Horizontal Line" uniE120 uniE261
 EndChar
 
-StartChar: uniE11FE260.liga
+StartChar: uniE120E261.liga
 Encoding: 791 -1 746
 Width: 1000
 GlyphClass: 3
@@ -14005,7 +14015,7 @@ Refer: 654 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE11F uniE260
 EndChar
 
-StartChar: uniE120E260.liga
+StartChar: uniE121E261.liga
 Encoding: 792 -1 747
 Width: 1000
 GlyphClass: 3
@@ -14018,7 +14028,7 @@ Refer: 655 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE120 uniE260
 EndChar
 
-StartChar: uniE121E261.liga
+StartChar: uniE120E260.liga
 Encoding: 793 -1 748
 Width: 1000
 GlyphClass: 3
@@ -14044,7 +14054,7 @@ Refer: 657 -1 N 1 0 0 -1 0 803 2
 Ligature2: "Consonantal Horizontal Line" uniE121 uniE260
 EndChar
 
-StartChar: uniE122E261.liga
+StartChar: uniE122E260.liga
 Encoding: 795 -1 750
 Width: 1000
 GlyphClass: 3
@@ -14057,7 +14067,7 @@ Refer: 658 -1 N 1 0 0 -1 0 801 2
 Ligature2: "Consonantal Horizontal Line" uniE122 uniE261
 EndChar
 
-StartChar: uniE122E260.liga
+StartChar: uniE122E261.liga
 Encoding: 796 -1 751
 Width: 1000
 GlyphClass: 3
@@ -17691,12 +17701,16 @@ StartChar: uniE0F3E263.liga
 Encoding: 1025 -1 983
 Width: 1000
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 449 241.5
 VStem: 666 110
 LayerCount: 2
 Fore
+SplineSet
+372 568 m 1053
+EndSplineSet
 Refer: 982 -1 N -1 0 0 1 1165 0 2
+LCarets2: 1 0
 Ligature2: "Consonantal Horizontal Line" uniE0F3 uniE263
 EndChar
 
@@ -18289,7 +18303,7 @@ StartChar: uniE121E263.liga
 Encoding: 1071 -1 1029
 Width: 1000
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 112.5 241.5
 VStem: 666 110
 LayerCount: 2

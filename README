@@ -51,11 +51,12 @@ There is an input table in the .cin in the font package that can be used to type
 
 * Glyphs U+E08D to U+E0BF shall be reworked using references to parts in the first Secondary character glyphs.
 * Primary characters need cosmetic rework because the line width varies from character to character, and spacing is wrong sometimes.
-* Modifiers are not implemented and are unusable; Consonantal character modifiers are not even encoded yet.
+* Characters with two modifiers are not displayed well; Bottom Primary character modifiers are not implemented yet.
 * A quick way of producing ligatures shall be found, as we have to create 41472 Primary + 171396 Consonantal glyphs for ligatures.
 * Some blocks are placed illogically: Laterally reversed Secondary Case characters do not follow Secondary Case characters but are rather put after Secondary Aspect Characters; Ligatures not found on Primary Characters are put after Secondary Modality characters in a separate block. Vertical Line Consonantal Placeholder follows Consonantal Modifiers instead of being included in the Placeholders Block.
-* Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs.
+* Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs. It is unknown how to kern the characters with a diacritic between them.
 * Horizontal part modifiers should be reworked to allow to change the form of the line. A new mechanism to create ligatures with both horizontal and vertical modifier should also be created.
+* Consonantal modifier U+E27F  for ž+C was added by mistake as it’s no longer used.
 
 ## Fixing and improving
 

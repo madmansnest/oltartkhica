@@ -38,6 +38,7 @@ DB[:fontinfo].where(:unit => 'fontinfo').update(:contents => font_info)
 #   data[:unicode] = codes[1]
 #   data[:lookupname] = /"(.+?)"/.match(data[:ligature2])[1] if data[:ligature2]
 #   data[:name] = data[:startchar]
+#   data[:checked] = true
 #   update_data = data.select {|k,v| columns.include?(k)}
 #   already_exists = DB[:glyphs].where(:name => data[:name])
 #   if already_exists.count > 0

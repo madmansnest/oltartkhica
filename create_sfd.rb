@@ -9,7 +9,7 @@ checked = ARGV[0]=='checked'
 puts DB[:fontinfo].where(:unit => 'fontinfo').first[:contents]
 puts "BeginChars: #{DB[:glyphs].max(:code).to_i+1} #{DB[:glyphs].max(:id).to_i}\n\n"
 if checked
-  glyphs = DB[:glyphs].where(:checked=>"true")
+  glyphs = DB[:glyphs].where(:checked=>1)
 else
   glyphs = DB[:glyphs]
 end

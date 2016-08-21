@@ -9,17 +9,17 @@
         font-family: 'Oltartkhica';
         src: url('Oltartkhica-Regular.otf');
       }
-/*      @font-face {
+      @font-face {
         font-family: 'OltartkhicaPB';
         src: url('Oltartkhica-Regular-PB.otf');
-      }*/
+      }
       @font-face {
         font-family: 'OltartkhicaTD';
         src: url('Oltartkhica-Regular-TD.otf');
       }
       
       *[lang="ith"]  {
-        font: 24pt OltartkhicaTD, Oltartkhica;
+        font: 24pt Oltartkhica, OltartkhicaPB, OltartkhicaTD;
       }
       #input_matches {
         -webkit-text-stroke: 1px black;
@@ -50,14 +50,14 @@
       <p>In order to input an Ithkuil character, type its code and select the desired variant using space or number keys. Diacritics are shown on top of a placeholder character in the choices, but only the diacritic itself is input. It will be appended to the text in the area above. If the area has text cursor inside, click outside it to activate the input method.</p>
       <p>Most codes correspond to abbreviation of the grammar categories listed in the Grammar. Consonantal characters correspond to their transliteration without the diacritics. Additions and exceptions are as follows:</p>
       <ul>
-        <li>DEG for suffix degrees</li>
-        <li>FRA for patterns and stems in Framed</li>
-        <li>UNF for patterns and stems in Unframed</li>
+        <li>FRA and UNF for patterns and stems in Framed and Unframed</li>
         <li>TER for Tertiary characters</li>
         <li>Doubled versions for ejective consonants</li>
-        <li>GG for glottal stop</li>
-        <li>MM for consonantal gemination</li>
-        <li>NC for placeholder characters</li>
+        <li>GG for glottal stop, MM for consonantal gemination, ZZ for Ż</li>
+        <li>DEG for Suffix Degree diacritics</li>
+        <li>IL for Illocution, MO for Personal Reference Adjunct and Mood, PHA for Phase, SA for Sanction diacritics</li>
+        <li>VER for standard and REV for alternate Version diacritics</li>
+        <li>XX for quote and placeholder characters</li>
       </ul>
     </div>
   </body>

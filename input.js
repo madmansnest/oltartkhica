@@ -55,7 +55,6 @@ function input_keys() {
 
 $(document).ready(function() {
   $(document).keydown(function(event) {
-    event.stopPropagation();
     if (!$("#ithkuil_input").is(":focus")) {
       if (event.keyCode >= 65 && event.keyCode <= 90) {
         add_letter(event.keyCode);
@@ -73,7 +72,6 @@ $(document).ready(function() {
         choose_variant(1);
       }
       update_variants();
-      event.stopPropagation();
     };
   });
 });

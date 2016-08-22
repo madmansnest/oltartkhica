@@ -47,7 +47,7 @@ var valence_names = [
   'DUB','TEN','PUT','IPB'];
 $.each(valence_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
-  input_codes[j].push(String.fromCharCode(i+0xE0E3)); // Primary characters
+  input_codes[j].push(String.fromCharCode(i+0xE000)); // Primary characters
 });
 // Primary modifiers
 input_codes["NRM"] = ['','','','','','','','',''];
@@ -61,15 +61,12 @@ input_codes["TER"] = ['', '', '', '', '', '', ''];
 // Diacritics
 input_codes["PR"] = [''];
 // Perspective
-input_codes['U'] = [''];
-input_codes['N'] = [''];
-input_codes['A'] = [''];
-input_codes['M'] = [''];
-input_codes['U'].push('');
-input_codes['N'].push('');
-input_codes['A'].push('');
-input_codes['IFL'] = ['','','',''];
-input_codes['FML'] = ['','','',''];
+input_codes["U"] = ['',''];
+input_codes["N"] = ['',''];
+input_codes["A"] = ['',''];
+input_codes["M"] = [''];
+input_codes["IFL"] = ['','','',''];
+input_codes["FML"] = ['','','',''];
 // Mood
 input_codes["MO"] = ['', '', '', '', '', '', '', ''];
 input_codes["SUB"] = [''];
@@ -128,7 +125,7 @@ input_codes["P"] = ['',''];
 input_codes["PH"] = ['',''];
 input_codes["B"] = ['',''];
 input_codes["PP"] = ['', '']
-input_codes["T"] = ['', ''];
+input_codes["T"] = ['', '', '', ''];
 input_codes["TH"] = ['', ''];
 input_codes["D"] = ['', ''];
 input_codes["DH"] = ['', ''];
@@ -138,10 +135,10 @@ input_codes["TL"] = ['', '']
 input_codes["M"].push('');
 input_codes["M"].push('');
 input_codes["R"] = ['', '', '', ''];
-input_codes["N"].push('');
-input_codes["N"].push('');
+input_codes["N"].push('');
+input_codes["N"].push('');
 input_codes["N"].push('');
-input_codes["N"].push('');
+input_codes["N"].push('');
 input_codes["S"] = ['', '', '', ''];
 input_codes["Z"] = ['', '', '', ''];
 input_codes["ZZ"] = ['', ''];
@@ -157,7 +154,6 @@ input_codes["Q"] = ['', ''];
 input_codes["QH"] = ['', ''];
 input_codes["QQ"] = ['', ''];
 input_codes["F"] = ['', ''];
-input_codes["V"] = ['', ''];
 input_codes["W"] = ['', ''];
 input_codes["Y"] = ['', ''];
 input_codes["X"] = ['', ''];
@@ -175,6 +171,7 @@ input_codes["R"].push('');
 input_codes["L"].push('');
 input_codes["N"].push('');
 input_codes["S"].push('');
+input_codes["S"].push('');
 input_codes["N"].push('');
 input_codes["Z"].push('');
 input_codes["R"].push('');
@@ -192,10 +189,9 @@ input_codes["T"].push('');
 input_codes["F"].push('');
 input_codes["XH"].push('');
 input_codes["B"].push('');
-input_codes["G"].push('');
+input_codes["D"].push('');
 input_codes["G"].push('');
 input_codes["J"].push('');
-input_codes["DH"].push('');
 // Affix Diacritics
 input_codes["W"].push('');
 input_codes["Y"].push('');
@@ -208,9 +204,7 @@ input_codes["S"].push('');
 input_codes["Z"].push('');
 input_codes["S"].push('');
 input_codes["Z"].push('');
-input_codes["F"].push('');
 input_codes["V"].push('');
-input_codes["T"].push('');
 input_codes["DH"].push('');
 // Bias modifiers
 input_codes["ASU"] = ['', '', '', ''];

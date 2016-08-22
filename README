@@ -43,11 +43,17 @@ A shortcut method of writing borrowed words in Ithkuil is proposed as follows. I
 
 Aside from removing the need for transliteration and making (in come cases) the writing more compact, this makes it possible to express in written Ithkuil even the words that cannot yet be used in spoken Ithkuil, e.g. using an ideograhic character in place of unassigned root for which the consonantal form is not yet known.
 
-## Input
+## Input and displaying Ithkuil text in the browser
 
-There is an input table in the .cin in the font package that can be used to type Ithkuil. See IME.txt for more information on the input method table.
+There is an IME written in Javascript in the font package that can be used to type Ithkuil. See IME.txt for more information. The IME also provides a stylesheet and is an example of using Oltartkhica font on a web page.
 
-## Known Shortcomings
+## Known shortcomings
+
+### Urgent bugs
+
+None known so far.
+
+### More systemic problems
 
 * Glyphs U+E08D to U+E0BF shall be reworked using references to parts in the first Secondary character glyphs.
 * Primary characters need cosmetic rework because the line width varies from character to character, and spacing is wrong sometimes.

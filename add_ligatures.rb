@@ -1,7 +1,9 @@
 require './routines.rb'
 
-character_range = 0xe000..0xe05f
-ligature_range = 0xe123..0xe14a
+character_range = 0xe000..0xe05f # Primary
+# character_range = (0xe0c7..0xe122).to_a + [0xe290] # Consonantal + Placeholder
+ligature_range = 0xe123..0xe14a # Primary Bottom
+# ligature_range = [0xe291]
 free_code = Incrementer.new(DB[:glyphs].max(:code).to_i)
 
 ligature_range.each do |l|
@@ -31,14 +33,15 @@ ligature_range.each do |l|
       :width=>1000,
       :flags=>"MW",
       :glyphclass=>3,
-      :checked=>false,
+      :checked=>1,
       :code=>free_code.next,
       :name=>name_for(u[:unicode], l[:unicode]),
       :splineset=>splineset,
       :refer=>refer,
       :unicode=>-1
     }
-    DB[:glyphs].insert(n)
+    # DB[:glyphs].insert(n)
+    DB[:glyphs].where(:name=>name_for(u[:unicode], l[:unicode])).update(n)
     log "🖖"
   end
 end

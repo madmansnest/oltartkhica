@@ -1,0 +1,60 @@
+This describes necessary adjustments to the encoding to keep it free from mess.
+
+New encoding will be described at the end of this file and will replace the original encoding when the font is completed.
+
+Below is the list of changes and the rationale if needed.
+
+## Primary Characters
+
+Range: U+E000~U+E05F, same as original
+Order: same as original, the order should be same for Primary and Secondary Case characters to simplify input code assignment.
+
+## Secondary Case Characters
+
+Range: U+E060~U+E0BF, same as original
+Order: same as original, see above.
+Glyphs: Glyphs should be rebuilt based on a system of references to several elementary unencoded glyphs.
+
+## Laterally Reversed Secondary Case Characters
+
+Range: U+E0C0~U+E11F, inserted after Secondary Case Characters and should be considered to be in the same block.
+Order: same as original.
+
+## Tertiary Characters
+
+Range: U+E120~U+E126
+Order: same as original.
+
+## Consonantal Characters
+
+Range: U+E127~U+E152
+Order: should be changed based on the form of the glyphs so that horizontally flipped forms (as a block) follow basic forms, therefore, p p’ v w m t t’ ţ l k k’ x h ň q q’ c č c’ č’ s š r / b pʰ v y n d tʰ dh ļ g kʰ xh ’ tļ ř qʰ ż j cʰ čʰ z ž ç
+
+## Vertically Inverted Consonantal Characters
+Range: U+E153~U+E17E [Moved by +80]
+Order: should be changed to follow consonantal characters.
+
+## Placeholder Characters and Punctuation
+Range: U+E17F~U+E185, gathered together into one block
+Order: Secondary, Horizontal Stems, Vertical Stem, Quote, Transliteration, and newly added Even Line Marker.
+
+## Top Primary Character Extensions
+Range: U+E186~U+E196 [Moved by +80]
+Order: same as original
+
+## Top Consonantal Character Extensions
+Range: U+E197~U+E1A7, move after Primary Character Extensions. [-217]
+Order: same as original
+
+## Bottom Character Extensions
+Range: U+E1A8~U+E1C8, moved after Consonantal Top Extensions.
+Order: First the Primary extensions in Affiliation/Extension order, then Consonantal extensions in the order of appearance. Both types of diacritics are mostly visually similar and attached to bottom of the character.
+
+## Diacritics
+Range: U+E1C8~U+E1EF
+Order: First top, then middle, then bottom diacritics. The order is by pairs.
+
+## Secondary Aspect/Modality Characters
+Range: U+E1F0~U+E24D
+Order: as original.
+

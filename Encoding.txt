@@ -1,7 +1,7 @@
 ### Blocks
 
 U+E000~U+E05F Primary characters (Case/Aspect|Modality|Valence)
-U+E000~U+E0BF Secondary characters
+U+E060~U+E0BF Secondary characters
 U+E0C0~U+E0C6 Tertiary Characters
 U+E0C7~U+E0F4	Consonantal Characters
 U+E0F5~U+E122 Vertically Inverted Consonantal Characters

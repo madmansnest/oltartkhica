@@ -1,19 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Exo+2:400,400i,700,700i,900&subset=latin-ext';
 @font-face {
-  font-family: 'Oltartkhica';
-  src: url('Oltartkhica-Regular.otf');
+  font-family: 'OltartkhicaA';
+  src: url('Oltartkhica-Regular-A.otf');
 }
 @font-face {
-  font-family: 'OltartkhicaPB';
-  src: url('Oltartkhica-Regular-PB.otf');
-}
-@font-face {
-  font-family: 'OltartkhicaTD';
-  src: url('Oltartkhica-Regular-TD.otf');
+  font-family: 'OltartkhicaB';
+  src: url('Oltartkhica-Regular-B.otf');
 }
 
 *[lang="ith"]  {
-  font: 24pt Oltartkhica, OltartkhicaPB, OltartkhicaTD;
+  font: 24pt OltartkhicaA, OltartkhicaB;
 }
 #input_matches {
   -webkit-text-stroke: 1px black;

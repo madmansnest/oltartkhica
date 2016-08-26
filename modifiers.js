@@ -41,7 +41,15 @@ function assemble_last(s) {
   lc = s.charCodeAt(s.length-1)
   if (lc>=0xe18a&&lc<=0xe1cc) { // Last character is an extension?
     c1 = s.charCodeAt(s.length-2)
-    if ((c1>=0xe000&&c1<=0xe05f)&&(lc>=0xe18a&&lc<=0xe19a)) { // Primary with top?
+    if (c1==0xe185&&lc>=0x19b&&lc<=0xe1ab) { // Laterally reversed placeholder?
+      // Simple replacement with laterally reversed version
+      return s.substring(0,s.length-2) + String.fromCodePoint(lc+186);
+    }
+    if (c1==0xe184||c1==0xe186) { // Placeholder?
+      // Simple removal of placeholder character
+      return s.substring(0,s.length-2) + s.charAt(s.length-1);
+    }
+    else if ((c1>=0xe000&&c1<=0xe05f)&&(lc>=0xe18a&&lc<=0xe19a)) { // Primary with top?
       return s.substring(0,s.length-2) + produce(c1,lc,0);
     }
     else if ((c1>=0xe000&&c1<=0xe05f)&&(lc>=0xe1ac&&lc<=0xe1c2)) { // Primary with bottom?

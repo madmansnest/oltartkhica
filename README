@@ -9,33 +9,37 @@ Just install Oltarkhica-Regular.otf by clicking the file and choosing ‘Install
 
 ## Encoding
 
-Characters of the Ithkuil writing system are encoded using Unicode Private Use Area. This font is currently a work in progress which means details of encoding and order of the characters might be subject to change.
+Characters of the Ithkuil writing system are encoded using Unicode Private Use Areas. This font is currently a work in progress which means details of encoding and order of the characters might be subject to change.
 
-Because Ithkuil writing system is very complex, encoding each character variant separately will require the allocation of tens if not hundreds of thousands of codepoints. While Private Use Areas in current Unicode standard allow for this, managing such great amount of codepoints is not an easy task. Therefore, it is suggested that every character, modification or diacritic is encoded with a codepoint, and in order for modifications to look nicely ligatures shall be used. It should be noted that the amount of ligatures necessary for Ithkuil exceeds one hundred thousand, therefore this font being a cheap version of the writing system will only provide modifications and diacritics without ligatures, although that will make them look differently than intended. If a workaround is found to create a great amount of nicely looking ligatures easily is found in the future however, a goal of making the font as close to the original look of Ithkuil writing system as described in Ithkuil grammar might be achieved.
+Because of the limit of 65534 characters per one font file it is impossible to put all the glyphs into single file. This in turn makes OpenType ligatures that were previously considered as a way of dealing with characters with extensions, are unusable, because unless if the components and the ligature are in different font files, the ligature cannot be displayed.
 
-So far Itkuil characters are encoded starting at the beginning of the Unicode Private Use Area on the Basic Multilingual Place (U+E000 and forth). In the future it might be considered to move the Ithkuil block to another place withing Private Use Areas so that it does not clash with other popular symbols. Glyphs for ligatures shall be either encoded in Private Use Areas on Planes 15 and 16 (U+F0000–U+FFFFD and U+100000–U+10FFFD) or left as unassigned glyphs.
+Because Ithkuil writing system is very complex, more than a hundred thousand  codepoints is required. Therefore, Ithkuil characters occupy a small part of Private Use Area on the Basic Multilingual Plane, as well as all of the Supplementary Private Use Area-A and most of Supplementary Private Use Area-B.
+
+Basic Itkuil characters are encoded starting at the beginning of the Unicode Private Use Area on the Basic Multilingual Plane (U+E000 and forth). Glyphs of characters with extensions start at the beginning of Supplementary Private Use Area-A (U+F0000) and with the exception of non-characters U+FFFFE and U+FFFFF continue to Supplementary Private Use Area-B.
 
 Suggested order in which characters are encoded is provided in the file Encoding.txt.
 
-## Ligatures
+## Glyphs with extensions
 
-Character modifiers or extensions are implemented with OpenType ligatures. That means, any string starting with the base characters and followed by characters representing modifiers will be automatically replaced by the font rendering engine with a single glyph carrying all the modifiers.
-
-This requires a rule that the base character (including primary and consonantal characters, together with placeholders) always goes first in the string (otherwise it won’t be clear for the engine what characters ). In most cases that is also natural, except when a consonantal modifier is a prefix. Therefore, e.g. consonantal cluster ‘lt’ should be represented with the string <Consonantal t><Modifier l+C> in this order.
-
-Also, currently it is required that if two modifiers are present, the horizontal bar modifier precedes the vertical bar modifier. So, <character><horizontal modifier><vertical modifier> is currently the only way to trigger a ligature for a character with two modifiers present.
-
-Due to the fact that every of 96 Primary Case Characters can simultaneously take 17 modifiers for Configuration&Essence to its top part and 23 modifiers for Extension&Affiliation to the bottom part, a total number of ligature glyphs required for Primary Case Characters is 96×18×24 = 41472. Similarly, every of 46 Consonantal Characters and their 46 Vertically Inverted Counterparts can take 17 modifiers for Pattern, Stem and Relation to horizontal bar and 29 modifiers for Consonant Affixes to its vertical line, therefore the total number of ligature glyphs required for Consonantal Characters is 92×18×30 = 49680.
+Due to the fact that every of 96 Primary Case Characters can simultaneously take 17 extensions for Configuration&Essence to its top part and 23 extensions for Extension&Affiliation to the bottom part, a total number of glyphs required for Primary Case Characters is 96×18×24 = 41472. Similarly, every of 46 Consonantal Characters and their 46 Vertically Inverted Counterparts can take 17 extensions for Pattern, Stem and Relation to horizontal bar and 32 extensions for Consonant Affixes to its vertical line, therefore the total number of glyphs required for Consonantal Characters is 92×18×30 = 49680.
 
 Such an enourmous number of glyphs that rivals that of CJK characters, is implausible to create by hand. However due to the very regular nature of ligatures it is perfectly possible to automate most of the process.
 
-Only basic (non-reversed non-inverted characters) with a single modifier require some manual work, i.e. modifying the end of the line and placing the modifier in the right place. [Not sure how many is that for Primary Characters — add this later.] For Consonantal Characters that is 23 characters with 17 horizontal bar modifiers plus 23 characters with 29 vertical line modifiers, or 1058 glyphs. Because modifying a glyph is easier than drawing a new one, it is doable (and have been done) by a single person in a several days’ time. Laterally Reversed and Vertically Inverted Characters are created using  flipped references in FontForge. And glyphs for characters with both top and bottom modifiers are created by a script by taking the reference to the glyph with a bottom modifier, then copying the top modifier from glyph.
+Only basic (non-reversed non-inverted characters) with a single extension require some manual work, i.e. modifying the end of the line and placing the extension in the right place. [For Primary characters it is 25 characters with 17 top extensions plus 25 characters with 23 bottom extensions, or 1000 glyphs. For Consonantal Characters that is 23 characters with 17 horizontal bar extensions plus 23 characters with 32 vertical line extensions (including historical ex), or 1127 glyphs. Because modifying a glyph is easier than drawing a new one, it is doable (and have been done) by a single person in a several days’ time. Laterally Reversed and Vertically Inverted Characters are created using  flipped references in FontForge. And glyphs for characters with both top and bottom extensions are created by a script that takes splineset for the character with one extension and patches to it the result of a diff between a basic character and the character with another extension.
 
-This system has a major flaw that is does not allow to modify the top part of the character, only the position of the modifier. As a result, characters with a modifier to the top do not currently look exactly like they should. And an important limitation currently is that while modifying the bottom modifiers it is not allowed to move the horisontal part of the character, otherwise the modifiers would get displaced by the script in complex glyphs.
+The system requires that the basic glyph is not moved while editing the extension, and that the other end of the character left exactly as it is in the basic character.
 
-Consonantal Placeholder characters (Horizontal Bar, Laterally Reversed Horizontal Bar and Vertical Bar) are encoded as separate characters. As stated in Section 11.3.4.10 of the Grammar, Horizontal Bar is used to mark Bias in the words which do not have a Derivational Suffix, and Laterally Reversed Horizontal Bar is used in such words instead of the vertical-bar diacritic. Vertical Bar is mentioned in Section 11.3.4.3 of the Grammar and is used if a single Consonantal Character with extensions and diacritics is not enough to represent a triconsonantal or a tetraconsonantal root. Notice that Vertical Bar is different from similarly looking Secondary Placeholder Character, and the visual style of the glyph follows that of Consonantal Characters.
+## Placeholder characters
 
-Notice that as there are only 16 of 17 horizontal bar modifiers used to represent Bias, the Horizontal Bar with a P1S1+FRA character is not needed. However, it is still present in the font. The reason is the non-standard usage that is described below.
+Consonantal Placeholder characters (Horizontal Bar, Laterally Reversed Horizontal Bar and Vertical Bar) are encoded as separate characters, partially for historical reasons, partially because they may find uses when it is needed to show what they look like. IME also uses Vertical Bar as, well, you guessed it, placeholder to show diacritics that are placed above Consonantal characters.
+
+However, now that ligatures are not used any more, glyphs for characters that represent extensions have been redrawn so that they include either a horizontal or a vertical bar, therefore, they will be used not only as cues for IME, but also in their own right to show additional consonantal suffixes and bias.
+
+### Glyphs for placeholder characters
+
+As stated in Section 11.3.4.10 of the Grammar, Horizontal Bar is used to mark Bias in the words which do not have a Derivational Suffix, and Laterally Reversed Horizontal Bar is used in such words instead of the vertical-bar diacritic. Vertical Bar is mentioned in Section 11.3.4.3 of the Grammar and is used if a single Consonantal Character with extensions and diacritics is not enough to represent a triconsonantal or a tetraconsonantal root. Notice that Vertical Bar is different from similarly looking Secondary Placeholder Character, and the visual style of the glyph follows that of Consonantal Characters.
+
+Notice that as there are only 16 of 17 horizontal bar extensions used to represent Bias, the Horizontal Bar with a P1S1+FRA character is not needed. However, it is still present in the font. The reason is the non-standard usage that is described below.
 
 ### Proposed Non-standard usage for the Horizontal Bar character
 
@@ -57,12 +61,9 @@ None known so far.
 
 * Glyphs U+E08D to U+E0BF shall be reworked using references to parts in the first Secondary character glyphs.
 * Primary characters need cosmetic rework because the line width varies from character to character, and spacing is wrong sometimes.
-* Characters with two modifiers are not displayed well; Bottom Primary character modifiers are not implemented yet.
-* A quick way of producing ligatures shall be found, as we have to create 41472 Primary + 171396 Consonantal glyphs for ligatures.
-* Some blocks are placed illogically: Laterally reversed Secondary Case characters do not follow Secondary Case characters but are rather put after Secondary Aspect Characters; Ligatures not found on Primary Characters are put after Secondary Modality characters in a separate block. Vertical Line Consonantal Placeholder follows Consonantal Modifiers instead of being included in the Placeholders Block.
+* Characters with two extensions are unavailable; Some bottom Primary character extensions glyphs are unavailable.
 * Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs. It is unknown how to kern the characters with a diacritic between them.
-* Horizontal part modifiers should be reworked to allow to change the form of the line. A new mechanism to create ligatures with both horizontal and vertical modifier should also be created.
-* Consonantal modifier U+E27F  for ž+C was added by mistake as it’s no longer used.
+* Horizontal part consonantal extensions should be reworked to change the form of the line.
 
 ## Fixing and improving
 
@@ -70,13 +71,8 @@ There’s a lot of work to do with the font, and any help will be appreciated. F
 
 ## Total number of characters
 
-Current statistics for the font:
-Total number of glyphs in the font: 4845
-Total number of glyphs that have Unicode codepoints (that is, without the combined characters): 613
-Total number of glyphs that are a combination of 2 characters (that is, characters with one extension): 4232
-
 Below is the original list I made before starting to work on the font, and therefore it contains some errors.
----
+
 96 Primary characters ✔
 ×18 Confuguration&Essence mods
 ×24 Extension&Affiliation mods

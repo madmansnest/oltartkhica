@@ -4,6 +4,8 @@ New encoding will be described at the end of this file and will replace the orig
 
 Below is the list of changes and the rationale if needed.
 
+The information is on the reform is incomplete. I finished moving and readjusting the blocks before I finished compiling this, what was thought to be the plan for the adjustment. If you need the complete information, open the fonts and see.
+
 ## Primary Characters
 
 Range: U+E000~U+E05F, same as original

@@ -1,3 +1,5 @@
+This is the old version of the encoding. In the new version some blocks were moved around, bottom modifiers for consonantal and primary characters have been unified, the order of consonanttal characters and diacritics was changed according to glyph form. The main reason for this is that it is better to keep everything in order now that all of the glyphs, including glyphs with extensions, have to be encoded.
+
 ### Blocks
 
 U+E000~U+E05F Primary characters (Case/Aspect|Modality|Valence)

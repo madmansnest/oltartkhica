@@ -16,7 +16,7 @@ IME requires the following files to work:
 
 These files are planned to be included but not ready yet:
 
-* modifiers.js — a script to replace the character+modifiers combinations (that can be input with IME) with a single character, in order to show characters with modifiers correctly
+* modifiers.js — a script to replace the character+extensions combinations (that can be input with IME) with a single character, in order to show characters with extensions correctly.
 * boustrophedonise.js — a script that reverses text every second line of Ithkuil text and ads the little triangle mark to show Ithkuil text in its intended writing direction.
 
 ## Input Codes
@@ -28,6 +28,22 @@ The IME relies on a slightly different input code convention than the precious v
 It is supposed that no single input code should be assigned to more than 9 variants because there is no paging of the variants.
 
 It is also supposed that whenever a category has 9 variants, which is often the case with Ithkuil, e.g. Configuration, 3 Patterns × 3 Stems, or Suffix Degrees, the variants should correspond to the natural numbering (e.g. the user can type DEG7 to get a diacritic for Suffix Degree 7). Therefore, there’s often a placeholder in place where no symbol has to be added.
+
+## Extensions
+
+The file `modifiers.js` provides a mechanism to replace replace the character+extensions combinations with a single character, in order to show characters with extensions correctly.
+
+Currently only characters with a single extension are replaced correctly.
+
+The implementation of replacement for character with both extensions present is in progress.
+
+The replacement function works only on the end of string (newly input characters are replaced, but if a combination of character followed by modifiers is pasted in the middle of the string, it won’t be replaced.)
+
+There is also a function (not implemented) that reversed the replacement and replaces the character with extensions by its variant without the last extension that makes backspace work correctly.
+
+### Inputting the characters that represent extensions without replacement.
+
+In a special case, a formative with a single-consonant root in STA-P1S1-ASR-IFL-EXS and without any derivations suffixes (i.e. its last character is a consonantal character with no extensions or diacritics), Bias has to be shown by Top Bar character with an extension. However, if the character IME also uses these characters for inputting extensions, and if such character is input after the consonantal, it will be replaced by a consonantal character with the extension. In order to prevent the character from undesired replacement, a placeholder (available on the code XX) should be put in front of it. Putting a reversed Top Bar Placeholder will also be replaced by a laterally reversed version of the character.
 
 ## Stylesheet
 

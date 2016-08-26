@@ -36,8 +36,8 @@ var aspect_names = [
 $.each(aspect_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
   input_codes[j].push(String.fromCharCode(i+0xe000)); // Primary characters
-  input_codes[j].push(String.fromCharCode(0xe060) + String.fromCharCode(i+0xe1fa)); // Secondary characters
-  input_codes[j].push(String.fromCharCode(0xe0c0) + String.fromCharCode(i+0xe210)); // Reversed secondary characters
+  input_codes[j].push(String.fromCharCode(0xe060) + String.fromCharCode(i+0xe1f3)); // Secondary characters
+  input_codes[j].push(String.fromCharCode(0xe0c0) + String.fromCharCode(i+0xe213)); // Reversed secondary characters
 });
 var modality_names = [
   'DES','ASP','EXV','CRD','REQ','EXH','OPR','CPC','PRM','PTN','CLS','OBG',
@@ -46,7 +46,7 @@ var modality_names = [
 $.each(modality_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
   input_codes[j].push(String.fromCharCode(i+0xe020)); // Primary characters
-  input_codes[j].push(String.fromCharCode(0xe060) + String.fromCharCode(i+0xe230)); // Secondary characters
+  input_codes[j].push(String.fromCharCode(0xe060) + String.fromCharCode(i+0xe233)); // Secondary characters
 });
 var valence_names = [
   'MNO','PRL','CRO','RCP','CPL','NNR','DUP','DEM','RES','IMT','CNG','PTI',
@@ -73,66 +73,66 @@ input_codes["GRA"] = inputise(0,[0xe1bf,0xe1c0,0xe1c1,0xe1c2]);
 input_codes["TER"] = inputise(0, [0xe120,0xe121,0xe122,0xe123,0xe124,0xe125,0xe126]);
 // Diacritics
 // Perspective
-input_codes["M"] = inputise(0xe000, [0xe1dc]);
-input_codes["U"] = inputise(0xe000, [0xe1e5,0xe1e6]);
-input_codes["N"] = inputise(0xe000, [0xe1dd,0xe1e3]);
-input_codes["A"] = inputise(0xe000, [0xe1de,0xe1e4]);
+input_codes["M"] = inputise(0xe000, [0xe1db]);
+input_codes["U"] = inputise(0xe000, [0xe1e4,0xe1e5]);
+input_codes["N"] = inputise(0xe000, [0xe1dc,0xe1e2]);
+input_codes["A"] = inputise(0xe000, [0xe1dd,0xe1e3]);
 
-input_codes["IFL"] = inputise(0xe000, [0,0xe1e5,0xe1dd,0xe1de]);
-input_codes["FML"] = inputise(0xe000, [0xe1dc,0xe1e6,0xe1e3,0xe1e4]);
+input_codes["IFL"] = inputise(0xe000, [0,0xe1e4,0xe1dc,0xe1dd]);
+input_codes["FML"] = inputise(0xe000, [0xe1db,0xe1e5,0xe1e2,0xe1e3]);
 // Mood
-input_codes["MO"] = inputise(0xe000, [0xe1d6,0xe1cd,0xe1ce,0xe1cf,0xe1d0,0xe1d1,0xe1d4,0xe1d5]);
-input_codes["SUB"] = inputise(0xe000, [0xe1cd]);
-input_codes["ASM"] = inputise(0xe000, [0xe1ce]);
-input_codes["SPC"] = inputise(0xe000, [0xe1cf]);
-input_codes["COU"] = inputise(0xe000, [0xe1d0]);
-input_codes["HYP"] = inputise(0xe000, [0xe1d1]);
-input_codes["IPL"] = inputise(0xe000, [0xe1d4]);
-input_codes["ASC"] = inputise(0xe000, [0xe1d5]);
-input_codes["VER"] = inputise(0xe000, [0,0xe1e7,0xe1e9,0xe1e8,0xe1ee,0xe1ef]);
-input_codes["REV"] = inputise(0xe000, [0xe1f0,0xe1f1,0xe1ec,0xe1ed,0xe1ea,0xe1eb]);
-input_codes["PRC"] = inputise(0xe000, [0,0xe1f0]);
-input_codes["CPT"] = inputise(0xe000, [0xe1e7,0xe1f1]);
-input_codes["INE"] = inputise(0xe000, [0xe1e9,0xe1ec]);
-input_codes["INC"] = inputise(0xe000, [0xe1e8,0xe1ed]);
-input_codes["PST"] = inputise(0xe000, [0xe1ee,0xe1ea]);
-input_codes["EFC"] = inputise(0xe000, [0xe1ef,0xe1eb]);
+input_codes["MO"] = inputise(0xe000, [0xe1d5,0xe1cc,0xe1cd,0xe1ce,0xe1cf,0xe1d0,0xe1d3,0xe1d4]);
+input_codes["SUB"] = inputise(0xe000, [0xe1cc]);
+input_codes["ASM"] = inputise(0xe000, [0xe1cd]);
+input_codes["SPC"] = inputise(0xe000, [0xe1ce]);
+input_codes["COU"] = inputise(0xe000, [0xe1cf]);
+input_codes["HYP"] = inputise(0xe000, [0xe1d0]);
+input_codes["IPL"] = inputise(0xe000, [0xe1d3]);
+input_codes["ASC"] = inputise(0xe000, [0xe1d4]);
+input_codes["VER"] = inputise(0xe000, [0,0xe1e6,0xe1e8,0xe1e7,0xe1ed,0xe1ee]);
+input_codes["REV"] = inputise(0xe000, [0xe1ef,0xe1f0,0xe1eb,0xe1ec,0xe1e9,0xe1ea]);
+input_codes["PRC"] = inputise(0xe000, [0,0xe1ef]);
+input_codes["CPT"] = inputise(0xe000, [0xe1e6,0xe1f0]);
+input_codes["INE"] = inputise(0xe000, [0xe1e8,0xe1eb]);
+input_codes["INC"] = inputise(0xe000, [0xe1e7,0xe1ec]);
+input_codes["PST"] = inputise(0xe000, [0xe1ed,0xe1e9]);
+input_codes["EFC"] = inputise(0xe000, [0xe1ee,0xe1ea]);
 // Phase
-input_codes["PHA"] = inputise(0xe060, [0xe1cd,0xe1ce,0xe1d0,0xe1d1,0xe1d2,0xe1d3,0xe1d4,0xe1d5]);
-input_codes["PCT"] = inputise(0xe060, [0xe1cd]);
-input_codes["ITR"] = inputise(0xe060, [0xe1ce]);
-input_codes["REP"] = inputise(0xe060, [0xe1d0]);
-input_codes["ITM"] = inputise(0xe060, [0xe1d1]);
-input_codes["RCT"] = inputise(0xe060, [0xe1d2]);
-input_codes["FRE"] = inputise(0xe060, [0xe1d3]);
-input_codes["FRG"] = inputise(0xe060, [0xe1d4]);
-input_codes["FLC"] = inputise(0xe060, [0xe1d5]);
+input_codes["PHA"] = inputise(0xe060, [0xe1cc,0xe1cd,0xe1cf,0xe1d0,0xe1d1,0xe1d2,0xe1d3,0xe1d4]);
+input_codes["PCT"] = inputise(0xe060, [0xe1cc]);
+input_codes["ITR"] = inputise(0xe060, [0xe1cd]);
+input_codes["REP"] = inputise(0xe060, [0xe1cf]);
+input_codes["ITM"] = inputise(0xe060, [0xe1d0]);
+input_codes["RCT"] = inputise(0xe060, [0xe1d1]);
+input_codes["FRE"] = inputise(0xe060, [0xe1d2]);
+input_codes["FRG"] = inputise(0xe060, [0xe1d3]);
+input_codes["FLC"] = inputise(0xe060, [0xe1d4]);
 // Sanction
-input_codes["SA"] = inputise(0xe060, [0xe1cd+26,0xe1ce+26,0xe1d0+26,0xe1d1+26,0xe1d2+26,0xe1d3+26,0xe1d4+26,0xe1d5+26]);
-input_codes["EPI"] =inputise(0xe060, [0xe1cd+26]);
-input_codes["ALG"] =inputise(0xe060, [0xe1ce+26]);
-input_codes["IPU"] =inputise(0xe060, [0xe1d0+26]);
-input_codes["RFU"] =inputise(0xe060, [0xe1d1+26]);
-input_codes["REB"] =inputise(0xe060, [0xe1d2+26]);
-input_codes["THR"] =inputise(0xe060, [0xe1d3+26]);
-input_codes["EXV"] =inputise(0xe060, [0xe1d4+26]);
-input_codes["ASM"] =inputise(0xe060, [0xe1d5+26]);
+input_codes["SA"] = inputise(0xe060, [0xe1cc+26,0xe1cd+26,0xe1cf+26,0xe1d0+26,0xe1d1+26,0xe1d2+26,0xe1d3+26,0xe1d4+26]);
+input_codes["EPI"] =inputise(0xe060, [0xe1cc+26]);
+input_codes["ALG"] =inputise(0xe060, [0xe1cd+26]);
+input_codes["IPU"] =inputise(0xe060, [0xe1cf+26]);
+input_codes["RFU"] =inputise(0xe060, [0xe1d0+26]);
+input_codes["REB"] =inputise(0xe060, [0xe1d1+26]);
+input_codes["THR"] =inputise(0xe060, [0xe1d2+26]);
+input_codes["EXV"] =inputise(0xe060, [0xe1d3+26]);
+input_codes["ASM"] =inputise(0xe060, [0xe1d4+26]);
 // Function
-input_codes["STA"] = inputise(0xe186, [0,0xe1d4,0xe1d0,0xe1d2]);
-input_codes["DYN"] = inputise(0xe186, [0xe1cd,0xe1d5,0xe1d1,0xe1d3]);
-input_codes["MNF"] = inputise(0xe186, [0xe1d6,0xe1d0,0xe1d8,0xe1da]);
-input_codes["DSC"] = inputise(0xe186, [0xe1d7,0xe1d1,0xe1d9,0xe1db]);
+input_codes["STA"] = inputise(0xe186, [0,0xe1d3,0xe1cf,0xe1d1]);
+input_codes["DYN"] = inputise(0xe186, [0xe1cc,0xe1d4,0xe1d0,0xe1d2]);
+input_codes["MNF"] = inputise(0xe186, [0xe1d5,0xe1cf,0xe1d7,0xe1d9]);
+input_codes["DSC"] = inputise(0xe186, [0xe1d6,0xe1d0,0xe1d8,0xe1da]);
 // Illocution
-input_codes["IL"] = inputise(0xe186, [0,0xe1dc,0xe1e5,0xe1ce,0xe1d4,0xe1d5]);
-input_codes["NEG"] = inputise(0xe186, [0xe1de,0xe1e6,0xe1df,0xe1e0,0xe1e1,0xe1e2]);
-input_codes["ASR"] = inputise(0xe186, [0xe1de]);
-input_codes["IRG"] = inputise(0xe186, [0xe1dc,0xe1e6]);
-input_codes["DIR"] = inputise(0xe186, [0xe1e5,0xe1df]);
-input_codes["ADM"] = inputise(0xe186, [0xe1ce,0xe1e0]);
-input_codes["HOR"] = inputise(0xe186, [0xe1d4,0xe1e1]);
-input_codes["DEC"] = inputise(0xe186, [0xe1d5,0xe1e2]);
+input_codes["IL"] = inputise(0xe186, [0,0xe1db,0xe1e4,0xe1cd,0xe1d3,0xe1d4]);
+input_codes["NEG"] = inputise(0xe186, [0xe1dd,0xe1e5,0xe1de,0xe1df,0xe1e0,0xe1e1]);
+input_codes["ASR"] = inputise(0xe186, [0xe1dd]);
+input_codes["IRG"] = inputise(0xe186, [0xe1db,0xe1e5]);
+input_codes["DIR"] = inputise(0xe186, [0xe1e4,0xe1de]);
+input_codes["ADM"] = inputise(0xe186, [0xe1cd,0xe1df]);
+input_codes["HOR"] = inputise(0xe186, [0xe1d3,0xe1e0]);
+input_codes["DEC"] = inputise(0xe186, [0xe1d4,0xe1e1]);
 // Suffix Degrees
-input_codes["DEG"] = inputise(0xe186, [0xe1cd,0xe1d4,0xe1ce,0xe1d0,0,0xe1d1,0xe1cf,0xe1d5,0xe1d6]);
+input_codes["DEG"] = inputise(0xe186, [0xe1cc,0xe1d3,0xe1cd,0xe1cf,0,0xe1d0,0xe1ce,0xe1d4,0xe1d5]);
 // Consonantal Characters
 input_codes["P"] = inputise(0, [0xe127,0xe127+46]);
 input_codes["PP"] = inputise(0, [0xe128,0xe128+46]);
@@ -193,21 +193,21 @@ $.merge(input_codes["F"], [String.fromCharCode(0xe1b6)]);
 $.merge(input_codes["XH"], [String.fromCharCode(0xe1c4)]);
 $.merge(input_codes["B"], [String.fromCharCode(0xe1c7)]);
 $.merge(input_codes["D"], [String.fromCharCode(0xe1c9)]);
-$.merge(input_codes["DH"], [String.fromCharCode(0xe1cc)]);
+$.merge(input_codes["DH"], [String.fromCharCode(0xe1cb)]);
 $.merge(input_codes["G"], [String.fromCharCode(0xe1b1)]);
-$.merge(input_codes["J"], [String.fromCharCode(0xe1cb)]);
+$.merge(input_codes["J"], [String.fromCharCode(0xe1ca)]);
 // Affix Diacritics
-$.merge(input_codes["W"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e7)]);
-$.merge(input_codes["Y"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e7)]);
-$.merge(input_codes["L"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1f1)]);
-$.merge(input_codes["R"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec),String.fromCharCode(0xe186)+String.fromCharCode(0xe1ed)]);
-$.merge(input_codes["M"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ee)]);
-$.merge(input_codes["N"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ef)]);
-$.merge(input_codes["S"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1f3),String.fromCharCode(0xe186)+String.fromCharCode(0xe1f2)]);
-$.merge(input_codes["Z"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ed),String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb)]);
-$.merge(input_codes["V"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ea)]);
-$.merge(input_codes["T"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec)]);
-$.merge(input_codes["DH"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec)]);
+$.merge(input_codes["W"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e6)]);
+$.merge(input_codes["Y"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e6)]);
+$.merge(input_codes["L"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1f0)]);
+$.merge(input_codes["R"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb),String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec)]);
+$.merge(input_codes["M"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ed)]);
+$.merge(input_codes["N"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ee)]);
+$.merge(input_codes["S"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1f2),String.fromCharCode(0xe186)+String.fromCharCode(0xe1f1)]);
+$.merge(input_codes["Z"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec),String.fromCharCode(0xe186)+String.fromCharCode(0xe1ea)]);
+$.merge(input_codes["V"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e9)]);
+$.merge(input_codes["T"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb)]);
+$.merge(input_codes["DH"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb)]);
 // Bias modifiers
 input_codes["ASU"] = ['', '', '', ''];
 input_codes["HPB"] = ['', '', '', ''];

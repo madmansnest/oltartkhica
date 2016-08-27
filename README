@@ -5,7 +5,7 @@ Oltartkhica is a project to create a cheap font for Ithkuil writing system. Ithk
 
 ## Installation
 
-Just install Oltarkhica-Regular.otf by clicking the file and choosing ‘Install font’ or as otherwise appropriate for your system.
+Just install Oltarkhica-Regular-A.otf, Oltarkhica-Regular-B.otf, and Oltarkhica-Regular-C.otf by clicking the file and choosing ‘Install font’ or as otherwise appropriate for your system.
 
 ## Encoding
 
@@ -16,6 +16,8 @@ Because of the limit of 65534 characters per one font file it is impossible to p
 Because Ithkuil writing system is very complex, more than a hundred thousand  codepoints is required. Therefore, Ithkuil characters occupy a small part of Private Use Area on the Basic Multilingual Plane, as well as all of the Supplementary Private Use Area-A and most of Supplementary Private Use Area-B.
 
 Basic Itkuil characters are encoded starting at the beginning of the Unicode Private Use Area on the Basic Multilingual Plane (U+E000 and forth). Glyphs of characters with extensions start at the beginning of Supplementary Private Use Area-A (U+F0000) and with the exception of non-characters U+FFFFE and U+FFFFF continue to Supplementary Private Use Area-B.
+
+It is logical therefore to split the font into three files for each Unicode plane. (Alternatively, because the font does not use all the )
 
 Suggested order in which characters are encoded is provided in the file Encoding.txt.
 
@@ -43,7 +45,7 @@ Notice that as there are only 16 of 17 horizontal bar extensions used to represe
 
 ### Proposed Non-standard usage for the Horizontal Bar character
 
-A shortcut method of writing borrowed words in Ithkuil is proposed as follows. Instead of official orthographic usage of consonantal character  p for carrier root and following it with transliteration enclosed within  transliteration signs, in place of basic consonantal character the original script in the foreign language is put, followed by a Horizontal Bar character with the extensions for Pattern, Stem and Relation of the carrier root as well as all necessary diacritics. While this might be thought to disrupt the unified visual style of Ithkuil script, using original foreign orthography within a writing system is exteremely common, and even when two writing systems have a completely different look and feel, they can be intermixed, e.g. foreign words written in Latin script may occur within Chinese and Japanese text, even in vertical writing.
+A shortcut method of writing borrowed words in Ithkuil is proposed as follows. Instead of official orthographic usage of consonantal character _p_ for carrier root and following it with transliteration enclosed within transliteration signs, in place of basic consonantal character the original script in the foreign language is put, followed by a Horizontal Bar character with the extensions for Pattern, Stem and Relation of the carrier root as well as all necessary diacritics. While this might be thought to disrupt the unified visual style of Ithkuil script, using original foreign orthography within a writing system is exteremely common, and even when two writing systems have a completely different look and feel, they can be intermixed, e.g. foreign words written in Latin script may occur within Chinese and Japanese text, even in vertical writing.
 
 Aside from removing the need for transliteration and making (in come cases) the writing more compact, this makes it possible to express in written Ithkuil even the words that cannot yet be used in spoken Ithkuil, e.g. using an ideograhic character in place of unassigned root for which the consonantal form is not yet known.
 
@@ -55,19 +57,21 @@ There is an IME written in Javascript in the font package that can be used to ty
 
 ### Urgent bugs
 
-None known so far.
+* Bias input does not work.
 
 ### More systemic problems
 
 * Glyphs U+E08D to U+E0BF shall be reworked using references to parts in the first Secondary character glyphs.
-* Primary characters need cosmetic rework because the line width varies from character to character, and spacing is wrong sometimes.
-* Characters with two extensions are unavailable; Some bottom Primary character extensions glyphs are unavailable.
+* Primary characters shall be reworked because the line width varies from character to character, and spacing is wrong sometimes.
+* Characters with two extensions shall be implemented; All bottom Primary character extension glyphs shall be implemented.
 * Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs. It is unknown how to kern the characters with a diacritic between them.
-* Horizontal part consonantal extensions should be reworked to change the form of the line.
+* Horizontal part consonantal extensions shall be reworked to change the form of the line.
+* Vertically inverted characters with top extensions shall be adjusted vertically so that the extension is positioned below baseline.
+* This means merging algorythm should be improved to account for moving. If this difficult task is accomplished, it will also bring a lot of other benefits.
 
 ## Fixing and improving
 
-There’s a lot of work to do with the font, and any help will be appreciated. Feel free to hack on whatever you feel can be improved, and send the pull request. Any suggestions on how the font can be improved are also heartily welcome. The author is /u/mnyonpa on Reddit.
+There’s a lot of work to do with the font, and any help will be appreciated. Feel free to hack on whatever you feel can be improved, and send the pull request. Any error reports and suggestions on how the font can be improved are also heartily welcome. The author is /u/mnyonpa on Reddit.
 
 ## Total number of characters
 

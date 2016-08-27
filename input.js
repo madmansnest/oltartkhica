@@ -4,7 +4,7 @@ $.getScript("modifiers.js");
 var current_variants = [];
 
 function add_letter(c) {
-  $("#current_code").text($("#current_code").text() + String.fromCharCode(c));
+  $("#current_code").text($("#current_code").text() + String.fromCodePoint(c));
 }
 
 function erase_last() {
@@ -41,8 +41,9 @@ function update_variants() {
 
 function choose_variant(i) {
   if (i<=current_variants.length) {
-    var selected_variant = current_variants[i-1]
-    $("#ithkuil_input").val($("#ithkuil_input").val() + selected_variant[selected_variant.length-1]);
+    var selected_variant = current_variants[i-1];
+    if (selected_variant.length>1) { selected_variant = selected_variant.substring(1,selected_variant.length)}    
+    $("#ithkuil_input").val($("#ithkuil_input").val() + selected_variant);
     $("#ithkuil_input").val(assemble_last($("#ithkuil_input").val()));
     current_variants = [];
     $("#input_matches").text('');

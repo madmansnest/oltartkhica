@@ -43,7 +43,7 @@ There is also a function (not implemented) that reversed the replacement and rep
 
 ### Inputting the characters that represent extensions without replacement.
 
-In a special case, a formative with a single-consonant root in STA-P1S1-ASR-IFL-EXS and without any derivations suffixes (i.e. its last character is a consonantal character with no extensions or diacritics), Bias has to be shown by Top Bar character with an extension. However, if the character IME also uses these characters for inputting extensions, and if such character is input after the consonantal, it will be replaced by a consonantal character with the extension. In order to prevent the character from undesired replacement, a placeholder (available on the code XX) should be put in front of it. Putting a reversed Top Bar Placeholder will also be replaced by a laterally reversed version of the character.
+In a special case, a formative with a single-consonant root in STA-P1S1-ASR-IFL-EXS and without any derivations suffixes (i.e. its last character is a consonantal character with no extensions or diacritics), Bias has to be shown by Top Bar character with an extension. However, if the character IME also uses these characters for inputting extensions, and if such character is input after the consonantal, it will be replaced by a consonantal character with the extension. In order to prevent the character from undesired replacement, a placeholder should be put in front of it. Putting a reversed Top Bar Placeholder will also be replaced by a laterally reversed version of the character. For this purpose Bias codes have 4 variants associated with them — normal and intensive form without and with the placeholder.
 
 ## Stylesheet
 

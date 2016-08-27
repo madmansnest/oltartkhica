@@ -1,7 +1,7 @@
 var primary_ligatures_top_start = 0xf0000;
 var primary_ligatures_bottom_start = 0xf0660;
 var consonantal_ligatures_top_start = 0xf0f00;
-var consonantal_ligatures_bottom_start = 0xf14d7;
+var consonantal_ligatures_bottom_start = 0xf151c;
 var primary_start = 0xe000;
 var consonantal_start = 0xe127;
 var top_start = 0xe18a;
@@ -39,7 +39,8 @@ function produce(c,t,b) {
 
 function assemble_last(s) {
   lc = s.charCodeAt(s.length-1)
-  if (lc>=0xe18a&&lc<=0xe1cc) { // Last character is an extension?
+  console.log(lc);
+  if ((lc>=0xe18a&&lc<=0xe1cc)||(lc==0xe253||lc==0xe254)) { // Last character is an extension? Or a bias diacritic that we know always follows an extension?
     c1 = s.charCodeAt(s.length-2)
     if (c1==0xe185&&lc>=0x19b&&lc<=0xe1ab) { // Laterally reversed placeholder?
       // Simple replacement with laterally reversed version
@@ -48,6 +49,11 @@ function assemble_last(s) {
     if (c1==0xe184||c1==0xe186) { // Placeholder?
       // Simple removal of placeholder character
       return s.substring(0,s.length-2) + s.charAt(s.length-1);
+    }
+    else if (lc==0xe253||lc==0xe254) { // Bias with diacritic?
+      // Bias diacritic characters are input together with the corresponding extension. Therefore, end of string without the diacritic should be replaced if necessary, and then the diacritic added back.
+      var bias_diacritic = String.fromCodePoint(lc);
+      return assemble_last(s.substring(0,s.length-1)) + bias_diacritic;
     }
     else if ((c1>=0xe000&&c1<=0xe05f)&&(lc>=0xe18a&&lc<=0xe19a)) { // Primary with top?
       return s.substring(0,s.length-2) + produce(c1,lc,0);

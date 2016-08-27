@@ -2,7 +2,7 @@ var input_codes = {};
 // Turn codes array into characters, add placeholder if required
 function inputise(ph, a) {
   return $.map(a, function(i, j) {
-    return (ph==0 ? '' : String.fromCharCode(ph)) + (i==0 ? '' : String.fromCharCode(i));
+    return (ph==0 ? '' : String.fromCodePoint(ph)) + (i==0 ? '' : String.fromCodePoint(i));
   });
 }
 
@@ -25,9 +25,9 @@ for (var i = 0; i < 3; i++) {
 };
 $.each(case_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
-  input_codes[j].push(String.fromCharCode(i+0xe000)); // Primary characters
-  input_codes[j].push(String.fromCharCode(i+0xe060)); // Secondary characters
-  input_codes[j].push(String.fromCharCode(i+0xe0c0)); // Reversed secondary characters
+  input_codes[j].push(String.fromCodePoint(i+0xe000)); // Primary characters
+  input_codes[j].push(String.fromCodePoint(i+0xe060)); // Secondary characters
+  input_codes[j].push(String.fromCodePoint(i+0xe0c0)); // Reversed secondary characters
 });
 var aspect_names = [
   'RTR','PRS','HAB','PRG','IMM','PCS','REG','EXP','RSM','CSS','RCS','PAU',
@@ -35,9 +35,9 @@ var aspect_names = [
   'DSC','CCL','CUL','IMD','TRD','TNC','ITC','CSM'];
 $.each(aspect_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
-  input_codes[j].push(String.fromCharCode(i+0xe000)); // Primary characters
-  input_codes[j].push(String.fromCharCode(0xe060) + String.fromCharCode(i+0xe1f3)); // Secondary characters
-  input_codes[j].push(String.fromCharCode(0xe0c0) + String.fromCharCode(i+0xe213)); // Reversed secondary characters
+  input_codes[j].push(String.fromCodePoint(i+0xe000)); // Primary characters
+  input_codes[j].push(String.fromCodePoint(0xe060) + String.fromCodePoint(i+0xe1f3)); // Secondary characters
+  input_codes[j].push(String.fromCodePoint(0xe0c0) + String.fromCodePoint(i+0xe213)); // Reversed secondary characters
 });
 var modality_names = [
   'DES','ASP','EXV','CRD','REQ','EXH','OPR','CPC','PRM','PTN','CLS','OBG',
@@ -45,8 +45,8 @@ var modality_names = [
   'CML','DVR','DVT','PFT','IPS','PMS'];
 $.each(modality_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
-  input_codes[j].push(String.fromCharCode(i+0xe020)); // Primary characters
-  input_codes[j].push(String.fromCharCode(0xe060) + String.fromCharCode(i+0xe233)); // Secondary characters
+  input_codes[j].push(String.fromCodePoint(i+0xe020)); // Primary characters
+  input_codes[j].push(String.fromCodePoint(0xe060) + String.fromCodePoint(i+0xe233)); // Secondary characters
 });
 var valence_names = [
   'MNO','PRL','CRO','RCP','CPL','NNR','DUP','DEM','RES','IMT','CNG','PTI',
@@ -54,7 +54,7 @@ var valence_names = [
   'DUB','TEN','PUT','IPB'];
 $.each(valence_names, function(i,j) {
   if (!$.isArray(input_codes[j])) {input_codes[j] = [];};
-  input_codes[j].push(String.fromCharCode(i+0xe03e)); // Primary characters
+  input_codes[j].push(String.fromCodePoint(i+0xe03e)); // Primary characters
 });
 // Primary modifiers
 input_codes["NRM"] = inputise(0,[0xe000,0xe18b,0xe18d,0xe18f,0xe191,0xe193,0xe195,0xe197,0xe199]);
@@ -175,63 +175,87 @@ input_codes["GG"] = inputise(0, [0xe133+23,0xe133+23+46]);
 input_codes["UNF"] = inputise(0, [0xe186,0xe19b,0xe19c,0xe19d,0xe19e,0xe19f,0xe1a0,0xe1a1,0xe1a2]);
 input_codes["FRA"] = inputise(0, [0xe1a3,0xe1a4,0xe1a5,0xe1a6,0xe1a7,0xe1a8,0xe1a9,0xe1aa,0xe1ab]);
 // Affix Modifiers
-input_codes["MM"] = [String.fromCharCode(0xe1c6)];
-$.merge(input_codes["L"], [String.fromCharCode(0xe1c3), String.fromCharCode(0xe1b4)]);
-$.merge(input_codes["M"], [String.fromCharCode(0xe1af)]);
-$.merge(input_codes["R"], [String.fromCharCode(0xe1b3),String.fromCharCode(0xe1b0)]);
-$.merge(input_codes["N"], [String.fromCharCode(0xe1b7),String.fromCharCode(0xe1ad)]);
-$.merge(input_codes["S"], [String.fromCharCode(0xe1bd),String.fromCharCode(0xe1ac)]);
-$.merge(input_codes["Z"], [String.fromCharCode(0xe1bc),String.fromCharCode(0xe1c1)]);
-$.merge(input_codes["ZZ"], [String.fromCharCode(0xe1b9)]);
-$.merge(input_codes["C"], [String.fromCharCode(0xe1bb),String.fromCharCode(0xe1b5),String.fromCharCode(0xe1c0)]);
-$.merge(input_codes["K"], [String.fromCharCode(0xe1ae)]);
-$.merge(input_codes["P"], [String.fromCharCode(0xe1b2)]);
-$.merge(input_codes["Q"], [String.fromCharCode(0xe1be)]);
-$.merge(input_codes["T"], [String.fromCharCode(0xe1c2),String.fromCharCode(0xe1c5)]);
-$.merge(input_codes["X"], [String.fromCharCode(0xe1ba)]);
-$.merge(input_codes["F"], [String.fromCharCode(0xe1b6)]);
-$.merge(input_codes["XH"], [String.fromCharCode(0xe1c4)]);
-$.merge(input_codes["B"], [String.fromCharCode(0xe1c7)]);
-$.merge(input_codes["D"], [String.fromCharCode(0xe1c9)]);
-$.merge(input_codes["DH"], [String.fromCharCode(0xe1cb)]);
-$.merge(input_codes["G"], [String.fromCharCode(0xe1b1)]);
-$.merge(input_codes["J"], [String.fromCharCode(0xe1ca)]);
+input_codes["MM"] = [String.fromCodePoint(0xe1c6)];
+$.merge(input_codes["L"], [String.fromCodePoint(0xe1c3), String.fromCodePoint(0xe1b4)]);
+$.merge(input_codes["M"], [String.fromCodePoint(0xe1af)]);
+$.merge(input_codes["R"], [String.fromCodePoint(0xe1b3),String.fromCodePoint(0xe1b0)]);
+$.merge(input_codes["N"], [String.fromCodePoint(0xe1b7),String.fromCodePoint(0xe1ad)]);
+$.merge(input_codes["S"], [String.fromCodePoint(0xe1bd),String.fromCodePoint(0xe1ac)]);
+$.merge(input_codes["Z"], [String.fromCodePoint(0xe1bc),String.fromCodePoint(0xe1c1)]);
+$.merge(input_codes["ZZ"], [String.fromCodePoint(0xe1b9)]);
+$.merge(input_codes["C"], [String.fromCodePoint(0xe1bb),String.fromCodePoint(0xe1b5),String.fromCodePoint(0xe1c0)]);
+$.merge(input_codes["K"], [String.fromCodePoint(0xe1ae)]);
+$.merge(input_codes["P"], [String.fromCodePoint(0xe1b2)]);
+$.merge(input_codes["Q"], [String.fromCodePoint(0xe1be)]);
+$.merge(input_codes["T"], [String.fromCodePoint(0xe1c2),String.fromCodePoint(0xe1c5)]);
+$.merge(input_codes["X"], [String.fromCodePoint(0xe1ba)]);
+$.merge(input_codes["F"], [String.fromCodePoint(0xe1b6)]);
+$.merge(input_codes["XH"], [String.fromCodePoint(0xe1c4)]);
+$.merge(input_codes["B"], [String.fromCodePoint(0xe1c7)]);
+$.merge(input_codes["D"], [String.fromCodePoint(0xe1c9)]);
+$.merge(input_codes["DH"], [String.fromCodePoint(0xe1cb)]);
+$.merge(input_codes["G"], [String.fromCodePoint(0xe1b1)]);
+$.merge(input_codes["J"], [String.fromCodePoint(0xe1ca)]);
 // Affix Diacritics
-$.merge(input_codes["W"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e6)]);
-$.merge(input_codes["Y"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e6)]);
-$.merge(input_codes["L"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1f0)]);
-$.merge(input_codes["R"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb),String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec)]);
-$.merge(input_codes["M"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ed)]);
-$.merge(input_codes["N"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ee)]);
-$.merge(input_codes["S"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1f2),String.fromCharCode(0xe186)+String.fromCharCode(0xe1f1)]);
-$.merge(input_codes["Z"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1ec),String.fromCharCode(0xe186)+String.fromCharCode(0xe1ea)]);
-$.merge(input_codes["V"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1e9)]);
-$.merge(input_codes["T"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb)]);
-$.merge(input_codes["DH"], [String.fromCharCode(0xe186)+String.fromCharCode(0xe1eb)]);
+$.merge(input_codes["W"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1e6)]);
+$.merge(input_codes["Y"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1e6)]);
+$.merge(input_codes["L"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1f0)]);
+$.merge(input_codes["R"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1eb),String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1ec)]);
+$.merge(input_codes["M"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1ed)]);
+$.merge(input_codes["N"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1ee)]);
+$.merge(input_codes["S"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1f2),String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1f1)]);
+$.merge(input_codes["Z"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1ec),String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1ea)]);
+$.merge(input_codes["V"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1e9)]);
+$.merge(input_codes["T"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1eb)]);
+$.merge(input_codes["DH"], [String.fromCodePoint(0xe186)+String.fromCodePoint(0xe1eb)]);
 // Bias modifiers
-input_codes["ASU"] = ['', '', '', ''];
-input_codes["HPB"] = ['', '', '', ''];
-input_codes["COI"] = ['', '', '', ''];
-input_codes["ACP"] = ['', '', '', ''];
-input_codes["RAC"] = ['', '', '', ''];
-input_codes["STU"] = ['', '', '', ''];
-input_codes["CTV"] = ['', '', '', ''];
-input_codes["DPV"] = ['', '', '', ''];
-input_codes["RVL"] = ['', '', '', ''];
-input_codes["GRT"] = ['', '', '', ''];
-input_codes["SOL"] = ['', '', '', ''];
-input_codes["SEL"] = ['', '', '', ''];
-input_codes["IRO"] = ['', '', '', ''];
-input_codes["EXA"] = ['', '', '', ''];
-input_codes["LTL"] = ['', '', '', ''];
-input_codes["CRR"] = ['', '', '', ''];
-input_codes["EUP"] = ['', '', '', ''];
-input_codes["SKP"] = ['', '', '', ''];
-input_codes["CYN"] = ['', '', '', ''];
-input_codes["CTP"] = ['', '', '', ''];
-input_codes["DSM"] = ['', '', '', ''];
-input_codes["IDG"] = ['', '', '', ''];
-input_codes["SGS"] = ['', '', '', ''];
-input_codes["PPV"] = ['', '', '', ''];
+input_codes["ASU"] = [String.fromCodePoint(0xe19b), String.fromCodePoint(0xe1a4),
+  String.fromCodePoint(0x200b,0xe184,0xe19b), String.fromCodePoint(0x200b,0xe184,0xe1a4)];
+input_codes["HPB"] = [String.fromCodePoint(0xe19c), String.fromCodePoint(0xe1a5),
+  String.fromCodePoint(0x200b,0xe184,0xe19c), String.fromCodePoint(0x200b,0xe184,0xe1a5)];
+input_codes["COI"] = [String.fromCodePoint(0xe19d), String.fromCodePoint(0xe1a6),
+  String.fromCodePoint(0x200b,0xe184,0xe19d), String.fromCodePoint(0x200b,0xe184,0xe1a6)];
+input_codes["ACP"] = [String.fromCodePoint(0xe19e), String.fromCodePoint(0xe1a7),
+  String.fromCodePoint(0x200b,0xe184,0xe19e), String.fromCodePoint(0x200b,0xe184,0xe1a7)];
+input_codes["RAC"] = [String.fromCodePoint(0xe19f), String.fromCodePoint(0xe1a8),
+  String.fromCodePoint(0x200b,0xe184,0xe19f), String.fromCodePoint(0x200b,0xe184,0xe1a8)];
+input_codes["STU"] = [String.fromCodePoint(0xe1a0), String.fromCodePoint(0xe1a9),
+  String.fromCodePoint(0x200b,0xe184,0xe1a0), String.fromCodePoint(0x200b,0xe184,0xe1a9)];
+input_codes["CTV"] = [String.fromCodePoint(0xe1a1), String.fromCodePoint(0xe1aa),
+  String.fromCodePoint(0x200b,0xe184,0xe1a1), String.fromCodePoint(0x200b,0xe184,0xe1aa)];
+input_codes["DPV"] = [String.fromCodePoint(0xe1a2), String.fromCodePoint(0xe1ab),
+  String.fromCodePoint(0x200b,0xe184,0xe1a2), String.fromCodePoint(0x200b,0xe184,0xe1ab)];
+input_codes["RVL"] = [String.fromCodePoint(0x200b,0xe19b,0xe253), String.fromCodePoint(0x200b,0xe1a4,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe19b,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1a4,0xe253)];
+input_codes["GRT"] = [String.fromCodePoint(0x200b,0xe19c,0xe253), String.fromCodePoint(0x200b,0xe1a5,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe19c,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1a5,0xe253)];
+input_codes["SOL"] = [String.fromCodePoint(0x200b,0xe19d,0xe253), String.fromCodePoint(0x200b,0xe1a6,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe19d,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1a6,0xe253)];
+input_codes["SEL"] = [String.fromCodePoint(0x200b,0xe19e,0xe253), String.fromCodePoint(0x200b,0xe1a7,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe19e,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1a7,0xe253)];
+input_codes["IRO"] = [String.fromCodePoint(0x200b,0xe19f,0xe253), String.fromCodePoint(0x200b,0xe1a8,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe19f,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1a8,0xe253)];
+input_codes["EXA"] = [String.fromCodePoint(0x200b,0xe1a0,0xe253), String.fromCodePoint(0x200b,0xe1a9,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe1a0,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1a9,0xe253)];
+input_codes["LTL"] = [String.fromCodePoint(0x200b,0xe1a1,0xe253), String.fromCodePoint(0x200b,0xe1aa,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe1a1,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1aa,0xe253)];
+input_codes["CRR"] = [String.fromCodePoint(0x200b,0xe1a2,0xe253), String.fromCodePoint(0x200b,0xe1ab,0xe253),
+  String.fromCodePoint(0x200b,0xe184,0xe1a2,0xe253), String.fromCodePoint(0x200b,0xe184,0xe1ab,0xe253)];
+input_codes["EUP"] = [String.fromCodePoint(0x200b,0xe19b,0xe254), String.fromCodePoint(0x200b,0xe1a4,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe19b), String.fromCodePoint(0x200b,0xe184,0xe1a4)];
+input_codes["SKP"] = [String.fromCodePoint(0x200b,0xe19c,0xe254), String.fromCodePoint(0x200b,0xe1a5,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe19c), String.fromCodePoint(0x200b,0xe184,0xe1a5)];
+input_codes["CYN"] = [String.fromCodePoint(0x200b,0xe19d,0xe254), String.fromCodePoint(0x200b,0xe1a6,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe19d), String.fromCodePoint(0x200b,0xe184,0xe1a6)];
+input_codes["CTP"] = [String.fromCodePoint(0x200b,0xe19e,0xe254), String.fromCodePoint(0x200b,0xe1a7,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe19e), String.fromCodePoint(0x200b,0xe184,0xe1a7)];
+input_codes["DSM"] = [String.fromCodePoint(0x200b,0xe19f,0xe254), String.fromCodePoint(0x200b,0xe1a8,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe19f), String.fromCodePoint(0x200b,0xe184,0xe1a8)];
+input_codes["IDG"] = [String.fromCodePoint(0x200b,0xe1a0,0xe254), String.fromCodePoint(0x200b,0xe1a9,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe1a0), String.fromCodePoint(0x200b,0xe184,0xe1a9)];
+input_codes["SGS"] = [String.fromCodePoint(0x200b,0xe1a1,0xe254), String.fromCodePoint(0x200b,0xe1aa,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe1a1), String.fromCodePoint(0x200b,0xe184,0xe1aa)];
+input_codes["PPV"] = [String.fromCodePoint(0x200b,0xe1a2,0xe254), String.fromCodePoint(0x200b,0xe1ab,0xe254),
+  String.fromCodePoint(0x200b,0xe185,0xe1a2), String.fromCodePoint(0x200b,0xe184,0xe1ab)];
 // Misc characters
 input_codes["XX"] = inputise(0,[0xe183,0xe184,0xe185,0xe186,0xe187,0xe188,0xe189]);

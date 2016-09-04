@@ -71,7 +71,7 @@ class FontUpdater
   end
 
   def ref_lr(ary, idx)
-    "#{idx} #{ary[idx][:unicode]} N -1 0 0 1 0 0 2"
+    "#{idx} #{ary[idx][:unicode]} N -1 0 0 1 1000 0 2"
   end
   
   def ref_vi(ary, idx)
@@ -92,6 +92,7 @@ class FontUpdater
     fix_primary_ce_references!
     fix_consonantal_ce_references!
     fix_primary_cee_references!
+    # fix_consonantal_cee_references!
   end
 
   def fix_primary_character_references!(ary, start)
@@ -154,10 +155,37 @@ class FontUpdater
         STDERR.print "‧"
         STDERR.flush
       end
-      STDERR.puts "‖"
+      STDERR.puts "|"
       STDERR.flush
       top_start = 0xf0000 # Reset
       bottom_start+=96
+    end
+    STDERR.puts "🖖"
+    STDERR.flush
+  end
+
+  def fix_consonantal_cee_references!
+    # cee = Character + Both extensions
+    start = 0xfb33c
+    base_start = 0xe127
+    top_start = 0xf0ff0
+    bottom_start = 0xf151c  
+    while bottom_start < 0xf209c # Next block — ?
+      while top_start < 0xf151c # Original bottom start
+        92.times {|n| @glyphsB[i(start+n)] ||= new_character(start+n)}
+        (0..0x16).each do |c|        
+          @glyphsB[i(start+c)][:splineset] = merge_splinesets(@glyphs[i(base_start+c)][:splineset], @glyphsB[i(top_start+c)][:splineset], @glyphsB[i(bottom_start+c)][:splineset])
+        end
+        fix_consonantal_character_references!(@glyphsB, start)
+        top_start += 92
+        start += 92
+        STDERR.print ":"
+        STDERR.flush
+      end
+      STDERR.puts "‖"
+      STDERR.flush
+      top_start = 0xf0ff0 # Reset
+      bottom_start+=92
     end
     STDERR.puts "🖖"
     STDERR.flush

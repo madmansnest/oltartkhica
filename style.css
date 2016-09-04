@@ -1,11 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Exo+2:400,400i,700,700i,900&subset=latin-ext';
 @font-face {
   font-family: 'OltartkhicaA';
-  src: url('Oltartkhica-Regular-A.otf');
+  src: url('Oltartkhica-Regular-A.ttf');
 }
 @font-face {
   font-family: 'OltartkhicaB';
-  src: url('Oltartkhica-Regular-B.otf');
+  src: url('Oltartkhica-Regular-B.ttf');
 }
 
 *[lang="ith"]  {

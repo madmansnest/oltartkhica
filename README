@@ -57,13 +57,14 @@ There is an IME written in Javascript in the font package that can be used to ty
 
 ### Urgent bugs
 
-* Bias input does not work.
+* Primary Characters 51 CMP/3 ABS and 75 CMP1C/27 ESS with extensions got mixed.
+* Merging algorythm is imperfect and does not merge some characters with some modifiers correctly. Maybe it is necessary to use a character-by-character rather than line-by-line.
 
 ### More systemic problems
 
 * Glyphs U+E08D to U+E0BF shall be reworked using references to parts in the first Secondary character glyphs.
 * Primary characters shall be reworked because the line width varies from character to character, and spacing is wrong sometimes.
-* Characters with two extensions shall be implemented; All bottom Primary character extension glyphs shall be implemented.
+* All characters with two extensions shall be implemented; All bottom Primary character extension glyphs shall be implemented.
 * Kerning pairs have to be added for some characters to look well. In particular Secondary Case + Aspect/Validation pairs. It is unknown how to kern the characters with a diacritic between them.
 * Horizontal part consonantal extensions shall be reworked to change the form of the line.
 * Vertically inverted characters with top extensions shall be adjusted vertically so that the extension is positioned below baseline.

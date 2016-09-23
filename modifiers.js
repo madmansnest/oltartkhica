@@ -32,6 +32,7 @@ function assemble_last(s) {
       // Bias diacritic characters are input together with the corresponding extension. Therefore, end of string without the diacritic should be replaced if necessary, and then the diacritic added back.
       var bias_diacritic = String.fromCodePoint(lc);
       return assemble_last(s.substring(0,s.length-1)) + bias_diacritic;
+      // return punycode.ucs2.encode($.merge(assemble_last(punycode.ucs2.encode(cp.slice(0,-1))),[lc]));
     }
     else if ((slc>=0xe000&&slc<=0xe05f)&&(lc>=0xe18a&&lc<=0xe19a)) { // Primary with top?
       console.log("p+top", cp);
@@ -43,7 +44,7 @@ function assemble_last(s) {
     }
     else if ((slc>=0xe127&&slc<=0xe182)&&(lc>=0xe19b&&lc<=0xe1ab)) { // Consonantal with top?
       console.log("c+top", cp);
-      return punycode.ucs2.encode($.merge(cp.slice(0,-2), [(lc-c_top_start)*96+(slc-consonantal_start)+consonantal_ligatures_top_start]));
+      return punycode.ucs2.encode($.merge(cp.slice(0,-2), [(lc-c_top_start)*96+(slc-consonantal_start)+primary_ligatures_top_start]));
     }
     else if ((slc>=0xe127&&slc<=0xe182)&&(lc>=0xe1ac&&lc<=0xe1cb)) { // Consonantal with bottom?
       console.log("p+bottom", cp);

@@ -58,24 +58,32 @@ function input_keys() {
 }
 
 $(document).ready(function() {
+  // Set focus to input area at start
+  $("#ithkuil_input").focus();
+  // Process the input
   $(document).keydown(function(event) {
-    if (!$("#ithkuil_input").is(":focus")) {
-      if (event.keyCode >= 65 && event.keyCode <= 90) {
-        add_letter(event.keyCode);
-      }
-      else if (event.keyCode >= 48 && event.keyCode <= 57) {
-        choose_variant(event.keyCode-48);
-      }
-      else if (event.keyCode == 8) {
-        erase_last();
-      }
-      else if (event.keyCode == 27) {
-        erase_all();
-      }
-      else if (event.keyCode == 32) {
-        choose_variant(1);
-      }
-      update_variants();
+    if ($("#ithkuil_input").is(":focus")) {
+      // Do not modify the behaviour if any of the modifier keys are pressed
+      if (!(event.metaKey || event.altKey || event.shiftKey)) {
+        console.log((event.metaKey || event.altKey || event.shiftKey));
+        if (event.keyCode >= 65 && event.keyCode <= 90) {
+          add_letter(event.keyCode);
+        }
+        else if (event.keyCode >= 48 && event.keyCode <= 57) {
+          choose_variant(event.keyCode-48);
+        }
+        else if (event.keyCode == 8) {
+          erase_last();
+        }
+        else if (event.keyCode == 27) {
+          erase_all();
+        }
+        else if (event.keyCode == 32) {
+          choose_variant(1);
+        }
+        update_variants();
+        event.preventDefault();
+      };
     };
   });
 });

@@ -59,7 +59,7 @@ function input_keys() {
 
 $(document).ready(function() {
   // Set focus to input area at start
-  $("#ithkuil_input").focus();
+  $("#ithkuil_input").focus()
   // Process the input
   $(document).keydown(function(event) {
     if ($("#ithkuil_input").is(":focus")) {
@@ -79,7 +79,12 @@ $(document).ready(function() {
           erase_all();
         }
         else if (event.keyCode == 32) {
-          choose_variant(1);
+          if (current_variants.length > 0) {
+            choose_variant(1);
+          }
+          else {
+            $("#ithkuil_input").val($("#ithkuil_input").val() + ' ');
+          }
         }
         update_variants();
         event.preventDefault();
